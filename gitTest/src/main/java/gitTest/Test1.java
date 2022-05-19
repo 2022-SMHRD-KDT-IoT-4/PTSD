@@ -13,6 +13,8 @@ public class Test1 {
 		
 		System.out.println("햄버거");
 		
+		System.out.println("굿");
+		
 	}
 
 }

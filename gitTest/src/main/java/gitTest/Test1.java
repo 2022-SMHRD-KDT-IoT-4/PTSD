@@ -11,6 +11,7 @@ public class Test1 {
 		
 		System.out.println("안녕안녕");
 		
+		System.out.println("햄버거");
 		
 	}
 

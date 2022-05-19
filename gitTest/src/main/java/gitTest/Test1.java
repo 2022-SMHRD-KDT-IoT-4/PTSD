@@ -9,6 +9,7 @@ public class Test1 {
 		System.out.println("오점추");
 		System.out.println("Adsp");
 		
+		System.out.println("안녕안녕");
 		
 		
 	}

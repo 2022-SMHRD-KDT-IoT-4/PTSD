@@ -48,5 +48,19 @@ public class TaxiDAO {
 			sqlSession.close();
 		}return row;
 	}
+	
+	public TaxiVO login(TaxiVO vo) {
+		TaxiVO result = null;
+		try {
+			sqlSession = sqlSessionFactory.openSession(true);
+			result = sqlSession.selectOne("com.ptsd.model.DAO.memberlogin", vo);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			sqlSession.close();
+		}
+		return result;
+	}
 
 }

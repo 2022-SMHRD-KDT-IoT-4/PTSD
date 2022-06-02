@@ -24,4 +24,9 @@ public class TaxiVO {
 	private String Approve_check;
 	@NonNull
 	private String Pw;
+	
+	public TaxiVO(String Taxi_num, String Pw) {
+		this.Taxi_num = Taxi_num;
+		this.Pw = Pw;
+	}
 }

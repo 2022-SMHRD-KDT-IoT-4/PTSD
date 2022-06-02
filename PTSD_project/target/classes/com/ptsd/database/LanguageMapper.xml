@@ -5,4 +5,9 @@
 
 <mapper namespace="com.ptsd.model.LanguageDAO">
 	
+	<!-- 요청한 사항의 시퀀스 번호에 해당하는 언어들 조회 -->
+	<select id="languageselect" parameterType="int" resultType="LanguageVO">
+		select * from language where lan_seq=#{lan_seq}
+	</select>
+	
 </mapper>

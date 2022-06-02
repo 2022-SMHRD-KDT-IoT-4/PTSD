@@ -19,4 +19,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>TaxiUpdateSerivce</display-name>
+    <servlet-name>TaxiUpdateSerivce</servlet-name>
+    <servlet-class>com.ptsd.controller.TaxiUpdateSerivce</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TaxiUpdateSerivce</servlet-name>
+    <url-pattern>/TaxiUpdateSerivce</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TaxiDeleteService</display-name>
+    <servlet-name>TaxiDeleteService</servlet-name>
+    <servlet-class>com.ptsd.controller.TaxiDeleteService</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TaxiDeleteService</servlet-name>
+    <url-pattern>/TaxiDeleteService</url-pattern>
+  </servlet-mapping>
 </web-app>

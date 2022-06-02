@@ -20,13 +20,15 @@ public class LanguageListService extends HttpServlet {
 
    protected void service(HttpServletRequest request, HttpServletResponse response) 
          throws ServletException, IOException {
+	   
+	   int lan_seq = Integer.parseInt(request.getParameter("lan_seq"));
       
       LanguageDAO dao = new LanguageDAO();
-      List<LanguageVO> list = dao.showLanguage();
+      List<LanguageVO> list = dao.showLanguage(lan_seq);
       
       request.setAttribute("list", list);
       
-      System.out.println(list.get(3));
+      System.out.println(list.size());
       
       RequestDispatcher rd = request.getRequestDispatcher("ww"); // jsp 변경
       rd.forward(request, response);

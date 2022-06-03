@@ -20,21 +20,26 @@ public class LoginService extends HttpServlet {
    protected void service(HttpServletRequest request, HttpServletResponse response)
          throws ServletException, IOException {
       
-      String taxiNum = (String)request.getParameter("Taxi_num");
+      String Taxi_Num = (String)request.getParameter("Taxi_num");
       String pw = (String)request.getParameter("Pw");
       
-      TaxiVO vo = new TaxiVO(taxiNum, pw);
+      System.out.println(Taxi_Num);
+      System.out.println(pw);
+      
+      TaxiVO vo = new TaxiVO(Taxi_Num, pw);
       
       TaxiDAO dao = new TaxiDAO();
       
       TaxiVO result = dao.login(vo);
       
+      System.out.println(result);
+      
       if(result != null) {
          HttpSession session = request.getSession();
-         session.setAttribute("member", session);
+         session.setAttribute("member", result);
       }
       
-      RequestDispatcher rd = request.getRequestDispatcher("main.jsp");
+      RequestDispatcher rd = request.getRequestDispatcher("test.jsp");
       rd.forward(request, response);
       
    }

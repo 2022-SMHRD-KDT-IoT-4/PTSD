@@ -36,7 +36,6 @@ public class LoginService extends HttpServlet {
       
       if(result != null) {
          HttpSession session = request.getSession();
-         session.setAttribute("taxi", session);
          System.out.println(vo);
          session.setAttribute("member", result);
       }

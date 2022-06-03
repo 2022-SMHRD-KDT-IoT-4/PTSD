@@ -30,6 +30,7 @@ public class TaxiDAO {
       try {
       sqlSession=sqlSessionFactory.openSession(true);
       row=sqlSession.update("com.ptsd.model.TaxiDAO.taxiupdate",vo);
+      sqlSession.commit();
    }catch (Exception e) {
       e.printStackTrace();
    }finally {

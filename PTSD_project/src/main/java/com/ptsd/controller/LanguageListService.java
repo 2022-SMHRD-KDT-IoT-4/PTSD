@@ -24,11 +24,9 @@ public class LanguageListService extends HttpServlet {
 	   int lan_seq = Integer.parseInt(request.getParameter("lan_seq"));
       
       LanguageDAO dao = new LanguageDAO();
-      List<LanguageVO> list = dao.showLanguage(lan_seq);
+      LanguageVO list = dao.showLanguage(lan_seq);
       
       request.setAttribute("list", list);
-      
-      System.out.println(list.size());
       
       RequestDispatcher rd = request.getRequestDispatcher("test.jsp"); // jsp 변경
       rd.forward(request, response);

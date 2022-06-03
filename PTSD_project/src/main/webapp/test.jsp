@@ -22,7 +22,7 @@
 	
 	%>
 	
-	<a><input type="number" name = "lan_seq"></a>
+  <a><%= dao.showLanguage(lan_seq).getLan_kor() %>></a> -
 	
 	
 						<nav id="menu">	
@@ -73,6 +73,25 @@
 										<% if(member != null){ %>
 										<a href="#"><%=member.getTaxi_num()+"님 환영합니다" %></a>
 										<a href = "LogoutService">로그아웃</a>
+										
+																	<div id="wrapper">
+				<!-- Menu -->
+					<nav id="Update">	
+						<ul class="actions vertical">
+							<li><h5>회원정보수정</h5></li>
+								<form action="TaxiUpdateService" method="post">
+									<li><input type="text" name="Car_kinds" placeholder="Car_kinds를 입력하세요"></li>
+									<li><input type="text" name="Office_name" placeholder="Office_name를 입력하세요"></li>
+									<li><input type="text" name="Personal_tel" placeholder="숫자만입력하셈"></li>
+									<li><input type="radio" name="Approve_check" value="Y" ></li>
+									<li><input type="radio" name="Approve_check" value="N"></li>
+									<li><input type="password" name="Pw" placeholder="PW를 입력하세요"></li>
+									<li><input type="submit" value="JoinUs" class="button fit"></li>
+								</form>
+						</ul>
+					</nav>			
+			</div>
+										
 										<%}else{ %>
 										<h1>로그인 해주세요.</h1>
 										<%} %>
@@ -81,6 +100,7 @@
 									</div>
 								</section>
 								
+	
 
 	
 	

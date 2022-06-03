@@ -18,7 +18,7 @@
    </delete>
    
    	<select id="memberlogin" parameterType="TaxiVO" resultType="TaxiVO">
-		select * from taxi where Taxi_Num = #{Taxi_num} and pw =#{Pw} 
+		select * from taxi where Taxi_Num = #{Taxi_num} and Pw =#{Pw} 
 	</select>
    
    

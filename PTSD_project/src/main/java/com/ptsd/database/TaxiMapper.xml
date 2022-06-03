@@ -17,5 +17,9 @@
       delete from taxi where Taxi_num=#{Taxi_num}
    </delete>
    
+   	<select id="memberlogin" parameterType="TaxiVO" resultType="TaxiVO">
+		select * from taxi where Taxi_Num = #{Taxi_num} and pw =#{Pw} 
+	</select>
+   
    
 </mapper>

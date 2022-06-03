@@ -53,8 +53,11 @@ public class TaxiDAO {
    public TaxiVO login(TaxiVO vo) {
       TaxiVO result = null;
       try {
+    	  System.out.println("1");
          sqlSession = sqlSessionFactory.openSession(true);
-         result = sqlSession.selectOne("com.ptsd.model.DAO.memberlogin", vo);
+         System.out.println("2");
+         result = sqlSession.selectOne("com.ptsd.model.TaxiDAO.memberlogin", vo);
+         System.out.println(result);
          
       } catch (Exception e) {
          e.printStackTrace();

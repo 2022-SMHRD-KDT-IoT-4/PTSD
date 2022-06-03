@@ -30,7 +30,7 @@ public class LanguageListService extends HttpServlet {
       
       System.out.println(list.size());
       
-      RequestDispatcher rd = request.getRequestDispatcher("ww"); // jsp 변경
+      RequestDispatcher rd = request.getRequestDispatcher("test.jsp"); // jsp 변경
       rd.forward(request, response);
       
       

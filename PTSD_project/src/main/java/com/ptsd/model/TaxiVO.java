@@ -2,16 +2,18 @@ package com.ptsd.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @RequiredArgsConstructor
 public class TaxiVO {
-   private int Taxi_seq;
+private int Taxi_seq;
    @NonNull
    private String Taxi_num;
    @NonNull
@@ -26,7 +28,7 @@ public class TaxiVO {
    private String Pw;
 //   
    public TaxiVO(String Taxi_num, String Pw) {
-      this.Taxi_num = Taxi_num;
-      this.Pw = Pw;
+	   this.Taxi_num = Taxi_num;
+	   this.Pw = Pw;
    }
 }

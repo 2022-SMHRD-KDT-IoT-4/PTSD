@@ -15,28 +15,28 @@ import com.ptsd.model.TaxiVO;
 
 @WebServlet("/LoginService")
 public class LoginService extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+   private static final long serialVersionUID = 1L;
 
-	protected void service(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-		
-		String taxiNum = (String)request.getParameter("Taxi_num");
-		String pw = (String)request.getParameter("Pw");
-		
-		TaxiVO vo = new TaxiVO(taxiNum, pw);
-		
-		TaxiDAO dao = new TaxiDAO();
-		
-		TaxiVO result = dao.login(vo);
-		
-		if(result != null) {
-			HttpSession session = request.getSession();
-			session.setAttribute("member", session);
-		}
-		
-		RequestDispatcher rd = request.getRequestDispatcher("main.jsp");
-		rd.forward(request, response);
-		
-	}
+   protected void service(HttpServletRequest request, HttpServletResponse response)
+         throws ServletException, IOException {
+      
+      String taxiNum = (String)request.getParameter("Taxi_num");
+      String pw = (String)request.getParameter("Pw");
+      
+      TaxiVO vo = new TaxiVO(taxiNum, pw);
+      
+      TaxiDAO dao = new TaxiDAO();
+      
+      TaxiVO result = dao.login(vo);
+      
+      if(result != null) {
+         HttpSession session = request.getSession();
+         session.setAttribute("member", session);
+      }
+      
+      RequestDispatcher rd = request.getRequestDispatcher("main.jsp");
+      rd.forward(request, response);
+      
+   }
 
 }

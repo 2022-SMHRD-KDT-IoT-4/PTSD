@@ -13,23 +13,23 @@ import com.ptsd.model.TaxiDAO;
 
 @WebServlet("/TaxiDeleteService")
 public class TaxiDeleteService extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+   private static final long serialVersionUID = 1L;
 
 
-	protected void service(HttpServletRequest request, HttpServletResponse response) 
-			throws ServletException, IOException {
-		
-		 String Taxi_num = request.getParameter("Taxi_num");
-		 
-		TaxiDAO dao=new TaxiDAO();
-		int row=dao.taxidelete(Taxi_num);
-		
-		if(row>0) {
-			System.out.println("삭제완.");
-		}
-		//jsp변경
-		RequestDispatcher rd=request.getRequestDispatcher("변경변경.jsp");
-		rd.forward(request, response);
-	}
+   protected void service(HttpServletRequest request, HttpServletResponse response) 
+         throws ServletException, IOException {
+      
+       String Taxi_num = request.getParameter("Taxi_num");
+       
+      TaxiDAO dao=new TaxiDAO();
+      int row=dao.taxidelete(Taxi_num);
+      
+      if(row>0) {
+         System.out.println("삭제완.");
+      }
+      //jsp변경
+      RequestDispatcher rd=request.getRequestDispatcher("변경변경.jsp");
+      rd.forward(request, response);
+   }
 
 }

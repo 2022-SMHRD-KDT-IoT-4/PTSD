@@ -31,7 +31,8 @@ public class LoginService extends HttpServlet {
       
       if(result != null) {
          HttpSession session = request.getSession();
-         session.setAttribute("member", session);
+         session.setAttribute("taxi", session);
+         System.out.println(vo);
       }
       
       RequestDispatcher rd = request.getRequestDispatcher("main.jsp");

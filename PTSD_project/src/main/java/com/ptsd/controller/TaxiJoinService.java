@@ -27,27 +27,16 @@ public class TaxiJoinService extends HttpServlet {
       String Taxi_num = request.getParameter("Taxi_num");
       String Car_kinds = request.getParameter("Car_kinds");
       String Office_name = request.getParameter("Office_name");
-      String Personal_tel = request.getParameter("Personal_tel");
+      int Personal_tel =Integer.parseInt(request.getParameter("Personal_tel"));
       String Approve_check = request.getParameter("Approve_check");
-      
-      
-      System.out.println(Approve_check);
-//      if(Approve_check.equals("false")) {
-//         Approve_check = Approve_check.replace("off", "N");
-//         
-//      }
-//      else {
-//         Approve_check = Approve_check.replace("on", "Y");
-//      }
-      
       String Pw = request.getParameter("Pw");
-      
+           
       //3. 데이터 묶기
-      TaxiVO vo = new TaxiVO(Taxi_num, Car_kinds, Office_name, Personal_tel, Approve_check);
+      TaxiVO vo = new TaxiVO(Taxi_num, Car_kinds, Office_name, Personal_tel, Approve_check,Pw);
       
       //4. DB에 데이터 접어넣기
       TaxiDAO dao = new TaxiDAO();
-      int row = dao.join(vo);
+      int row=dao.taxiinsert(vo);
       
       
       //5.흐름제어
@@ -61,7 +50,7 @@ public class TaxiJoinService extends HttpServlet {
          rd.forward( request, response);
       }else {
          //메인 변경
-         response.sendRedirect("test.jsp");
+         response.sendRedirect("Test1.jsp");
       }
    }
 }

@@ -9,7 +9,7 @@
    </insert>
    
    <update id="taxiupdate" parameterType="TaxiVO">
-      update taxi set Taxi_num=#{Taxi_num},Car_kinds=#{Car_kinds},
+      update taxi set Car_kinds=#{Car_kinds},
       Office_name=#{Office_name},Personal_tel=#{Personal_tel},Approve_check=#{Approve_check},Pw=#{Pw} where Taxi_num=#{Taxi_num}
    </update>
    

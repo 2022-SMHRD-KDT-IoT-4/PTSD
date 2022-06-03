@@ -11,7 +11,7 @@ public class TaxiDAO {
    private SqlSession sqlSession = null;
    
    
-   public int join(TaxiVO vo) {
+   public int taxiinsert(TaxiVO vo) {
       int row = 0;
       try {
          sqlSession = sqlSessionFactory.openSession(true);

@@ -25,11 +25,11 @@ public class TaxiUpdateSerivce extends HttpServlet {
     String Taxi_num = request.getParameter("Taxi_num");
     String Car_kinds = request.getParameter("Car_kinds");
     String Office_name = request.getParameter("Office_name");
-    String Personal_tel = request.getParameter("Personal_tel");
+    int Personal_tel =Integer.parseInt(request.getParameter("Personal_tel"));
     String Approve_check =request.getParameter("Approve_check");
     String Pw = request.getParameter("Pw");
     
-    TaxiVO vo = new TaxiVO(Taxi_num, Car_kinds, Office_name, Personal_tel, Approve_check);
+    TaxiVO vo = new TaxiVO(Taxi_num, Car_kinds, Office_name, Personal_tel, Approve_check,Pw);
    
    TaxiDAO dao=new TaxiDAO();
    int row=dao.taxiupdate(vo);
@@ -37,11 +37,12 @@ public class TaxiUpdateSerivce extends HttpServlet {
    if(row>0) {
       System.out.println("수정ㅇ완");
       HttpSession session=request.getSession();
-      session.setAttribute("Taxi", vo);
+      session.setAttribute("taxi", vo);
+      System.out.println(session);
    }
    
    //메인.jsp변경
-   RequestDispatcher rd=request.getRequestDispatcher("main.jsp");
+   RequestDispatcher rd=request.getRequestDispatcher("main1.jsp");
    rd.forward(request, response);
    }
 

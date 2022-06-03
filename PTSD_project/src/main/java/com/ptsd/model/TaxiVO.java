@@ -19,12 +19,12 @@ public class TaxiVO {
    @NonNull
    private String Office_name;
    @NonNull
-   private String Personal_tel;
-   
+   private int Personal_tel;
+   @NonNull
    private String Approve_check;
    @NonNull
    private String Pw;
-   
+//   
    public TaxiVO(String Taxi_num, String Pw) {
       this.Taxi_num = Taxi_num;
       this.Pw = Pw;

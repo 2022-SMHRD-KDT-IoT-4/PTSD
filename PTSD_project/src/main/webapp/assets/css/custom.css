@@ -6,6 +6,7 @@
 			#login ul.links {
 				list-style: none;
 				padding: 0;
+				display : block;
 			}
 
 				#login ul.links > li {
@@ -32,3 +33,7 @@
 					#login ul.links > li:first-child > a:not(.button) {
 						border-top: 0 !important;
 					}
+					
+#loginclick {
+	
+}

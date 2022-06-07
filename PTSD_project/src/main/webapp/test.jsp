@@ -13,22 +13,17 @@
 <body>
 
 	<%
-	
-	// 해당 시퀀스의 한국어 가져오기
 	LanguageDAO dao = new LanguageDAO();
 	int lan_seq = 4;
 	dao.showLanguage(lan_seq);
-	
-	// 로그인 상태 유지 하기
 	TaxiVO member = (TaxiVO)session.getAttribute("member");
-	
 	%>
 	
+
 	<!-- 해당 시퀀스의 한국어 출력 -->
   <a><%= dao.showLanguage(lan_seq).getLan_kor() %></a> 
   <a><%= dao.showLanguage(lan_seq).getLan_cha() %></a> 
   <a><%= dao.showLanguage(lan_seq).getLan_jap() %></a> 
-  
 	
 	
 						<nav id="menu">	
@@ -42,12 +37,16 @@
 						</ul>
 						<ul class="actions vertical">
 							<li><h5>회원가입</h5></li>
-								<form action = "TaxiJoinService" method = "post">
-									<li><input type="text"  placeholder="Email을 입력하세요" name = "email"></li>
-									<li><input type="password"  placeholder="PW를 입력하세요" name = "pw"></li>
-									<li><input type="text"  placeholder="전화번호를 입력하세요" name = "phone"></li>
-									<li><input type="text"  placeholder="집주소를 입력하세요" name = "address"></li>
+							<form action="TaxiJoinService" method="post">
+									<li><input type="text" name="Taxi_num" placeholder="Taxi_num을 입력하세요"></li>
+									<li><input type="text" name="Car_kinds" placeholder="Car_kinds를 입력하세요"></li>
+									<li><input type="text" name="Office_name" placeholder="Office_name를 입력하세요"></li>
+									<li><input type="text" name="Personal_tel" placeholder="숫자만입력하셈"></li>
+									<li><input type="radio" name="Approve_check" value="Y" ></li>
+									<li><input type="radio" name="Approve_check" value="N"></li>
+									<li><input type="password" name="Pw" placeholder="PW를 입력하세요"></li>
 									<li><input type="submit" value="JoinUs" class="button fit"></li>
+									
 								</form>
 						</ul>
 					</nav>
@@ -95,7 +94,10 @@
 									<li><input type="submit" value="JoinUs" class="button fit"></li>
 								</form>
 						</ul>
-					</nav>			
+					</nav>	
+					
+					<li><h5>회원탈퇴</h5></li>
+					<a href = "TaxiDeleteService">회원탈퇴</a>		
 			</div>
 										
 										<%}else{ %>

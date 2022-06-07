@@ -19,7 +19,7 @@
 	TaxiVO member = (TaxiVO)session.getAttribute("member");
 	%>
 	
-  <a><%= dao.showLanguage(lan_seq).getLan_kor() %></a> -
+  <a><%= dao.showLanguage(lan_seq).getLan_kor() %></a>
 	
 	
 						<nav id="menu">	

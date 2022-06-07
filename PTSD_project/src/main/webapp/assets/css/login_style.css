@@ -16,7 +16,7 @@
 }
 .form-wrap {
     width: 380px;
-    height: 480px;
+    height: 600px;
     position: relative;
     margin: 6% auto;
     background: #fff;
@@ -60,6 +60,7 @@
     top: 180px;
     position: absolute;
     width: 280px;
+    height : 500px;
     transition: .5s;
 }
 .input-field {
@@ -96,4 +97,11 @@ span {
 }
 #register {
     left: 450px;
+}
+
+#background {
+	width = 100%;
+	height = 100%;
+	position : absolute;
+	z-index :-9999;
 }

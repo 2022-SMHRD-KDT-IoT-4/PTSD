@@ -14,15 +14,21 @@
 
 	<%
 	
+	// 해당 시퀀스의 한국어 가져오기
 	LanguageDAO dao = new LanguageDAO();
-	int lan_seq = 1;
+	int lan_seq = 4;
 	dao.showLanguage(lan_seq);
 	
+	// 로그인 상태 유지 하기
 	TaxiVO member = (TaxiVO)session.getAttribute("member");
 	
 	%>
 	
-  <a><%= dao.showLanguage(lan_seq).getLan_kor() %>></a> -
+	<!-- 해당 시퀀스의 한국어 출력 -->
+  <a><%= dao.showLanguage(lan_seq).getLan_kor() %></a> 
+  <a><%= dao.showLanguage(lan_seq).getLan_cha() %></a> 
+  <a><%= dao.showLanguage(lan_seq).getLan_jap() %></a> 
+  
 	
 	
 						<nav id="menu">	

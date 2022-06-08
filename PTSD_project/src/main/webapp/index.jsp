@@ -117,17 +117,23 @@
 				<% if(member == null) {%>
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page" href="login_resist_form.html">Login</a></li>
+								
+								<li class="nav-item px-3 px-xl-4"><a
+							class="btn btn-outline-dark order-1 order-lg-0 fw-medium"
+							href="#!">Sign Up</a></li>
+								
+								
 								<%}else{ %>
 									<%if(member.getTaxi_num().equals("admin")){%>
 									<a href = "select.jsp">회원정보관리</a>
 									<% }%>									
 									<!-- <a href = "update.jsp">개인정보수정</a>  -->
-						<li class="nav-item px-3 px-xl-4"><a
-							class="nav-link fw-medium" aria-current="page" href="update.jsp">회원정보수정</a></li>
 							
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page" href="LogoutService">Logout</a></li>
 									
+						<li class="nav-item px-3 px-xl-4"><a
+							class="nav-link fw-medium" aria-current="page" href="update.jsp">회원정보수정</a></li>
 									<%} %>
 							
 							
@@ -136,9 +142,12 @@
 							
 							
 							
-						<li class="nav-item px-3 px-xl-4"><a
+						<!-- <li class="nav-item px-3 px-xl-4"><a
 							class="btn btn-outline-dark order-1 order-lg-0 fw-medium"
-							href="#!">Sign Up</a></li>
+							href="#!">Sign Up</a></li>  -->
+							
+							
+							
 						<li class="nav-item dropdown px-3 px-lg-0"><a
 							class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-medium"
 							href="#" id="navbarDropdown" role="button"

@@ -40,7 +40,7 @@ public class LoginService extends HttpServlet {
          session.setAttribute("member", result);
       }
       
-      RequestDispatcher rd = request.getRequestDispatcher("index2.jsp");
+      RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
       rd.forward(request, response);
       
    }

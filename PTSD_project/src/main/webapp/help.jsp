@@ -45,10 +45,10 @@
         
         <!-- 언어 선택 버튼 -->
         <div id="country">
-            <a href="Koreantour.jsp"><img src="img/free-icon-south-korea-3909425.png" alt="Korean" id="korea"></a>
-            <a href="UnitedStateAmericatour.jsp"><img src="img/free-icon-united-states-197484.png" alt="UnitedStateAmerica" id="usa"></a>
-            <a href="Chinatour.jsp"><img src="img/free-icon-china-323363.png" alt="China" id="china"></a>
-            <a href="Japantour.jsp"><img src="img/free-icon-japan-197604.png" alt="Japan" id="japan"></a>
+            <a href="helpKorean.jsp"><img src="img/free-icon-south-korea-3909425.png" alt="Korean" id="korea"></a>
+            <a href="helpUnitedStateAmerica.jsp"><img src="img/free-icon-united-states-197484.png" alt="UnitedStateAmerica" id="usa"></a>
+            <a href="helpChina.jsp"><img src="img/free-icon-china-323363.png" alt="China" id="china"></a>
+            <a href="helpJapan.jsp"><img src="img/free-icon-japan-197604.png" alt="Japan" id="japan"></a>
         </div>
         
     </header>

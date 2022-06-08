@@ -62,7 +62,7 @@
 %>
 
 <% for(LanguageVO li : list){%>
-	<div id="koreanlang">
+	<div id="koreanlang" width="500px" height="50px" color="black" >
 	<a><%= li.getLan_kor() %></a>
 	</div>
 <%} %>

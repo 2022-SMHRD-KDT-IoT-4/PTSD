@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ptsd.model.RequestDAO">
+
+	<insert id="boardinsert" parameterType="BoardVO">
+		insert into PTSD_BOARD values(num_board.nextval, #{title}, #{writer}, #{fileName}, #{content}, sysdate)
+	</insert>
+	
+	<select id="boardselect" resultType="BoardVO">
+		select * from PTSD_BOARD order by b_day desc
+	</select>
+	
+	<select id="boarddetail" parameterType="int" resultType="BoardVO">
+		select * from PTSD_BOARD where taxi_num=#{taxi_num}
+	</select>
+	
+	<delete id="boarddelete">
+		delete from PTSD_BOARD where taxi_num=#{taxi_num}
+	</delete>
+	
+</mapper>

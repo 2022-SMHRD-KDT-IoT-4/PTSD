@@ -25,11 +25,22 @@ public class LanguageDAO {
 			}finally {
 				sqlSession.close();
 			}
-			
 			return list;
 		}
 		
-	
+	// 
+	public ArrayList<LanguageVO> langall() {
+		ArrayList<LanguageVO> list=new ArrayList<LanguageVO>();
+		try {
+			sqlSession=sqlSessionFactory.openSession(true);
+			list=(ArrayList)sqlSession.selectList("com.ptsd.model.LanguageDAO.langall");
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			sqlSession.close();
+		}
+		return list;
+	}
 		
 		
 		

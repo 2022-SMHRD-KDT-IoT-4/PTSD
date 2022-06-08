@@ -21,7 +21,7 @@ public class LogoutService extends HttpServlet {
       
       session.invalidate();
       
-      RequestDispatcher rd = request.getRequestDispatcher("test.jsp");
+      RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
       rd.forward(request, response);
       
    }

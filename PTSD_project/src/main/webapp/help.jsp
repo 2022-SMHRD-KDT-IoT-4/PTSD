@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel = "help.css">
+<link rel="stylesheet" href="help.css">
 </head>
 <body id="body">
         
@@ -18,7 +18,7 @@
         <!-- 검은 반투명 배경 -->
         <!-- 여기는 비디오가 나오는 곳-->
         <div class="fullscreen-vid-wrap">
-            <video src="./assets/img/jejuwave.mp4" autoplay="true" loop="true"></video>
+            <video src="images/jejuwave.mp4" autoplay="true" loop="true"></video>
         </div>
         <div class="header-overlay"></div>
         <div class="header-line">

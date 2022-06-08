@@ -10,4 +10,8 @@
 		select * from language where lan_seq=#{lan_seq}
 	</select>
 	
+	<select id="langall" resultType="LanguageVO">
+		select * from language order by lan_seq desc
+	</select>
+	
 </mapper>

@@ -6,12 +6,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
 
 <!-- ===============================================-->
 <!--    Document Title-->
 <!-- ===============================================-->
-<title>Jadoo | Travel Agency Landing Page UI</title>
+<title>PTSD | Project Taxi Service Drive</title>
 
 
 <!-- ===============================================-->
@@ -88,7 +87,7 @@
 			data-navbar-on-scroll="data-navbar-on-scroll">
 			<div class="container">
 				<a class="navbar-brand" href="index.html"><img
-					src="assets/img/logo.svg" height="34" alt="logo" /></a>
+					src="assets/img/login/logo.png" height="70" alt="logo" /></a>
 				<button class="navbar-toggler" type="button"
 					data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 					aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -163,14 +162,15 @@
 		</nav>
 		<section style="padding-top: 7rem;">
 			<div class="bg-holder"
-				style="background-image: url(assets/img/hero/hero-bg.svg);"></div>
+				style="background-image: url();"></div>
+			<!--  백그라운드 이미지 -->
 			<!--/.bg-holder-->
 
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-5 col-lg-6 order-0 order-md-1 text-end">
 						<img class="pt-7 pt-md-0 hero-img"
-							src="assets/img/hero/hero-img.png" alt="hero-header" />
+							src="assets/img/hero/madehero2.jpg" alt="hero-header" />
 					</div>
 					<div class="col-md-7 col-lg-6 text-md-start text-center py-6">
 						<h4 class="fw-bold text-danger mb-3">Best Destinations around

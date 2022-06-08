@@ -8,9 +8,9 @@
 
 
 <!-- ===============================================-->
-<!--    Document Title-->
+<!--    Document Title--> <!-- 타이틀 -->
 <!-- ===============================================-->
-<title>Jadoo | Travel Agency Landing Page UI</title>
+<title>PTSD | Project Taxi Service Drive</title>
 
 
 <!-- ===============================================-->
@@ -39,26 +39,6 @@
 
 
 <body>
-	<nav id="login">	
-						<ul class="links">
-							<li><h5>로그인</h5></li>
-								<form action = "LoginService" method="post">
-									<li><input type="text"  placeholder="Email을 입력하세요" name = "email"></li>
-									<li><input type="password"  placeholder="PW를 입력하세요" name = "pw"></li>
-									<li><input type="submit" value="LogIn" class="button fit"></li>
-								</form>
-						</ul>
-						<ul class="actions vertical">
-							<li><h5>회원가입</h5></li>
-								<form action = "JoinService" method = "post">
-									<li><input type="text"  placeholder="Email을 입력하세요" name = "email"></li>									
-									<li><input type="password"  placeholder="PW를 입력하세요" name = "pw"></li>
-									<li><input type="text"  placeholder="전화번호를 입력하세요" name = "phone"></li>
-									<li><input type="text"  placeholder="집주소를 입력하세요" name = "address"></li>
-									<li><input type="submit" value="JoinUs" class="button fit"></li>
-								</form>
-						</ul>
-					</nav>
 	<!-- ===============================================-->
 	<!--    Main Content-->
 	<!-- ===============================================-->
@@ -68,34 +48,45 @@
 			class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block"
 			data-navbar-on-scroll="data-navbar-on-scroll">
 			<div class="container">
+			 <!-- 로고 만드는 부분  height로 크기 조절 가능-->
 				<a class="navbar-brand" href="index.html"><img
-					src="assets/img/logo.svg" height="34" alt="logo" /></a>
+					src="assets/img/login/logo.PNG" height="70" alt="logo" /></a>
 				<button class="navbar-toggler" type="button"
 					data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 					aria-controls="navbarSupportedContent" aria-expanded="false"
 					aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"> </span>
 				</button>
-				<div
-					class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0"
+				
+				<!-- 로고 옆의 네비게이션 바 -->
+				<div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0"
 					id="navbarSupportedContent">
-					<ul
-						class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
+					<ul	class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
+						
+						<!-- 제품이 제공 하는 서비스에 관하여 -->
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page" href="#service">Service</a></li>
+							
+						<!-- 관광객들이 많이 찾는 명소에 관하여 -->
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page"
 							href="#destination">Destination</a></li>
+							
+						<!-- 사용법에 관하여 적는 곳 -->
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page" href="#booking">Booking</a></li>
+							
+						<!-- 사용후기에 관하여 적는 곳 -->
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page"
 							href="#testimonial">Testimonial</a></li>
+						
+						<!--  로그인과 회원가입 부분 sign up , sign in , sign off 3가지로 분류 예정 -->
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page" href="test.jsp">Login</a></li>
 						<li class="nav-item px-3 px-xl-4"><a
-							class="btn btn-outline-dark order-1 order-lg-0 fw-medium"
-							href="login_resist_form.html">Sign Up</a></li>
+							class="btn btn-outline-dark order-1 order-lg-0 fw-medium"></a>
+
 						<li class="nav-item dropdown px-3 px-lg-0"><a
 							class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-medium"
 							href="#" id="navbarDropdown" role="button"
@@ -104,7 +95,8 @@
 								style="border-radius: 0.3rem;" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="#!">EN</a></li>
 								<li><a class="dropdown-item" href="#!">BN</a></li>
-							</ul></li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -237,7 +229,7 @@
 
 
 		<!-- ============================================-->
-		<!-- <section> begin ============================-->
+		<!-- <section> begin  ============================-->
 		<section class="pt-5" id="destination">
 
 			<div class="container">
@@ -254,14 +246,14 @@
 				<div class="row">
 					<div class="col-md-4 mb-4">
 						<div class="card overflow-hidden shadow">
-							<img class="card-img-top" src="assets/img/dest/dest1.jpg"
-								alt="Rome, Italty" />
-							<div class="card-body py-4 px-3">
+							<img class="card-img-top" src="assets/img/topimage/top1.jpg"
+								alt="함덕, 서우봉 해변" />
+							<div class="card-body py-1200 px-900">
 								<div
 									class="d-flex flex-column flex-lg-row justify-content-between mb-3">
 									<h4 class="text-secondary fw-medium">
 										<a class="link-900 text-decoration-none stretched-link"
-											href="#!">Rome, Italty</a>
+											href="#!">함덕, 서우봉 해변</a>
 									</h4>
 									<span class="fs-1 fw-medium">$5,42k</span>
 								</div>
@@ -275,14 +267,14 @@
 					</div>
 					<div class="col-md-4 mb-4">
 						<div class="card overflow-hidden shadow">
-							<img class="card-img-top" src="assets/img/dest/dest2.jpg"
-								alt="London, UK" />
-							<div class="card-body py-4 px-3">
+							<img class="card-img-top" src="assets/img/topimage/top2.jpg"
+								alt="ecoland, themapark" />
+							<div class="card-body py-1200 px-900">
 								<div
 									class="d-flex flex-column flex-lg-row justify-content-between mb-3">
 									<h4 class="text-secondary fw-medium">
 										<a class="link-900 text-decoration-none stretched-link"
-											href="#!">London, UK</a>
+											href="#!">에코랜드, 테마파크</a>
 									</h4>
 									<span class="fs-1 fw-medium">$4.2k</span>
 								</div>
@@ -294,16 +286,16 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 mb-4">
+					<div class="col-md-4 mb-4" >
 						<div class="card overflow-hidden shadow">
-							<img class="card-img-top" src="assets/img/dest/dest3.jpg"
+							<img class="card-img-top" src="assets/img/topimage/top3.jpg" height = "305.99px"
 								alt="Full Europe" />
-							<div class="card-body py-4 px-3">
+							<div class="card-body py-1200 px-900">
 								<div
 									class="d-flex flex-column flex-lg-row justify-content-between mb-3">
 									<h4 class="text-secondary fw-medium">
 										<a class="link-900 text-decoration-none stretched-link"
-											href="#!">Full Europe</a>
+											href="#!">비자림</a>
 									</h4>
 									<span class="fs-1 fw-medium">$15k</span>
 								</div>

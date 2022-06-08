@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* #backimg{
+    width: 800px;
+    height: 480px;
+
+
+} */
+
+#titleclick{
+    background: #34b3a0;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+
+
+
+
+#tourapi{
+    width: 200px;
+    height: 100px;
+
+
+}
+
+/* 검은 반투명 배경 */
+.header-line{
+    z-index: -1; 
+    width : 100%;
+}
+
+.header-overlay{
+    height: 100vh;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.55;
+}
+
+/* -------------------------------------- */
+
+
+#country{
+    position: absolute;
+    top: 3%;
+    left: 65%;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+/* 국가언어선택 버튼 */
+#korea{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+}
+
+#usa{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 210%;
+    top: 3%;
+}
+
+#china{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 420%;
+    top: 3%;
+}
+
+#japan{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 630%;
+    top: 3%;
+}
+
+
+#home{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 45%;
+    box-sizing: content-box;
+    top: 2%;
+    
+}
+
+
+
+
+/* 뒷배경 */
+.fullscreen-vid-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+.fullscreen-vid-wrap video{
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+#country{
+    z-index: 100;
+
+}
+
+/* 푸터에 들어가는 부분 */
+/* 광고 */
+#advertisement{
+    box-sizing: content-box;
+    position: absolute;
+    top: 85%;
+    left: 100px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: wheat;
+    width:600px;
+    height: 50px;
+}
+
+
+#tourimgtext > img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 1%;
+}
+
+#tourimgtext > h1 > span{
+    position: absolute;
+    left: 13%;
+    top: 4%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+/* 스크롤 사용하기 위한 div*/
+
+#overflow{
+    width: 600px;
+    height: 320px;
+    overflow: scroll;
+
+}
+
+/* content 부분 */
+/* 여러개의 박스를 전체 감싼 것 */
+#content{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 15px;
+    left: 20%;
+    overflow: scroll;
+}
+
+.img{
+    position: relative;
+    width: 500px;
+    height: 140px;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    
+}
+
+#content > div > img{
+    position: absolute;
+    bottom: 1px;
+    
+    left: 1px;
+    z-index: 50;
+    width: 155px;
+    height: 138px;
+}
+
+#content > div > p{
+    position: absolute;
+    left: 33%;
+    float: left;
+    vertical-align: middle;
+    font-size:13px;
+}
+
+/* scroll 스타일 없애는 css */
+body{
+    -ms-overflow-style: none;
+    }
+    
+   ::-webkit-scrollbar {
+     display: none;
+   }
+   
+   /*특정 부분 스크롤바 없애기*/
+   
+   .box{
+      -ms-overflow-style: none;
+   }
+   .box::-webkit-scrollbar{
+     display:none;
+   }
+
+
+
+
+
+
+
+

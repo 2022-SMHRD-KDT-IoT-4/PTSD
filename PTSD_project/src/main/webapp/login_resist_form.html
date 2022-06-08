@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="assets/css/login_style.css">
     </head>
     <body>
+    <img src="assets/img/login/background.jpg" id = "background">
+        <div id="wrap1" class="wrap">
     <img src="assets/img/login/background.jpg" id="background">
     <div id="backgroundPapaer"></div>
         <div class="wrap">
@@ -24,9 +26,17 @@
                 <form id="login" action="LoginService" class="input-group">
                     <input type="text" class="input-field" placeholder="Taxi_num" required name= "Taxi_num">
                     <input type="password" class="input-field" placeholder="Enter Password" required name="Pw">
+                    <input type="button" value = "개인정보 수집 동의" onclick="showPopup();" />
                     <input type="checkbox" class="checkbox"><span>Remember Password</span>
                     <button class="submit">Login</button>
                 </form>
+                <form id="register" action="" class="input-group">
+                    <input type="text" class="input-field" placeholder="User name or Email" required>
+                    <input type="email" class="input-field" placeholder="Your Email" required>
+                    <input type="email" class="input-field" placeholder="Your Email" required>
+                    <input type="email" class="input-field" placeholder="Your Email" required>
+                    <input type="email" class="input-field" placeholder="Your Email" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
                 <form id="register" action="TaxiJoinService" class="input-group">
                     <input type="text" class="input-field" placeholder="Taxi_num" name="Taxi_num" required>
                     <input type="text" class="input-field" placeholder="Car_kinds" name="Car_kinds" required>
@@ -37,9 +47,16 @@
                     <input type="password" class="input-field" placeholder="Enter Password" name="Pw" required>
                     <input type="checkbox" class="checkbox"><span>Terms and conditions</span>
                     <button class="submit">REGISTER</button>
+                    
                 </form>
             </div>
         </div>
+        </img>
+        <script language="javascript">
+        function showPopup() {
+        	window.open("test_popup.html", "test", "width=400, height=300, left=100, top=50"); 
+        }
+        </script>
         <script>
             var x = document.getElementById("login");
             var y = document.getElementById("register");

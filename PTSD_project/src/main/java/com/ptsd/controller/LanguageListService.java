@@ -28,7 +28,7 @@ public class LanguageListService extends HttpServlet {
       
       request.setAttribute("list", list);
       
-      RequestDispatcher rd = request.getRequestDispatcher("test.jsp"); // jsp 변경
+      RequestDispatcher rd = request.getRequestDispatcher("test.jsp"); // 이동경로 변경
       rd.forward(request, response);
       
       

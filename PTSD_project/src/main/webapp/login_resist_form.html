@@ -21,16 +21,20 @@
                     <img src="assets/img/login/tw.png" alt="twitter">
                     <img src="assets/img/login/gl.png" alt="google">
                 </div>
-                <form id="login" action="" class="input-group">
-                    <input type="text" class="input-field" placeholder="User name or Email" required>
-                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                <form id="login" action="LoginService" class="input-group">
+                    <input type="text" class="input-field" placeholder="Taxi_num" required name= "Taxi_num">
+                    <input type="password" class="input-field" placeholder="Enter Password" required name="Pw">
                     <input type="checkbox" class="checkbox"><span>Remember Password</span>
                     <button class="submit">Login</button>
                 </form>
-                <form id="register" action="" class="input-group">
-                    <input type="text" class="input-field" placeholder="User name or Email" required>
-                    <input type="email" class="input-field" placeholder="Your Email" required>
-                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                <form id="register" action="TaxiJoinService" class="input-group">
+                    <input type="text" class="input-field" placeholder="Taxi_num" name="Taxi_num" required>
+                    <input type="text" class="input-field" placeholder="Car_kinds" name="Car_kinds" required>
+                    <input type="text" class="input-field" placeholder="Office_name" name="Office_name" required>
+                    <input type="text" class="input-field" placeholder="Personal_tel" name="Personal_tel" required>
+                    <input type="radio" placeholder="동의ㅇ" value="Y" name="Approve_check" required>
+                    <input type="radio"placeholder="동의x" value="N" name="Approve_check" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" name="Pw" required>
                     <input type="checkbox" class="checkbox"><span>Terms and conditions</span>
                     <button class="submit">REGISTER</button>
                 </form>

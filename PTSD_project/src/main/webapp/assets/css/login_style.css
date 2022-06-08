@@ -37,6 +37,7 @@
 .form-wrap {
     width: 380px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 600px;
 =======
     height: 6000px;
@@ -54,6 +55,22 @@
    background: #fff;
    padding: 5px;
    overflow: hidden;
+=======
+    height: 6000px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 0% auto;
+	top:50px;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+>>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-IoT-4/PTSD.git
 }
 
 .button-wrap {

@@ -1,3 +1,6 @@
+<%@page import="com.ptsd.model.BoardVO"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="com.ptsd.model.BoardDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -246,5 +249,62 @@
 				</tbody>
 			</table>
 		</div>
+		
+		
+		
+		
+		<%
+	BoardDAO dao = new BoardDAO();
+	ArrayList<BoardVO> list = dao.showBoard();
+	%>
+      
+      
+      
+      
+      
+      <div id="board">
+<table id = "list">
+<tr>
+<td>번호</td>
+<td>제목</td>
+<td>작성자</td>
+<td>시간</td>
+<td>삭제</td>
+</tr>
+
+
+         <%for(int i =0 ; i <list.size(); i++){ %>
+         <tr>
+            <td><%= i+1 %></td>
+            <a> <%= list.get(i).getTAXI_COMMENT_TITLE() %> </a></td>
+            <td><%= list.get(i).getTAXI_COMMENT_WRITER() %></td>
+            <td><%= list.get(i).getTAXI_COMMENT_DATE() %></td>
+            <td><button type=button onclick = "location.href='listDeleteService.do?num=<%=list.get(i).getTAXI_NUM()%>'">삭제</button></td>
+         	<%-- <td><a href="DeleteBoardService?Num=<%=//list.get(i).getNum() %>">삭제</a></td> --%>
+         </tr>
+         <% } %>
+         </table>
+<a href="index.jsp"><button id="writer">홈으로가기</button></a> <a
+         href="writerBoardtest.jsp"><button id="writer">작성하러가기</button></a>
+</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 </body>
 </html>

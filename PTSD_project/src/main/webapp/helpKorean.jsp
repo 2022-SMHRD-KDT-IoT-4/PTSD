@@ -3,33 +3,52 @@
 <%@page import="com.ptsd.model.LanguageVO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+ <%
+	LanguageDAO dao=new LanguageDAO();
+ 	ArrayList<LanguageVO> list=dao.langall();
+   %>   
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="./assets/css/help.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript"> 
+	$(document).ready(function() {
+		listLoad();
+	});
+
+	
+	function goTot(i){
+		var nameIoT=$("#button"+i).attr("value");
+		
+		$.ajax({
+		  type : "POST",
+		  url : "NameTotService", 	
+		  data : { "nameIoT" : nameIoT },
+		  success : function() {
+			//alert("성공");
+		 },
+		error : function(){
+			alert("error");
+		}
+	 }); 
+}
+	
+
+	
+
+	</script> 
+
+
 </head>
 <body id="body">
         
         <!-- 배경이미지-->
         
-        
-        <img src="./assets/img/main.JPG" alt="backimg" id="backimg">
-        <header class="vid-header container" id=backimg>
-            
-        <!-- 검은 반투명 배경 -->
-        <!-- 여기는 비디오가 나오는 곳-->
-        <div class="fullscreen-vid-wrap">
-            <video src="img/jejuwave.mp4" autoplay="true" loop="true"></video>
-            <video src="images/jejuwave.mp4" autoplay="true" loop="true"></video>
-        </div>
-        <div class="header-overlay"></div>
-        <div class="header-line">
-            
-            <a href="main.jsp" id="titleclick"><img src="./VIDEO BACKGROUND/TitleIcon.png"></a>
-        </div>
-    </header>
 
     
     
@@ -56,16 +75,8 @@
         
     </header>
 
-   <%
-	LanguageDAO dao=new LanguageDAO();
- 	ArrayList<LanguageVO> list=dao.langall();
-%>
 
-<% for(LanguageVO li : list){%>
-	<div id="koreanlang" width="500px" height="50px" color="black" >
-	<a><%= li.getLan_kor() %></a>
-	</div>
-<%} %>
+
 
     
     <!-- 광고 기능 -->
@@ -76,16 +87,41 @@
 </div>
             
         
-    <content>
-        
+    <div id="helpContainer">
+<% for(int i=0; i<list.size(); i++){%>
+   
+   <div class="koreanlang">
+   <input type="button" id="button<%=i%>" value="<%= list.get(i).getLan_kor() %>" onclick="goTot(<%=i%>)">
+   <br>
+   </div>
+<%} %>
+    </div>
 
-    </content>
-
-    
-</div>
-
-
-
+    <input id="code_html" type="button" value="집으로 가주세요" autocomplete="off" readonly="">
+    <script>var voices = []; function setVoiceList() {
+            voices = window.speechSynthesis.getVoices();
+        } setVoiceList();
+        if (window.speechSynthesis.onvoiceschanged !== undefined) { window.speechSynthesis.onvoiceschanged = setVoiceList; }
+        function speech(txt) {
+            if (!window.speechSynthesis) {
+                alert("음성 재생을 지원하지 않는 브라우저입니다. 크롬, 파이어폭스 등의 최신 브라우저를 이용하세요");
+                return;
+            } var lang = 'ko-KR';
+            var utterThis = new SpeechSynthesisUtterance(txt);
+            utterThis.onend = function (event) { console.log('end'); };
+            utterThis.onerror = function (event) { console.log('error', event); };
+            var voiceFound = false;
+            for (var i = 0; i < voices.length; i++) {
+                if (voices[i].lang.indexOf(lang) >= 0 || voices[i].lang.indexOf(lang.replace('-', '_')) >= 0) { utterThis.voice = voices[i]; voiceFound = true; }
+            }
+            if (!voiceFound) {
+                alert('voice not found');
+                return;
+            }
+            utterThis.lang = lang; utterThis.pitch = 1; utterThis.rate = 1;
+            //속도  
+            window.speechSynthesis.speak(utterThis);
+        } document.addEventListener("click", function (e) { var t = e.target; var input = t; speech(t.value); });</script>
 </body>
 
 </html>

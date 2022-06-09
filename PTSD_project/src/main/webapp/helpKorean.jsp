@@ -9,6 +9,30 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="./assets/css/help.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript">
+	
+	
+	function langLoad(){
+		$.ajax({
+			url:"LanguageListService.do",
+			type: "get",
+			dataType:"json",
+			success:langView,
+			error:function(){
+				alert("error");
+			}
+		});
+	}
+	
+	function langView(data){
+		
+	}
+	</script>
 </head>
 <body id="body">
         
@@ -61,11 +85,7 @@
  	ArrayList<LanguageVO> list=dao.langall();
 %>
 
-<% for(LanguageVO li : list){%>
-	<div id="koreanlang" width="500px" height="50px" color="black" >
-	<a><%= li.getLan_kor() %></a>
-	</div>
-<%} %>
+
 
     
     <!-- 광고 기능 -->
@@ -76,10 +96,16 @@
 </div>
             
         
-    <content>
-        
-
-    </content>
+    <div id="helpContainer">
+<% for(LanguageVO li : list){%>
+   
+   <div class="koreanlang">
+   
+   <p><a><%= li.getLan_kor() %></a></p>
+   <br>
+   </div>
+<%} %>
+</div>
 
     
 </div>

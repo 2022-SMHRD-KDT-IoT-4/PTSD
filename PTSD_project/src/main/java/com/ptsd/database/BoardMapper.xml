@@ -3,14 +3,13 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.ptsd.model.RequestDAO">
-
+<mapper namespace="com.ptsd.model.BoardDAO">
 	<insert id="boardinsert" parameterType="BoardVO">
-		insert into PTSD_BOARD values(num_board.nextval, #{title}, #{writer}, #{fileName}, #{content}, sysdate)
+		insert into PTSD_BOARD values(#{TAXI_NUM}, TAXI_COMMENT_SEQ.nextval, #{TAXI_COMMENT_TITLE}, #{TAXI_COMMENT_WRITER}, #{TAXI_COMMENT_COMMENT}, sysdate)
 	</insert>
 	
 	<select id="boardselect" resultType="BoardVO">
-		select * from PTSD_BOARD order by b_day desc
+		select * from PTSD_BOARD order by TAXI_COMMENT_DATE desc
 	</select>
 	
 	<select id="boarddetail" parameterType="int" resultType="BoardVO">

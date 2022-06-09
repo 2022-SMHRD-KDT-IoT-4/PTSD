@@ -24,28 +24,19 @@ public class WriterBoardService extends HttpServlet {
 		
 		request.setCharacterEncoding("UTF-8");
 		
-		String path = request.getServletContext().getRealPath("file");
-		System.out.println(path);
+	    String TAXI_COMMENT_TITLE = request.getParameter("TAXI_COMMENT_TITLE");
+	    String TAXI_COMMENT_WRITER = request.getParameter("TAXI_COMMENT_WRITER");
+	     String TAXI_COMMENT_COMMENT = request.getParameter("TAXI_COMMENT_COMMENT");
+	     
+	     System.out.println(TAXI_COMMENT_TITLE);
+	     System.out.println(TAXI_COMMENT_WRITER);
 		
-		int maxSize = 10*1024*1024;
-		
-		String encoding = "UTF-8";
-		
-		DefaultFileRenamePolicy rename = new DefaultFileRenamePolicy();
-		
-		MultipartRequest multi = new MultipartRequest(request, path, maxSize, encoding, rename);
-		
-	    String title = multi.getParameter("title");
-	    String writer = multi.getParameter("writer");
-	    String fileName = multi.getFilesystemName("fileName");
-		
-	    fileName = URLEncoder.encode(fileName, "UTF-8");
-	    String content = multi.getParameter("content");
-		
-	    BoardVO vo = new BoardVO(title, writer, fileName, content);
+	     BoardVO vo = new BoardVO(TAXI_COMMENT_TITLE, TAXI_COMMENT_WRITER, TAXI_COMMENT_WRITER); 
 		
 	    BoardDAO dao = new BoardDAO();
 	    int row = dao.upload(vo);
+	    
+	    System.out.println(row);
 		
 	    if(row>0) {
 	    	System.out.println("업로드 성공");

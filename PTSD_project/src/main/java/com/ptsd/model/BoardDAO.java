@@ -19,6 +19,7 @@ public class BoardDAO {
 		try {
 			sqlSession = sqlSessionFactory.openSession(true);
 			row = sqlSession.insert("com.ptsd.model.BoardDAO.boardinsert",vo);
+			System.out.println("1");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}finally {

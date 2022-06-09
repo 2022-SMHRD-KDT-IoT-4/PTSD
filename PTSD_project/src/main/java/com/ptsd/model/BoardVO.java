@@ -15,16 +15,17 @@ import lombok.Setter;
 
 public class BoardVO {
 	
-	private int num;
+	private String TAXI_NUM;
 	@NonNull
-	private String title;
+	private String TAXI_COMMENT_TITLE;
 	@NonNull
-	private String writer;
+	private String TAXI_COMMENT_WRITER;
+	// @NonNull
+	// private String taxi_comment_fileName;
 	@NonNull
-	private String fileName;
-	@NonNull
-	private String content;
-	private String b_day;
+	private String TAXI_COMMENT_COMMENT;
+	private String TAXI_COMMENT_DATE;
+	private int TAXI_COMMENT_SEQ;
 	
 	
 	

@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 import com.ptsd.model.TaxiDAO;
 import com.ptsd.model.TaxiVO;
 
-@WebServlet("/JoinService")
+@WebServlet("/TaxiJoinService")
 public class TaxiJoinService extends HttpServlet {
    private static final long serialVersionUID = 1L;
 
@@ -27,16 +27,17 @@ public class TaxiJoinService extends HttpServlet {
       String Taxi_num = request.getParameter("Taxi_num");
       String Car_kinds = request.getParameter("Car_kinds");
       String Office_name = request.getParameter("Office_name");
-      String Personal_tel = request.getParameter("Personal_tel");
+      int Personal_tel =Integer.parseInt(request.getParameter("Personal_tel"));
       String Approve_check = request.getParameter("Approve_check");
       String Pw = request.getParameter("Pw");
-      
+           
       //3. 데이터 묶기
-      TaxiVO vo = new TaxiVO(Taxi_num, Car_kinds, Office_name, Personal_tel, Approve_check, Pw);
+      TaxiVO vo = new TaxiVO(Taxi_num, Car_kinds, Office_name, Personal_tel, Approve_check,Pw);
       
       //4. DB에 데이터 접어넣기
       TaxiDAO dao = new TaxiDAO();
-      int row = dao.join(vo);
+      int row=dao.taxiinsert(vo);
+      
       
       //5.흐름제어
       if(row>0) {
@@ -45,11 +46,11 @@ public class TaxiJoinService extends HttpServlet {
          System.out.println("가입완");
          
          //jsp 변경
-         RequestDispatcher rd = request.getRequestDispatcher("Join_success.jsp");
+         RequestDispatcher rd = request.getRequestDispatcher("index.html");
          rd.forward( request, response);
       }else {
-    	  //메인 변경
-         response.sendRedirect("main.jsp");
+         //메인 변경
+         response.sendRedirect("Test1.jsp");
       }
    }
 }

@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+#tourapi{
+    width: 200px;
+    height: 100px;
+
+
+}
+
+/* 검은 반투명 배경 */
+.header-line{
+    z-index: -1; 
+    width : 100%;
+}
+.header-overlay{
+    height: 100vh;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.55;
+}
+
+/* -------------------------------------- */
+
+/* 국가언어선택 버튼 */
+#korea{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 65%;
+    top: 3%;
+}
+
+#usa{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 73%;
+    top: 3%;
+}
+
+#china{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 81%;
+    top: 3%;
+}
+
+#japan{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 89%;
+    top: 3%;
+}
+
+
+#home{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 45%;
+    box-sizing: content-box;
+    top: 2%;
+    
+}
+
+
+
+
+/* 뒷배경 */
+.fullscreen-vid-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+.fullscreen-vid-wrap video{
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+#country{
+    z-index: 100;
+
+}
+
+/* 푸터에 들어가는 부분 */
+#advertisement{
+    box-sizing: content-box;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    overflow: hidden;
+    background-color: wheat;
+    width:600px;
+    height: 50px;
+}
+
+
+#tourimgtext > img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 1%;
+}
+
+#tourimgtext > h1 > span{
+    position: absolute;
+    left: 13%;
+    top: 3%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@charset "UTF-8";
+
+
+#tourapi{
+    width: 200px;
+    height: 100px;
+
+
+}
+
+/* 검은 반투명 배경 */
+.header-line{
+    z-index: -1; 
+    width : 100%;
+}
+.header-overlay{
+    height: 100vh;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.55;
+}
+
+/* -------------------------------------- */
+
+/* 국가언어선택 버튼 */
+#korea{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 65%;
+    top: 3%;
+}
+
+#usa{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 73%;
+    top: 3%;
+}
+
+#china{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 81%;
+    top: 3%;
+}
+
+#japan{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 89%;
+    top: 3%;
+}
+
+
+#home{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 45%;
+    box-sizing: content-box;
+    top: 2%;
+    
+}
+
+
+
+
+/* 뒷배경 */
+.fullscreen-vid-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+.fullscreen-vid-wrap video{
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+#country{
+    z-index: 100;
+
+}
+
+/* 푸터에 들어가는 부분 */
+#advertisement{
+    box-sizing: content-box;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    overflow: hidden;
+    background-color: wheat;
+    width:600px;
+    height: 50px;
+}
+
+
+#tourimgtext > img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 1%;
+}
+
+#tourimgtext > h1 > span{
+    position: absolute;
+    left: 13%;
+    top: 3%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -10,6 +10,7 @@
    margin: 0px;
    width: 100%;
    height: 100%;
+   
 }
 
 #backgroundPapaer {
@@ -36,15 +37,9 @@
 
 .form-wrap {
     width: 380px;
-<<<<<<< HEAD
     height: 800px;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
     height: 600px;
-=======
     height: 6000px;
->>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-IoT-4/PTSD.git
     position: relative;
     margin: 6% auto;
     background: #fff;
@@ -58,8 +53,6 @@
    background: #fff;
    padding: 5px;
    overflow: hidden;
-=======
->>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-IoT-4/PTSD.git
     height: 6000px;
     position: relative;
     margin: 6% auto;
@@ -74,7 +67,6 @@
 	background: #fff;
 	padding: 5px;
 	overflow: hidden;
->>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-IoT-4/PTSD.git
 }
 
 .button-wrap {
@@ -116,7 +108,6 @@
 }
 
 .input-group {
-<<<<<<< HEAD
     top: 180px;
     position: absolute;
     width: 280px;
@@ -126,20 +117,15 @@
 	position: absolute;
 	width: 280px;
 	transition: .5s;
-=======
-<<<<<<< HEAD
     top: 180px;
     position: absolute;
     width: 280px;
     height : 500px;
     transition: .5s;
-=======
    top: 180px;
    position: absolute;
    width: 280px;
    transition: .5s;
->>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-IoT-4/PTSD.git
->>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-IoT-4/PTSD.git
 }
 
 .input-field {
@@ -180,29 +166,6 @@ span {
 }
 
 #register {
-<<<<<<< HEAD
-<<<<<<< HEAD
     left: 450px;
 }
 
-#background {
-	width = 100%;
-	height = 100%;
-	position : absolute;
-	z-index :-9999;
-	left: 450px;
-=======
-<<<<<<< HEAD
-    left: 450px;
-}
-
-#background {
-   width = 100%;
-   height = 100%;
-   position : absolute;
-   z-index :-9999;
-=======
-   left: 450px;
->>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-IoT-4/PTSD.git
->>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-IoT-4/PTSD.git
-}

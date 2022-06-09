@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.ptsd.model.LanguageDAO;
 import com.ptsd.model.LanguageVO;
 
-@WebServlet("/LanguageListService")
+@WebServlet("/LanguageListService.do")
 public class LanguageListService extends HttpServlet {
    private static final long serialVersionUID = 1L;
 

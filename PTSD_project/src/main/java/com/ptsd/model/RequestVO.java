@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class RequestVO {
 	private int History_seq;
-	private int Lan_trun;
+	private int Lan_turn;
 	private String Date_time;
 	private int Taxi_num;
 }

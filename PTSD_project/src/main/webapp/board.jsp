@@ -108,10 +108,10 @@
 		<br>
 		<br>
 
-		<div>
+		<!-- 	<div>
 
 			<table class="table">
-				<thead>
+				<thead>  
 					<tr>
 						<th scope="col">#</th>
 						<th scope="col">First</th>
@@ -248,7 +248,7 @@
 					</tr>
 				</tbody>
 			</table>
-		</div>
+		</div> -->
 		
 		
 		
@@ -261,49 +261,53 @@
       
       
       
-      
-      <div id="board">
-<table id = "list">
-<tr>
-<td>번호</td>
-<td>제목</td>
-<td>작성자</td>
-<td>시간</td>
-<td>삭제</td>
-</tr>
 
-
+      <div>
+			<table class="table"   border ="1px solid black" >
+			<colgroup id="colgroupBoard">
+			<col width ="5%">
+			<col width ="20%">
+			<col width ="10%">
+			<col width ="10%">
+			<col width ="5%">
+			
+			</colgroup>
+				<thead>
+					<tr>
+						<th scope="col">번호</th> 
+						<th>제목</th>
+						<th>작성자</th>
+						<th>시간</th>
+						<th>삭제</th>
+					</tr>
+				</thead>
+				<tbody>
          <%for(int i =0 ; i <list.size(); i++){ %>
-         <tr>
+					<tr>
             <td><%= i+1 %></td>
-            <a> <%= list.get(i).getTAXI_COMMENT_TITLE() %> </a></td>
+            <td><a href="viewboardtest.jsp?TAXI_COMMENT_SEQ=<%=list.get(i).getTAXI_COMMENT_SEQ() %>"> <%= list.get(i).getTAXI_COMMENT_TITLE() %> </a></td>
+            
             <td><%= list.get(i).getTAXI_COMMENT_WRITER() %></td>
             <td><%= list.get(i).getTAXI_COMMENT_DATE() %></td>
-            <td><button type=button onclick = "location.href='listDeleteService.do?num=<%=list.get(i).getTAXI_NUM()%>'">삭제</button></td>
-         	<%-- <td><a href="DeleteBoardService?Num=<%=//list.get(i).getNum() %>">삭제</a></td> --%>
-         </tr>
+           <td><a href = "DeleteBoardService1?TAXI_COMMENT_SEQ=<%=list.get(i).getTAXI_COMMENT_SEQ()%>">삭제</a></td>
+         			</tr>
          <% } %>
+				</tbody>
+				
+			
+             
+             <tr>
+                <td colspan="5" class="text-center">
+                  <input type="button" value="홈으로 가기"  onclick="location.href='index.jsp'"  class="btn btn-warning">
+                  &nbsp;&nbsp;&nbsp;
+                  <input type="button" value="글쓰기"  onclick="location.href='writerBoardtest.jsp'"  class="btn btn-warning">
+                </td>
+                            
+            </tr>
          </table>
-<a href="index.jsp"><button id="writer">홈으로가기</button></a> <a
-         href="writerBoardtest.jsp"><button id="writer">작성하러가기</button></a>
+
+
 </div>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 </body>

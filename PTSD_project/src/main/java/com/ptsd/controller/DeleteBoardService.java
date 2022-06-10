@@ -18,10 +18,10 @@ public class DeleteBoardService extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
 		
-	 	int num = Integer.parseInt(request.getParameter("Num"));
+	 	int TAXI_COMMENT_SEQ = Integer.parseInt(request.getParameter("TAXI_COMMENT_SEQ")) ;
 	 	
 	 	BoardDAO dao = new BoardDAO();
-	 	int row = dao.ListDelete(num);
+	 	int row = dao.ListDelete(TAXI_COMMENT_SEQ);
 	 	
 	 	RequestDispatcher rd = request.getRequestDispatcher("board.jsp");
 	 	rd.forward(request, response);

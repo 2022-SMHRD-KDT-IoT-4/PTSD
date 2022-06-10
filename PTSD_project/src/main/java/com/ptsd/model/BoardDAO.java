@@ -2,6 +2,8 @@ package com.ptsd.model;
 
 import java.util.ArrayList;
 
+import javax.servlet.annotation.WebServlet;
+
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 
@@ -13,7 +15,7 @@ public class BoardDAO {
 	private SqlSession sqlSession = null;
 	
 	
-	// 파일 업로드
+	// 게시글 업로드
 	public int upload(BoardVO vo) {
 		int row = 0;
 		try {
@@ -45,11 +47,11 @@ public class BoardDAO {
 	}
 	
 	// 게시글 세부내용
-	public BoardVO showDetail(int num) {
+	public BoardVO showDetail(int BOARDLIST_NUM) {
 		BoardVO vo = null;
 		try {
 			sqlSession = sqlSessionFactory.openSession(true);
-			vo = sqlSession.selectOne("com.ptsd.model.BoardDAO.boarddetail", num);
+			vo = sqlSession.selectOne("com.ptsd.model.BoardDAO.boarddetail", BOARDLIST_NUM);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}finally {
@@ -61,11 +63,12 @@ public class BoardDAO {
 	}
 	
 	// 게시글 삭제
-	public int ListDelete(int num) {
+	public int ListDelete(int TAXI_COMMENT_SEQ) {
 		int row = 0;
 		try {
 			sqlSession = sqlSessionFactory.openSession(true);
-			row = sqlSession.delete("com.ptsd.model.BoardDAO.boarddelete", num);
+			row = sqlSession.delete("com.ptsd.model.BoardDAO.boarddelete", TAXI_COMMENT_SEQ);
+			System.out.println(row);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}finally {

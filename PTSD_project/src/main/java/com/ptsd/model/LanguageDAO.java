@@ -33,7 +33,7 @@ public class LanguageDAO {
 		ArrayList<LanguageVO> list=new ArrayList<LanguageVO>();
 		try {
 			sqlSession=sqlSessionFactory.openSession(true);
-			list=(ArrayList)sqlSession.selectList("com.ptsd.model.LanguageDAO.langall");
+			list=(ArrayList)sqlSession.selectList("com.ptsd.model.LanguageDAO.languageselect");
 		}catch (Exception e) {
 			e.printStackTrace();
 		}finally {

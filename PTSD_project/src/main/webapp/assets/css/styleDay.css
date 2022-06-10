@@ -119,7 +119,7 @@ body{
     font-weight: 400;
     color: #fff;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    width: 100px;
+    width: 130px;
 
 }
 .container .card:hover .box .content a{
@@ -188,4 +188,95 @@ body{
     background: url(../imgfolder/japan.png) no-repeat 0;
     background-size: 50px 50px;
     padding: 45px;
+}
+.circle .loader
+{
+    position: absolute;
+    z-index: -5;
+    left: 234px;
+    top: 28px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    /*background: #0d2323;*/
+    background: #232427;
+    animation: animate 0s linear infinite;
+
+}
+@keyframes animate{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.circle .loader::before
+{
+    content:'';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to top,transparent,rgba(0,255,249,0.3
+    ));
+    background-size: 100px,180px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+    
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.circle .loader::after
+{
+   content: ''; 
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 20px;
+   height: 20px;
+   background: #00fff9;
+   border-radius: 50%;
+   z-index:10;
+   /*
+   box-shadow: 0 0 10px #00fff9,
+                0 0 20px #00fff9,
+                0 0 30px #00fff9,
+                0 0 40px #00fff9,
+                0 0 50px #00fff9,
+                0 0 60px #00fff9,
+                0 0 70px #00fff9,
+                0 0 80px #00fff9,
+                0 0 90px #00fff9,
+                0 0 100px #00fff9;
+                */
+                box-shadow: 0 0 10px #00fff9,
+                0 0 20px #00fff9,
+                0 0 30px #00fff9,
+                0 0 40px #00fff9,
+                0 0 50px #00fff9,
+                0 0 60px #00fff9,
+                0 0 70px #00fff9,
+                0 0 80px #00fff9,
+                0 0 90px #00fff9,
+                0 0 100px #00fff9;
+}
+.circle .loader span{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #102626;
+    border-radius: 50%;
 }

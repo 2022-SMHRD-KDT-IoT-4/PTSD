@@ -22,8 +22,8 @@ public class LoginService extends HttpServlet {
       
       String Taxi_Num = (String)request.getParameter("Taxi_num");
       String pw = (String)request.getParameter("Pw");
-      
-      System.out.println(Taxi_Num);
+
+      //System.out.println(Taxi_Num);
       System.out.println(pw);
       
       TaxiVO vo = new TaxiVO(Taxi_Num, pw);
@@ -35,8 +35,9 @@ public class LoginService extends HttpServlet {
       System.out.println(result);
       
       if(result != null) {
+    	 System.out.println("로그인 성공!");
          HttpSession session = request.getSession();
-         System.out.println(vo);
+         //System.out.println(vo);
          session.setAttribute("member", result);
       }
       

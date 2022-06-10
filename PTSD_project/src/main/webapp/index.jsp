@@ -1,7 +1,7 @@
 <%@page import="com.ptsd.model.TaxiVO"%>
 <%@page import="com.ptsd.model.LanguageDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,46 +37,80 @@
 <link href="assets/css/theme.css" rel="stylesheet" />
 <link href="assets/css/custom.css" rel="stylesheet" />
 </head>
+<style>
+.bottom_fixed {
+	position: fixed;
+	height: 150px;
+	z-index: 10;
+	bottom: -2%;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+.bottom_box {
+	margin : auto;
+	width: 400px;
+	height: 100px;
+	border-radius: 20px;
+	background-color: black;
+	opacity: 0.55;
+	text-align: center;
+	font-size: 30px;
+}
 
+#service_click {
+	text-align: center;
+	bottom : 10px;
+	height : 500px;
+	margin : -410px;
+	margin-left : -145px;
+	align-items : center;
+	align-self : center;
+	position: fixed;
+	text-decoration-line: none;
+	color : white;
+}
+</style>
 
 <body>
-
-
+	
+	
 	<%
 	LanguageDAO dao = new LanguageDAO();
 	int lan_seq = 4;
 	dao.showLanguage(lan_seq);
 	TaxiVO member = (TaxiVO)session.getAttribute("member");
 	%>
+	
 
-
-
-	<nav id="login">	
-						<ul class="links">
-							<li><h5>로그인</h5></li>
-								<form action = "LoginService" method="post">
-									<li><input type="text"  placeholder="Email을 입력하세요" name = "email"></li>
-									<li><input type="password"  placeholder="PW를 입력하세요" name = "pw"></li>
-									<li><input type="submit" value="LogIn" class="button fit"></li>
-								</form>
-						</ul>
-						<ul class="actions vertical">
-							<li><h5>회원가입</h5></li>
-								<form action = "JoinService" method = "post">
-									<li><input type="text"  placeholder="Email을 입력하세요" name = "email"></li>									
-									<li><input type="password"  placeholder="PW를 입력하세요" name = "pw"></li>
-									<li><input type="text"  placeholder="전화번호를 입력하세요" name = "phone"></li>
-									<li><input type="text"  placeholder="집주소를 입력하세요" name = "address"></li>
-									<li><input type="submit" value="JoinUs" class="button fit"></li>
-								</form>
-						</ul>
-						
-						
-						
-					</nav>
-					
-					
-
+	<div class="bottom_fixed">
+		<div class="bottom_box">
+			<a id="service_click" class="link" target="_blank" align="center">
+				서비스 신청하러 가기
+			</a>
+		</div>
+	</div>
+	
+	<nav id="login">
+		<ul class="links">
+			<li><h5>로그인</h5></li>
+			<form action="LoginService" method="post">
+				<li><input type="text" placeholder="Email을 입력하세요" name="email"></li>
+				<li><input type="password" placeholder="PW를 입력하세요" name="pw"></li>
+				<li><input type="submit" value="LogIn" class="button fit"></li>
+			</form>
+		</ul>
+		<ul class="actions vertical">
+			<li><h5>회원가입</h5></li>
+			<form action="JoinService" method="post">
+				<li><input type="text" placeholder="Email을 입력하세요" name="email"></li>
+				<li><input type="password" placeholder="PW를 입력하세요" name="pw"></li>
+				<li><input type="text" placeholder="전화번호를 입력하세요" name="phone"></li>
+				<li><input type="text" placeholder="집주소를 입력하세요" name="address"></li>
+				<li><input type="submit" value="JoinUs" class="button fit"></li>
+			</form>
+		</ul>
+	</nav>
 
 	<!-- ===============================================-->
 	<!--    Main Content-->
@@ -87,7 +121,7 @@
 			class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block"
 			data-navbar-on-scroll="data-navbar-on-scroll">
 			<div class="container">
-				<a class="navbar-brand" href="index.html"><img
+				<a class="navbar-brand" href="index.jsp"><img
 					src="assets/img/login/logo.png" height="70" alt="logo" /></a>
 				<button class="navbar-toggler" type="button"
 					data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -95,75 +129,50 @@
 					aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"> </span>
 				</button>
+				
 				<div
 					class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0"
 					id="navbarSupportedContent">
 					<ul
 						class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
 						<li class="nav-item px-3 px-xl-4"><a
-							class="nav-link fw-medium" aria-current="page" href="#service">Service</a></li>
+							class="nav-link fw-medium" aria-current="page" href="#service">서비스</a></li>
+						<li class="nav-item px-3 px-xl-4"><a
+							class="nav-link fw-medium" aria-current="page" href="#booking">신청방법</a></li>
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page"
-							href="#destination">Destination</a></li>
-						<li class="nav-item px-3 px-xl-4"><a
-							class="nav-link fw-medium" aria-current="page" href="#booking">Booking</a></li>
+							href="#testimonial">사용후기</a></li>
+
+
+
+						<!-- 로그인 여부에 따라 사용자에게 보이는 상단아이콘을 다르게 함 -->
+						<% if(member == null) {%>
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page"
-							href="#testimonial">Testimonial</a></li>
-							
-							
-							
-				<!-- 로그인 여부에 따라 사용자에게 보이는 상단아이콘을 다르게 함 -->
-				<% if(member == null) {%>
+							href="login_resist_form.html">로그인</a></li>
 						<li class="nav-item px-3 px-xl-4"><a
-							class="nav-link fw-medium" aria-current="page" href="login_resist_form.html">Login</a></li>
-								
-								<li class="nav-item px-3 px-xl-4"><a
-							class="btn btn-outline-dark order-1 order-lg-0 fw-medium"
-							href="#!">Sign Up</a></li>
-								
-								
-								<%}else{ %>
-									<%if(member.getTaxi_num().equals("admin")){%>
-									<a href = "select.jsp">회원정보관리</a>
-									<% }%>									
-									<!-- <a href = "update.jsp">개인정보수정</a>  -->
-							
+							class="nav-link fw-medium" aria-current="page"
+							href="login_resist_form.html">회원가입</a></li>
+
+						<%}else{ %>
+						<%if(member.getTaxi_num().equals("admin")){%>
+						<a href="select.jsp">회원정보관리</a>
+						<% }%>
+						<!-- <a href = "update.jsp">개인정보수정</a>  -->
+
 						<li class="nav-item px-3 px-xl-4"><a
-							class="nav-link fw-medium" aria-current="page" href="LogoutService">Logout</a></li>
-									
+							class="nav-link fw-medium" aria-current="page"
+							href="LogoutService">로그아웃</a></li>
+
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page" href="update.jsp">회원정보수정</a></li>
-									<%} %>
-							
-							
-						<!-- <li class="nav-item px-3 px-xl-4"><a
-							class="nav-link fw-medium" aria-current="page" href="login_resist_form.html">Login</a></li>  -->
-							
-							
-							
-						<!-- <li class="nav-item px-3 px-xl-4"><a
-							class="btn btn-outline-dark order-1 order-lg-0 fw-medium"
-							href="#!">Sign Up</a></li>  -->
-							
-							
-							
-						<li class="nav-item dropdown px-3 px-lg-0"><a
-							class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-medium"
-							href="#" id="navbarDropdown" role="button"
-							data-bs-toggle="dropdown" aria-expanded="false">EN</a>
-							<ul class="dropdown-menu dropdown-menu-end border-0 shadow-lg"
-								style="border-radius: 0.3rem;" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#!">EN</a></li>
-								<li><a class="dropdown-item" href="#!">BN</a></li>
-							</ul></li>
-					</ul>
+						<%} %>
+
 				</div>
 			</div>
 		</nav>
 		<section style="padding-top: 7rem;">
-			<div class="bg-holder"
-				style="background-image: url();"></div>
+			<div class="bg-holder" style="background-image: url();"></div>
 			<!--  백그라운드 이미지 -->
 			<!--/.bg-holder-->
 
@@ -174,26 +183,23 @@
 							src="assets/img/hero/madehero2.jpg" alt="hero-header" />
 					</div>
 					<div class="col-md-7 col-lg-6 text-md-start text-center py-6">
-						<h4 class="fw-bold text-danger mb-3">Best Destinations around
-							the world</h4>
-						<h1 class="hero-title">Travel, enjoy and live a new and full
-							life</h1>
+						<h4 class="fw-bold text-danger mb-3"></h4>
+						<h1 class="hero-title" >PTSD제품을 사용하고 편하고 충실한 삶을 사십시오</h1>
 						<p class="mb-4 fw-medium">
-							Built Wicket longer admire do barton vanity itself do in it.<br
-								class="d-none d-xl-block" />Preferred to sportsmen it engrossed
-							listening. Park gate<br class="d-none d-xl-block" />sell they
-							west hard for the.
+							<br
+								class="d-none d-xl-block" />
+							<br class="d-none d-xl-block" />
 						</p>
 						<div class="text-center text-md-start">
 							<a
 								class="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow"
-								href="#!" role="button">Find out more</a>
+								href="#!" role="button">정보 더보기</a>
 							<div class="w-100 d-block d-md-none"></div>
 							<a href="#!" role="button" data-bs-toggle="modal"
 								data-bs-target="#popupVideo"><span
 								class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow">
 									<img src="assets/img/hero/play.svg" width="15" alt="paly" />
-							</span></a><span class="fw-medium">Play Demo</span>
+							</span></a><span class="fw-medium">사용 영상</span>
 							<div class="modal fade" id="popupVideo" tabindex="-1"
 								aria-labelledby="popupVideo" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg">
@@ -224,21 +230,18 @@
 						alt="service" />
 				</div>
 				<div class="mb-7 text-center">
-					<h5 class="text-secondary">CATEGORY</h5>
 					<h3
-						class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">We
-						Offer Best Services</h3>
+						class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">최고의 서비스를 만나보세요</h3>
 				</div>
 				<div class="row">
 					<div class="col-lg-3 col-sm-6 mb-6">
 						<div
 							class="card service-card shadow-hover rounded-3 text-center align-items-center">
 							<div class="card-body p-xxl-5 p-4">
-								<img src="assets/img/category/icon1.png" width="75"
+								<img src="assets/img/homepage/help.png" width="75"
 									alt="Service" />
-								<h4 class="mb-3">Calculated Weather</h4>
-								<p class="mb-0 fw-medium">Built Wicket longer admire do
-									barton vanity itself do in it.</p>
+								<h4 class="mb-3">원하는 요청</h4>
+								<p class="mb-0 fw-medium">승객은 원하는 요청을 선택할 수 있습니다</p>
 							</div>
 						</div>
 					</div>
@@ -246,11 +249,10 @@
 						<div
 							class="card service-card shadow-hover rounded-3 text-center align-items-center">
 							<div class="card-body p-xxl-5 p-4">
-								<img src="assets/img/category/icon2.png" width="75"
+								<img src="assets/img/homepage/jejutour1.png" width="75"
 									alt="Service" />
-								<h4 class="mb-3">Best Flights</h4>
-								<p class="mb-0 fw-medium">Engrossed listening. Park gate
-									sell they west hard for the.</p>
+								<h4 class="mb-3">투어 정보</h4>
+								<p class="mb-0 fw-medium">당신은 관광지에 대한 정보를 볼 수 있습니다</p>
 							</div>
 						</div>
 					</div>
@@ -258,11 +260,10 @@
 						<div
 							class="card service-card shadow-hover rounded-3 text-center align-items-center">
 							<div class="card-body p-xxl-5 p-4">
-								<img src="assets/img/category/icon3.png" width="75"
+								<img src="assets/img/homepage/speaker1.jpg" width="75"
 									alt="Service" />
-								<h4 class="mb-3">Local Events</h4>
-								<p class="mb-0 fw-medium">Barton vanity itself do in it.
-									Preferd to men it engrossed listening.</p>
+								<h4 class="mb-3">요청 듣기</h4>
+								<p class="mb-0 fw-medium">승객이 원하는 요청을 들을 수 있습니다</p>
 							</div>
 						</div>
 					</div>
@@ -270,11 +271,10 @@
 						<div
 							class="card service-card shadow-hover rounded-3 text-center align-items-center">
 							<div class="card-body p-xxl-5 p-4">
-								<img src="assets/img/category/icon4.png" width="75"
+								<img src="assets/img/homepage/kakaomap.png" width="75"
 									alt="Service" />
-								<h4 class="mb-3">Customization</h4>
-								<p class="mb-0 fw-medium">We deliver outsourced aviation
-									services for military customers</p>
+								<h4 class="mb-3">카카오 지도</h4>
+								<p class="mb-0 fw-medium">승객들은 카카오 맵을 이용하여 현재 위치를 알 수 있습니다</p>
 							</div>
 						</div>
 					</div>
@@ -283,101 +283,7 @@
 			<!-- end of .container-->
 
 		</section>
-		<!-- <section> close ============================-->
-		<!-- ============================================-->
-
-
-
-
-		<!-- ============================================-->
-		<!-- <section> begin ============================-->
-		<section class="pt-5" id="destination">
-
-			<div class="container">
-				<div
-					class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4">
-					<img src="assets/img/dest/shape.svg" alt="destination" />
-				</div>
-				<div class="mb-7 text-center">
-					<h5 class="text-secondary">Top Selling</h5>
-					<h3
-						class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">Top
-						Destinations</h3>
-				</div>
-				<div class="row">
-					<div class="col-md-4 mb-4">
-						<div class="card overflow-hidden shadow">
-							<img class="card-img-top" src="assets/img/dest/dest1.jpg"
-								alt="Rome, Italty" />
-							<div class="card-body py-4 px-3">
-								<div
-									class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-									<h4 class="text-secondary fw-medium">
-										<a class="link-900 text-decoration-none stretched-link"
-											href="#!">Rome, Italty</a>
-									</h4>
-									<span class="fs-1 fw-medium">$5,42k</span>
-								</div>
-								<div class="d-flex align-items-center">
-									<img src="assets/img/dest/navigation.svg"
-										style="margin-right: 14px" width="20" alt="navigation" /><span
-										class="fs-0 fw-medium">10 Days Trip</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 mb-4">
-						<div class="card overflow-hidden shadow">
-							<img class="card-img-top" src="assets/img/dest/dest2.jpg"
-								alt="London, UK" />
-							<div class="card-body py-4 px-3">
-								<div
-									class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-									<h4 class="text-secondary fw-medium">
-										<a class="link-900 text-decoration-none stretched-link"
-											href="#!">London, UK</a>
-									</h4>
-									<span class="fs-1 fw-medium">$4.2k</span>
-								</div>
-								<div class="d-flex align-items-center">
-									<img src="assets/img/dest/navigation.svg"
-										style="margin-right: 14px" width="20" alt="navigation" /><span
-										class="fs-0 fw-medium">12 Days Trip</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 mb-4">
-						<div class="card overflow-hidden shadow">
-							<img class="card-img-top" src="assets/img/dest/dest3.jpg"
-								alt="Full Europe" />
-							<div class="card-body py-4 px-3">
-								<div
-									class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-									<h4 class="text-secondary fw-medium">
-										<a class="link-900 text-decoration-none stretched-link"
-											href="#!">Full Europe</a>
-									</h4>
-									<span class="fs-1 fw-medium">$15k</span>
-								</div>
-								<div class="d-flex align-items-center">
-									<img src="assets/img/dest/navigation.svg"
-										style="margin-right: 14px" width="20" alt="navigation" /><span
-										class="fs-0 fw-medium">28 Days Trip</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- end of .container-->
-
-		</section>
-		<!-- <section> close ============================-->
-		<!-- ============================================-->
-
-
-
+	
 
 		<!-- ============================================-->
 		<!-- <section> begin ============================-->
@@ -387,10 +293,10 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="mb-4 text-start">
-							<h5 class="text-secondary">Easy and Fast</h5>
+							<h5 class="text-secondary">쉽고 빠릅니다</h5>
 							<h3
-								class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">Book
-								your next trip in 3 easy steps</h3>
+								class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">
+								간단한 3단계로 승객과 대화를 할 수 있습니다</h3>
 						</div>
 						<div class="d-flex align-items-start mb-5">
 							<div class="bg-primary me-sm-4 me-3 p-3"
@@ -398,11 +304,10 @@
 								<img src="assets/img/steps/selection.svg" width="22" alt="steps" />
 							</div>
 							<div class="flex-1">
-								<h5 class="text-secondary fw-bold fs-0">Choose Destination</h5>
+								<h5 class="text-secondary fw-bold fs-0">서비스를 신청하세요</h5>
 								<p>
-									Choose your favourite place. No matter <br
-										class="d-none d-sm-block"> where you travel inside the
-									World.
+									서비스를 신청하시려면 하단의 <br
+										class="d-none d-sm-block"> 서비스 신청하러 가기를 눌러주세요
 								</p>
 							</div>
 						</div>
@@ -413,11 +318,10 @@
 									alt="steps" />
 							</div>
 							<div class="flex-1">
-								<h5 class="text-secondary fw-bold fs-0">Make Payment</h5>
+								<h5 class="text-secondary fw-bold fs-0">서비스에 관한 상담</h5>
 								<p>
-									After find your perfect spot, make your <br
-										class="d-none d-sm-block"> payment and get ready to
-									travel.
+									신청이 된 이후 상담을 통해 서비스에 대해<br
+										class="d-none d-sm-block"> 대화를 나눌 것 입니다.
 								</p>
 							</div>
 						</div>
@@ -426,12 +330,10 @@
 								<img src="assets/img/steps/taxi.svg" width="22" alt="steps" />
 							</div>
 							<div class="flex-1">
-								<h5 class="text-secondary fw-bold fs-0">Reach Airport on
-									Selected Date</h5>
+								<h5 class="text-secondary fw-bold fs-0">제품 설치</h5>
 								<p>
-									Lastly, you have to arrive at the airport <br
-										class="d-none d-sm-block"> on time and enjoy the
-									vacation.
+									상담이 완료된 이후에, 일정을 잡아 <br
+										class="d-none d-sm-block"> 차량에 제품을 설치하여 서비스를 이용하세요!
 								</p>
 							</div>
 						</div>
@@ -509,9 +411,6 @@
 		<!-- <section> close ============================-->
 		<!-- ============================================-->
 
-
-
-
 		<!-- ============================================-->
 		<!-- <section> begin ============================-->
 		<section id="testimonial">
@@ -520,10 +419,10 @@
 				<div class="row">
 					<div class="col-lg-5">
 						<div class="mb-8 text-start">
-							<h5 class="text-secondary">Testimonials</h5>
+							<h5 class="text-secondary">사용후기</h5>
 							<h3
-								class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">What
-								people say about Us.</h3>
+								class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">
+								제품에 대하여 사용후기</h3>
 						</div>
 					</div>
 					<div class="col-lg-1"></div>
@@ -551,11 +450,9 @@
 													width="65" alt="" />
 											</div>
 											<div class="card-body p-4">
-												<p class="fw-medium mb-4">&quot;On the Windows talking
-													painted pasture yet its express parties use. Sure last upon
-													he same as knew next. Of believed or diverted no.&quot;</p>
-												<h5 class="text-secondary">Mike taylor</h5>
-												<p class="fw-medium fs--1 mb-0">Lahore, Pakistan</p>
+												<p class="fw-medium mb-4">&quot;실제 제품을 사용을 하고 난 후기가 들어가 있는 공간입니다&quot;</p>
+												<h5 class="text-secondary">서찬종</h5>
+												<p class="fw-medium fs--1 mb-0">광주광역시, 동구</p>
 											</div>
 										</div>
 										<div
@@ -630,101 +527,6 @@
 		<!-- ============================================-->
 
 
-		<div class="position-relative pt-9 pt-lg-8 pb-6 pb-lg-8">
-			<div class="container">
-				<div class="row row-cols-lg-5 row-cols-md-3 row-cols-2 flex-center">
-					<div class="col">
-						<div class="card shadow-hover mb-4" style="border-radius: 10px;">
-							<div class="card-body text-center">
-								<img class="img-fluid" src="assets/img/partner/1.png" alt="" />
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card shadow-hover mb-4" style="border-radius: 10px;">
-							<div class="card-body text-center">
-								<img class="img-fluid" src="assets/img/partner/2.png" alt="" />
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card shadow-hover mb-4" style="border-radius: 10px;">
-							<div class="card-body text-center">
-								<img class="img-fluid" src="assets/img/partner/3.png" alt="" />
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card shadow-hover mb-4" style="border-radius: 10px;">
-							<div class="card-body text-center">
-								<img class="img-fluid" src="assets/img/partner/4.png" alt="" />
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="card shadow-hover mb-4" style="border-radius: 10px;">
-							<div class="card-body text-center">
-								<img class="img-fluid" src="assets/img/partner/5.png" alt="" />
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<!-- ============================================-->
-		<!-- <section> begin ============================-->
-		<section class="pt-6">
-
-			<div class="container">
-				<div class="py-8 px-5 position-relative text-center"
-					style="background-color: rgba(223, 215, 249, 0.199); border-radius: 129px 20px 20px 20px;">
-					<div
-						class="position-absolute start-100 top-0 translate-middle ms-md-n3 ms-n4 mt-3">
-						<img src="assets/img/cta/send.png" style="max-width: 70px;"
-							alt="send icon" />
-					</div>
-					<div class="position-absolute end-0 top-0 z-index--1">
-						<img src="assets/img/cta/shape-bg2.png" width="264"
-							alt="cta shape" />
-					</div>
-					<div
-						class="position-absolute start-0 bottom-0 ms-3 z-index--1 d-none d-sm-block">
-						<img src="assets/img/cta/shape-bg1.png" style="max-width: 340px;"
-							alt="cta shape" />
-					</div>
-					<div class="row justify-content-center">
-						<div class="col-lg-8 col-md-10">
-							<h2 class="text-secondary lh-1-7 mb-7">Subscribe to get
-								information, latest news and other interesting offers about
-								Cobham</h2>
-							<form class="row g-3 align-items-center w-lg-75 mx-auto">
-								<div class="col-sm">
-									<div class="input-group-icon">
-										<input class="form-control form-little-squirrel-control"
-											type="email" placeholder="Enter email " aria-label="email" /><img
-											class="input-box-icon" src="assets/img/cta/mail.svg"
-											width="17" alt="mail" />
-									</div>
-								</div>
-								<div class="col-sm-auto">
-									<button class="btn btn-danger orange-gradient-btn fs--1">Subscribe</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- end of .container-->
-
-		</section>
-		<!-- <section> close ============================-->
-		<!-- ============================================-->
-
-
-
-
 		<!-- ============================================-->
 		<!-- <section> begin ============================-->
 		<section class="pb-0 pb-lg-4">
@@ -732,10 +534,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3 col-md-7 col-12 mb-4 mb-md-6 mb-lg-0 order-0">
-						<img class="mb-4" src="assets/img/logo2.svg" width="150"
+						<img class="mb-4" src="assets/img/login/logo.png" width="150"
 							alt="jadoo" />
-						<p class="fs--1 text-secondary mb-0 fw-medium">Book your trip
-							in minute, get full Control for much longer.</p>
+						<p class="fs--1 text-secondary mb-0 fw-medium">Apply for service<br>
+You can exchange requests with foreign passengers in just a few minutes.</p>
 					</div>
 					<div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-1 order-md-2">
 						<h4
@@ -811,11 +613,6 @@
 	<!--    End of Main Content-->
 	<!-- ===============================================-->
 
-
-
-
-
-
 	<!-- ===============================================-->
 	<!--    JavaScripts-->
 	<!-- ===============================================-->
@@ -830,10 +627,6 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap"
 		rel="stylesheet">
-
-
-
-
 
 </body>
 </html>

@@ -15,6 +15,7 @@ import lombok.Setter;
 
 public class BoardVO {
 	
+	@NonNull
 	private String TAXI_NUM;
 	@NonNull
 	private String TAXI_COMMENT_TITLE;
@@ -26,6 +27,9 @@ public class BoardVO {
 	private String TAXI_COMMENT_COMMENT;
 	private String TAXI_COMMENT_DATE;
 	private int TAXI_COMMENT_SEQ;
+	private int BOARDLIST_NUM;
+	
+	
 	
 	
 	

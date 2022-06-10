@@ -18,7 +18,7 @@
         $(document).ready(function () {
             
             $('#korea-main').click(function () {
-                $('.box-icon').fadeIn()
+            	$(".loader").css("left","234px")
                 $("#mapTexth3").html("지도").css("margin-top","70px");
                 $("#mapTexth2").html("지도");
                 $("#mapTextp").html("지도를 통해 제주도를 확인해보세요! 하단의 버튼을 누르면 지도 페이지로 이동합니다.");
@@ -46,7 +46,7 @@
                     }
         });
         $('#english-main').click(function () {
-                
+        	$(".loader").css("left","350px")
                 $("#mapTexth3").html("Map").css("margin-top","70px");
                 $("#mapTexth2").html("Map");
                 $("#mapTextp").html("Check out Jeju Island on the map! Press the button at the bottom to go to the map page.");
@@ -74,18 +74,18 @@
         });
 
         $('#china-main').click(function () {
-                
-                $("#mapTexth3").html("dìtú<br>地图").css("margin-top","70px");
+        	$(".loader").css("left","470px")
+                $("#mapTexth3").html("<ruby>地<rt>dì</rt>图<rt>tú</rt></ruby>").css("margin-top","70px");
                 $("#mapTexth2").html("地图");
                 $("#mapTextp").html("请通过地图确认济州岛！ 按下下端按钮后移动到地图页面。");
                 $("#mapMove").html("阅读");
 
-                $("#talkTexth3").html("qǐngtuō<br>请托").css("margin-top","50px");
+                $("#talkTexth3").html("<ruby>请<rt>qǐng</rt>托<rt>tuō</rt></ruby>").css("margin-top","50px");
                 $("#talkTexth2").html("请托");
                 $("#talkTextp").html("要请求驱动程序的帮助，请单击 &quot;请求 &quot;按钮。 这是自动翻译！ 按下最下面的按钮进入请求页面。")
                 $("#talkMove").html("阅读");
 
-                $("#tourTexth3").html("guānguāng<br>观光").css("margin-top","70px");
+                $("#tourTexth3").html("<ruby>观<rt>guān</rt>光<rt>guāng</rt></ruby>").css("margin-top","70px");
                 $("#tourTexth2").html("观光");
                 $("#tourTextp").html("按下观光按钮，感受济州岛！ 按最下面的按钮进入旅游页面。");
                 $("#tourMove").html("阅读");
@@ -101,18 +101,18 @@
                     }
         });
         $('#japan-main').click(function () {
-                
-                $("#mapTexth3").html("ちず<br>地図").css("margin-top","70px");
+        	$(".loader").css("left","594px")
+                $("#mapTexth3").html("<ruby>地<rt>ち</rt>図<rt>ず</rt></ruby>").css("margin-top","70px");
                 $("#mapTexth2").html("地図");
                 $("#mapTextp").html("地図で済州島を確認してください! 下段ボタンを押して地図ページに移動します。");
                 $("#mapMove").html("閲覧");
 
-                $("#talkTexth3").html("ようせい<br>要請.").css("margin-top","50px");
+                $("#talkTexth3").html("<ruby>要<rt>よう</rt>請<rt>せい</rt>.</ruby>").css("margin-top","50px");
                 $("#talkTexth2").html("要請");
                 $("#talkTextp").html("要請事項をクリックして運転手さんに伝えてください！ 下段のボタンを押すとリクエストページに移動します。自動翻訳です！")
                 $("#talkMove").html("閲覧");
 
-                $("#tourTexth3").html("かんこう<br>観光").css("margin-top","70px");
+                $("#tourTexth3").html("<ruby>観<rt>かん</rt>光<rt>こう</rt></ruby>").css("margin-top","70px");
                 $("#tourTexth2").html("観光");
                 $("#tourTextp").html("観光ボタンを押して済州島を感じてみてください! 一番下のボタンを押して旅行ページに入ります。");
                 $("#tourMove").html("閲覧");
@@ -182,7 +182,9 @@
         <span id="china-main"></span>
         <span id="japan-main"></span>
     </div>
-    
+    <div class="circle">
+        <div class="loader"><span></span></div>
+    </div>
     
 </body>
 </html>

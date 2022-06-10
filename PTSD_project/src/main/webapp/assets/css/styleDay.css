@@ -20,19 +20,19 @@ body{
     align-items: center;
     flex-wrap: wrap;
     max-width:250px;
-    margin: 70px 0;
+    margin: 80px 0;
 }
 .container .card
 {
     position: relative;
-    width: 230px;
+    width: 280px;
     height: 350px;
     box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
                 inset -5px -5px 5px rgba(255,255,255,0.5),
                 5px 5px 15px rgba(0,0,0,0.05),
                 -5px -5px 15px rgba(255,255,255,0.5);
     border-radius: 15px;
-    margin: 30px;         
+    margin: 11px;         
 }
 
 .container .card .box {
@@ -132,7 +132,7 @@ body{
     background-size: 75px 75px;
     padding: 100px;
     top: -50px;
-    left:40px;
+    left:58px;
     position: absolute;
 }
 #talkIcon{
@@ -140,7 +140,7 @@ body{
     background-size: 75px 75px;
     padding: 100px;
     top: -50px;
-    left:40px;
+    left:58px;
     position: absolute;
 }
 #tourIcon{
@@ -148,7 +148,7 @@ body{
     background-size: 75px 75px;
     padding: 100px;
     top: -50px;
-    left:40px;
+    left:58px;
     position: absolute;
 }
 

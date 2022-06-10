@@ -84,7 +84,7 @@
 
 	<div class="bottom_fixed">
 		<div class="bottom_box">
-			<a href="#" id="service_click" class="link" target="_blank" align="center">
+			<a id="service_click" class="link" target="_blank" align="center">
 				서비스 신청하러 가기
 			</a>
 		</div>
@@ -239,8 +239,8 @@
 							<div class="card-body p-xxl-5 p-4">
 								<img src="assets/img/homepage/help.png" width="75"
 									alt="Service" />
-								<h4 class="mb-3">Desired Request</h4>
-								<p class="mb-0 fw-medium">Passengers can select the desired request.</p>
+								<h4 class="mb-3">원하는 요청</h4>
+								<p class="mb-0 fw-medium">승객은 원하는 요청을 선택할 수 있습니다</p>
 							</div>
 						</div>
 					</div>
@@ -250,8 +250,8 @@
 							<div class="card-body p-xxl-5 p-4">
 								<img src="assets/img/homepage/jejutour1.png" width="75"
 									alt="Service" />
-								<h4 class="mb-3">Tourist Information</h4>
-								<p class="mb-0 fw-medium">You can see information about tourist attractions</p>
+								<h4 class="mb-3">투어 정보</h4>
+								<p class="mb-0 fw-medium">당신은 관광지에 대한 정보를 볼 수 있습니다</p>
 							</div>
 						</div>
 					</div>
@@ -261,8 +261,8 @@
 							<div class="card-body p-xxl-5 p-4">
 								<img src="assets/img/homepage/speaker1.jpg" width="75"
 									alt="Service" />
-								<h4 class="mb-3">Listen to requests</h4>
-								<p class="mb-0 fw-medium">Passengers can hear the request they want</p>
+								<h4 class="mb-3">요청 듣기</h4>
+								<p class="mb-0 fw-medium">승객이 원하는 요청을 들을 수 있습니다</p>
 							</div>
 						</div>
 					</div>
@@ -272,8 +272,8 @@
 							<div class="card-body p-xxl-5 p-4">
 								<img src="assets/img/homepage/kakaomap.png" width="75"
 									alt="Service" />
-								<h4 class="mb-3">KaKaoMap Available</h4>
-								<p class="mb-0 fw-medium">Passengers can know their current location using the Kakao map</p>
+								<h4 class="mb-3">카카오 지도</h4>
+								<p class="mb-0 fw-medium">승객들은 카카오 맵을 이용하여 현재 위치를 알 수 있습니다</p>
 							</div>
 						</div>
 					</div>
@@ -292,10 +292,10 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="mb-4 text-start">
-							<h5 class="text-secondary">Easy and Fast</h5>
+							<h5 class="text-secondary">쉽고 빠릅니다</h5>
 							<h3
 								class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">
-								Talk to the passenger in 3 simple steps.</h3>
+								간단한 3단계로 승객과 대화를 할 수 있습니다</h3>
 						</div>
 						<div class="d-flex align-items-start mb-5">
 							<div class="bg-primary me-sm-4 me-3 p-3"
@@ -303,10 +303,10 @@
 								<img src="assets/img/steps/selection.svg" width="22" alt="steps" />
 							</div>
 							<div class="flex-1">
-								<h5 class="text-secondary fw-bold fs-0">Subscribe to a service</h5>
+								<h5 class="text-secondary fw-bold fs-0">서비스를 신청하세요</h5>
 								<p>
-									To use the service,  <br
-										class="d-none d-sm-block"> you must sign up for yourself.
+									서비스를 신청하시려면 하단의 <br
+										class="d-none d-sm-block"> 서비스 신청하러 가기를 눌러주세요
 								</p>
 							</div>
 						</div>
@@ -317,11 +317,10 @@
 									alt="steps" />
 							</div>
 							<div class="flex-1">
-								<h5 class="text-secondary fw-bold fs-0">Make Payment</h5>
+								<h5 class="text-secondary fw-bold fs-0">서비스에 관한 상담</h5>
 								<p>
-									After find your perfect spot, make your <br
-										class="d-none d-sm-block"> payment and get ready to
-									travel.
+									신청이 된 이후 상담을 통해 서비스에 대해<br
+										class="d-none d-sm-block"> 대화를 나눌 것 입니다.
 								</p>
 							</div>
 						</div>
@@ -330,12 +329,10 @@
 								<img src="assets/img/steps/taxi.svg" width="22" alt="steps" />
 							</div>
 							<div class="flex-1">
-								<h5 class="text-secondary fw-bold fs-0">Reach Airport on
-									Selected Date</h5>
+								<h5 class="text-secondary fw-bold fs-0">제품 설치</h5>
 								<p>
-									Lastly, you have to arrive at the airport <br
-										class="d-none d-sm-block"> on time and enjoy the
-									vacation.
+									상담이 완료된 이후에, 일정을 잡아 <br
+										class="d-none d-sm-block"> 차량에 제품을 설치하여 서비스를 이용하세요!
 								</p>
 							</div>
 						</div>
@@ -421,10 +418,10 @@
 				<div class="row">
 					<div class="col-lg-5">
 						<div class="mb-8 text-start">
-							<h5 class="text-secondary">Testimonials</h5>
+							<h5 class="text-secondary">사용후기</h5>
 							<h3
-								class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">What
-								people say about Us.</h3>
+								class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">
+								제품에 대하여 사용후기</h3>
 						</div>
 					</div>
 					<div class="col-lg-1"></div>
@@ -452,11 +449,9 @@
 													width="65" alt="" />
 											</div>
 											<div class="card-body p-4">
-												<p class="fw-medium mb-4">&quot;On the Windows talking
-													painted pasture yet its express parties use. Sure last upon
-													he same as knew next. Of believed or diverted no.&quot;</p>
-												<h5 class="text-secondary">Mike taylor</h5>
-												<p class="fw-medium fs--1 mb-0">Lahore, Pakistan</p>
+												<p class="fw-medium mb-4">&quot;실제 제품을 사용을 하고 난 후기가 들어가 있는 공간입니다&quot;</p>
+												<h5 class="text-secondary">서찬종</h5>
+												<p class="fw-medium fs--1 mb-0">광주광역시, 동구</p>
 											</div>
 										</div>
 										<div
@@ -538,10 +533,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3 col-md-7 col-12 mb-4 mb-md-6 mb-lg-0 order-0">
-						<img class="mb-4" src="assets/img/logo2.svg" width="150"
+						<img class="mb-4" src="assets/img/login/logo.png" width="150"
 							alt="jadoo" />
-						<p class="fs--1 text-secondary mb-0 fw-medium">Book your trip
-							in minute, get full Control for much longer.</p>
+						<p class="fs--1 text-secondary mb-0 fw-medium">Apply for service<br>
+You can exchange requests with foreign passengers in just a few minutes.</p>
 					</div>
 					<div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-1 order-md-2">
 						<h4

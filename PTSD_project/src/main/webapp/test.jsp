@@ -18,7 +18,7 @@
 	dao.showLanguage(lan_seq);
 	TaxiVO member = (TaxiVO)session.getAttribute("member");
 	%>
-
+	<a href = "test">asdfdsf</a>
 	<!-- 해당 시퀀스의 한국어 출력 -->
   <a><%= dao.showLanguage(lan_seq).getLan_kor() %></a> 
   <br>

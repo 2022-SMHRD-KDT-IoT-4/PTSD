@@ -13,25 +13,20 @@
 
 
 <script type="text/javascript">
-	$(document).ready(function()({
-		goMap();
-	});
-	
+var message = "";
+
 	function goMap(){
-		var latlng = mouseEvent.latLng;
-		var x=latlng.getLat();
-		var y=latlng.getLng();
-	 	var location =x+y;
-	 	
+		var latlng=$("#latlng").text();
+	 	console.log(latlng);
 	 	$.ajax({
 			type:"post",
 			url:"MapService2",
-			data: {"location":location},
+			data: {"latlng":latlng},
 			success:function(){
-				alrert("성공")
+				alert("성공")
 			},
 			error:function(){
-				alrert("error");
+				alert("error");
 			}
 	 	});
 	 	
@@ -52,10 +47,6 @@ var mapContainer = document.getElementById('map'), // 지도를 표시할 div
         level: 3 // 지도의 확대 레벨
     };
 
-
-//여기
-
-
 var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
 // 지도에 클릭 이벤트를 등록합니다
@@ -65,19 +56,17 @@ kakao.maps.event.addListener(map, 'click', function(mouseEvent) {
     // 클릭한 위도, 경도 정보를 가져옵니다 
     var latlng = mouseEvent.latLng;
     
-    var message = '클릭한 위치의 위도는 ' + latlng.getLat() + ' 이고, ';
+    message = '클릭한 위치의 위도는 ' + latlng.getLat() + ' 이고, ';
     message += '경도는 ' + latlng.getLng() + ' 입니다';
     
     var resultDiv = document.getElementById('result'); 
     resultDiv.innerHTML = message;
-    
+    $("#latlng").text(latlng);
 });
 
-function getCurrentPosBtn(){
-    navigator.geolocation.getCurrentPosition(locationLoadSuccess,locationLoadError);
-};
 
 </script>
-<button  type="button" class="btn btn-lg btn-primary" onclick="getCurrentPosBtn()">위치가져오기</button>
+<span id="latlng"></span>
+<button  type="button" class="btn btn-lg btn-primary" onclick="goMap()">위치가져오기</button>
 </body>
 </html>

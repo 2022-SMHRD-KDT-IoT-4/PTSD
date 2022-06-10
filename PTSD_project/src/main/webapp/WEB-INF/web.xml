@@ -9,9 +9,6 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-<<<<<<< HEAD
- 
-=======
   <servlet>
     <description></description>
     <display-name>WriterBoardService</display-name>
@@ -32,5 +29,14 @@
     <servlet-name>DeleteBoardService</servlet-name>
     <url-pattern>/DeleteBoardService</url-pattern>
   </servlet-mapping>
->>>>>>> refs/remotes/origin/master
+  <servlet>
+    <description></description>
+    <display-name>MapService</display-name>
+    <servlet-name>MapService</servlet-name>
+    <servlet-class>com.ptsd.controller.MapService</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MapService</servlet-name>
+    <url-pattern>/MapService</url-pattern>
+  </servlet-mapping>
 </web-app>

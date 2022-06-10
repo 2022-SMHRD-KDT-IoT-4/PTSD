@@ -12,56 +12,19 @@
 	LanguageDAO dao=new LanguageDAO();
  	ArrayList<LanguageVO> list=dao.langall();
    %>
-   <script>
-   	$(document).ready(()=>{
-		
-	})
-	
-	let listLoad()=>{
-		$.ajax({
-			url : "LanguageListService",
-			type : "post",
-			dataType : "json",
-			success : listView,
-			error : ()=>{
-				alert("error");
-			}
-		})
-	}
-	
-	$("#button").click(()=>{
-		let listView()=>{
-			$.ajax({
-				url : "LanguageListService",
-				type: "post",
-				dataType : "json",
-				// data : {	},
-				success : ()=> {
-					alert("성공");
-				},
-				error : ()=>{
-					alert("error");
-				}
-				
-				
-			})
-		}
-	})
-   	
-   
-   </script>
+  
 </head>
 <body>
 
  <div id="helpContainer">
-<% for(int i=0; i< list.size(); i++){%>
+<% for(int i=0; i<list.size(); i++){%>
    
    <div class="koreanlang">
-   <input type="button" id="button" value="<%= list.get(i).getLan_kor() %>">
+   <input type="button" id="button<%=i%>" value="<%= list.get(i).getLan_kor() %>" onclick="goTot(<%=i%>)">
    <br>
    </div>
 <%} %>
-</div>
+    </div>
 
 </body>
 </html>

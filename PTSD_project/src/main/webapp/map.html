@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- 여기 html이름은 map.html -->
+<!-- 여기서만 url이 작동함 -->
+<!-- http://172.30.1.7:8081/MessageSystem_frontcontroller_command/map.html -->
+<script type="text/javascript"
+	src="//dapi.kakao.com/v2/maps/sdk.js?appkey=030f60b0195c26d884376b7d726bf7a3">
+	
+</script>
+
+<!-- 스크롤 스타일 없애는 js -->
+<script src="assets/js/map.js"></script>
+<style>
+#wrap-container {
+	width: 800px;
+	height: 480px;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+	overflow : auto;
+}
+
+/* 여기는 관광 페이지 정보를 띄워주는 화면 */
+.container {
+	width: 240px;
+	height: 430px;
+	border-radius: 6px;
+	position: absolute;
+	left: 10px;
+	bottom: 40px;
+	z-index: 999;
+	color : white;
+	background-color: rgba(38, 41, 36, 0.7);
+	overflow : scroll;
+}
+
+.container > p{
+	font-size : 15px;
+}
+
+.container> .img > .tourimg {
+	width: 100%;
+	height: 120px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+
+
+.title{
+	text-align: center;
+	font-size: large;
+	font-size: bold;
+	
+	
+}
+
+.close{
+	position : relative;
+	z-index : 12000;
+	bottom : 100px;
+	width : 25px;
+	height : 25px;
+	left : 175px;
+}
+
+/* scroll 기능은 살리고 스타일 만 없애는 것*/
+body{
+ -ms-overflow-style: none;
+ }
+ 
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*특정 부분 스크롤바 없애기*/
+
+.box{
+   -ms-overflow-style: none;
+}
+.box::-webkit-scrollbar{
+  display:none;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+	<div id="wrap-container">
+		<div>
+			<!-- 사진 -->
+
+			<div></div>
+		</div>
+		<a></a>
+		<div id="map">
+			<div class="container">
+			<div class="img">
+			
+				<img alt="tourphoto" src="assets/img/더마파크.jpg" class="tourimg">
+				<img alt="close" src="assets/img/closeicon.png" class="close">
+			</div>
+				<span class="title">1번 코스 제주 유리의 성</span>
+
+				<!-- 주소 -->
+				<span class="title">주소</span>
+				<p>
+						
+				도로명 - 제주 제주시 한경면 녹차분재로 462
+				지번 - 저지리 3135-1	
+					</p>
+				<!-- 소개글 -->
+				<span class="title">전화번호</span>
+			<p>
+				064-772-7777
+			</p>
+			
+			<!-- 운영시간 -->
+				<span class="title">운영시간</span>
+			<p>
+				매일 09 : 00 – 19 : 00
+				18 : 00 입장 마감
+			</p>
+			
+			<span class="title">가격</span>
+			
+			<p>
+				성인(일반) 11,000원<br>
+				청소년(일반) 9,000원<br>
+				어린이(일반) 8,000원<br>
+				성인(단체-30인이상) 9,000원<br>
+				청소년(단체-30인이상) 7,000원<br>
+				어린이(단체-30인이상) 6,000원<br>
+				장애인/유공자/경로우대(성인) 9,000원<br>
+				장애인/유공자/경로우대(청소년) 7,000원<br>
+				장애인/유공자/경로우대(어린이) 6,000원<br>
+			</p>
+			
+			
+
+			</div>
+			<!-- 관광지 이름 들어갈 자리 -->
+		</div>
+		<p id="result"></p>
+	</div><!-- map(id) 끝 태그 -->
+
+
+	<!-- 여기 html이름은 map.html -->
+	<!-- 여기서만 url이 작동함 -->
+	<!-- http://172.30.1.7:8081/MessageSystem_frontcontroller_command/map.html -->
+	<script>
+		var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+		mapOption = {
+			center : new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+			level : 2
+		// 지도의 확대 레벨
+		};
+
+		var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+		// 지도에 클릭 이벤트를 등록합니다
+		// 지도를 클릭하면 마지막 파라미터로 넘어온 함수를 호출합니다
+		kakao.maps.event.addListener(map, 'click', function(mouseEvent) {
+
+			// 클릭한 위도, 경도 정보를 가져옵니다 
+			var latlng = mouseEvent.latLng;
+
+			var message = '클릭한 위치의 위도는 ' + latlng.getLat() + ' 이고, ';
+			message += '경도는 ' + latlng.getLng() + ' 입니다';
+
+			var resultDiv = document.getElementById('result');
+			resultDiv.innerHTML = message;
+
+		});
+	</script>
+
+
+
+</body>
+</html>

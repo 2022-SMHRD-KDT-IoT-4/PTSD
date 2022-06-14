@@ -282,7 +282,7 @@ a:hover { 
 
 				<p>
 					&nbsp;홈페이지에서 확인하세요<br>
-					<a href="https://map.naver.com/v5/search/%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80%ED%95%98%EC%9A%B0%EC%8A%A4/place/1117849994?c=14126703.5353164,3960582.6085365,15,0,0,0,dh&placePath=%3Fentry%253Dbmp">일구공 스테이지 하우스</a><br>
+					<a href="https://map.naver.com/v5/search/%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80%ED%95%98%EC%9A%B0%EC%8A%A4/place/1117849994?c=14126703.5353164,3960582.6085365,15,0,0,0,dh&placePath=%3Fentry%253Dbmp">&nbsp;일구공 스테이지 하우스</a><br>
 				</p>
 
 			</div><!-- container4끝 태그 -->

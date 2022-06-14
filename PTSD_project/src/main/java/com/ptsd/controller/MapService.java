@@ -15,8 +15,8 @@ public class MapService extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
-		String location=request.getParameter("location");
-		System.out.println(location);
+		String latlng=request.getParameter("latlng");
+		System.out.println(latlng);
 	}
 
 }

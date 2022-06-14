@@ -220,16 +220,15 @@ a:hover { 
 				<br>
 				<!-- 전화번호 -->
 				<span class="title">&nbsp;전화번호</span>
-				<p>&nbsp;064-805-0888</p>
+				<p>&nbsp;1899-5008</p>
 				<br>
 
 				<!-- 운영시간 -->
 				<span class="title">&nbsp;운영시간</span>
 				<p>
-				   &nbsp;운영 중 20:00 에<br>
-					&nbsp;운영 종료20시 0분에 운영 종료<br>
 					&nbsp;매일 10:00 - 20:00<br>
-					&nbsp;- 입장마감 19:00
+					&nbsp;운영 종료20시<br>
+					&nbsp;입장마감 19:00
 				</p>
 
 				<br>
@@ -272,7 +271,7 @@ a:hover { 
 				<span class="title">&nbsp;운영시간</span>
 				<p>
 				   &nbsp;매일 10 :  00 – 19 : 30<br>
-					&nbsp;19 : 00 마지막 주문<br>
+					&nbsp;마지막 주문 19 : 00 <br>
 				   
 				</p>
 
@@ -312,8 +311,8 @@ a:hover { 
 				<!-- 운영시간 -->
 				<span class="title">&nbsp;운영시간</span>
 				<p>
-				   &nbsp;영업 중 19 : 00에 영업 종료<br>
-					&nbsp;매일 10 : 00 – 1900<br>
+					&nbsp;매일 10 : 00 ~ 19 : 00<br>
+				   &nbsp;19 : 00에 영업 종료<br>
 				</p>
 
 				<br>

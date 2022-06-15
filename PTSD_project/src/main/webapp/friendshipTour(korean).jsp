@@ -116,41 +116,45 @@ a:hover { 
 					<img alt="tourphoto" src="assets/img/aloneTour/제주곶자왈도립공원.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
-				<span class="title">&nbsp;济州串子曰道立公园</span>
+				<span class="title">&nbsp;제주곶자왈도립공원</span>
 				<br>
 				<br>
 				<br>
 				<!-- 주소 -->
-				<span class="title">&nbsp;地址 ，住所 。</span>
+				<span class="title">&nbsp;주소</span>
 				<p>
-					&nbsp;道路名称:济州西归浦市大静邑<br>
-					&nbsp;教育城路178<br>
-					&nbsp;编号:宝城里山1
+					&nbsp;도로명 : 제주 서귀포시 대정읍<br>
+					&nbsp;에듀시티로 178<br>
+					&nbsp;지번 : 보성리 산1<br>
 				</p>
 				<br>
 				<!-- 전화번호 -->
-				<span class="title">&nbsp;电话号码</span>
-				<p>&nbsp;064-792-6047</p>
+				<span class="title">&nbsp;전화번호</span>
+				<p>&nbsp;064-772-7777</p>
 				<br>
 
 				<!-- 운영시간 -->
 				<span class="title">&nbsp;운영시간</span>
 				<p>
-					&nbsp;Daily 09:00 – 16:00 Admission time (March to October)<br>
-					&nbsp;Daily 09:00 – 18:00 Visit Time (March to October)<br>
-					&nbsp;Entrance hours from 09:00 to 15:00 every day (November to February)<br>
-					&nbsp;Daily 09:00 – 17:00 Visit Time (November to February)<br>
+					&nbsp;매일 09 : 00 – 16 : 00 <br>
+					&nbsp;입장시간(3월~10월)<br>
+					&nbsp;매일 09 : 00 – 18 : 00 <br>
+					&nbsp;탐방시간(3월~10월)<br>
+					&nbsp;매일 09 : 00 – 15 : 00 <br>
+					&nbsp;입장시간(11월~2월)<br>
+					&nbsp;매일 09 : 00 – 17 : 00 <br>
+					&nbsp;탐방시간(11월~2월)
 				</p>
 
 				<br>
 				<!--  관광지 가격정보 -->
-				<span class="title">&nbsp;价格 ，价钱 。</span>
+				<span class="title">&nbsp;가격</span>
 
 				<p>
-					&nbsp;每天09:00 – 16:00 入场时间（3月~10月）<br>
-					&nbsp;每天09:00 – 18:00 探访时间（3月~10月）<br>
-					&nbsp;每天09:00 – 15:00入场时间（11月~2月）<br>
-					&nbsp;每天09:00 – 17:00 探访时间（11月~2月）
+					&nbsp;일반 - 1,000원<br>
+					&nbsp;청소년 - 800원<br>
+					&nbsp;군인 - 800원<br>
+					&nbsp;어린이 – 500원
 				</p>
 
 			</div><!-- container끝 태그 -->
@@ -161,34 +165,34 @@ a:hover { 
 					<img alt="tourphoto" src="assets/img/aloneTour/금오름.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
-				<span class="title">&nbsp;黄金上涨</span>
+				<span class="title">&nbsp;금오름</span>
 				<br>
 				<br>
 				<br>
 				<!-- 주소 -->
-				<span class="title">&nbsp;地址 ，住所 。</span>
+				<span class="title">&nbsp;주소</span>
 				<p>
-					&nbsp;济州济州市翰林邑金岳里山1-1<br>
+					&nbsp;제주 제주시 한림읍 금악리 산1-1
 
 				</p>
 				<br>
 				<!-- 전화번호 -->
-				<span class="title">&nbsp;电话号码</span>
-				<p>&nbsp;没有电话号码。</p>
+				<span class="title">&nbsp;전화번호</span>
+				<p>&nbsp;전화번호가 없습니다.</p>
 				<br>
 
 				<!-- 운영시간 -->
-				<span class="title">&nbsp;营业时间</span>
+				<span class="title">&nbsp;운영시간</span>
 				<p>
-				   &nbsp;运营时间还没有定下来<br>
+				   &nbsp;운영 시간이 안 정해져 있습니다<br>
 				</p>
 
 				<br>
 				<!--  관광지 가격정보 -->
-				<span class="title">&nbsp;价格 ，价钱 。</span>
+				<span class="title">&nbsp;가격</span>
 
 				<p>
-					&nbsp;价格尚未确定。<br>
+					&nbsp;가격이 책정이 안되어 있습니다<br>
 				</p>
 
 			</div><!-- container2끝 태그 -->		
@@ -204,35 +208,37 @@ a:hover { 
 					<img alt="tourphoto" src="assets/img/aloneTour/아르떼 뮤지엄 제주.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
-				<span class="title">&nbsp;济州Arte博物馆</span>
+				<span class="title">&nbsp;아르떼뮤지엄 제주</span>
 				<br>
 				<br>
 				<br>
 				<!-- 주소 -->
-				<span class="title">&nbsp;地址 ，住所 。</span>
+				<span class="title">&nbsp;주소</span>
 				<p>
-					&nbsp;济州济州市涯月邑望文碑路478<br>
+					&nbsp;제주 제주시 애월읍 어림비로 478<br>
 				</p>
 				<br>
 				<!-- 전화번호 -->
-				<span class="title">&nbsp;电话号码</span>
+				<span class="title">&nbsp;전화번호</span>
 				<p>&nbsp;1899-5008</p>
 				<br>
 
 				<!-- 운영시간 -->
-				<span class="title">&nbsp;营业时间</span>
+				<span class="title">&nbsp;운영시간</span>
 				<p>
-					
+					&nbsp;매일 10:00 - 20:00<br>
+					&nbsp;운영 종료20시<br>
+					&nbsp;입장마감 19:00
 				</p>
 
 				<br>
 				<!--  관광지 가격정보 -->
-				<span class="title">&nbsp;价格 ，价钱 。</span>
+				<span class="title">&nbsp;가격</span>
 
 				<p>
-					&nbsp;进官网预购即可。 <br>
-					&nbsp;（预计价格10000韩元）<br>
-					<a href="https://artemuseum.com/" style="inline-style:none;">济州Arte博物馆</a>
+					&nbsp;홈페이지 들어가서 예매하시면 됩니다.<br>
+					&nbsp;(예상 가격 10000원)<br>
+					<a href="https://artemuseum.com/" style="inline-style:none;">아르떼뮤지엄 제주</a>
 				</p>
 
 			</div><!-- container3끝 태그 -->	
@@ -245,35 +251,37 @@ a:hover { 
 					<img alt="tourphoto" src="assets/img/aloneTour/일구공 스테이지하우스.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
-				<span class="title">&nbsp;日球舞台之家</span>
+				<span class="title">&nbsp;일구공 스테이지 하우스</span>
 				<br>
 				<br>
 				<br>
 				<!-- 주소 -->
-				<span class="title">&nbsp;地址 ，住所 。</span>
+				<span class="title">&nbsp;주소</span>
 				<p>
-					&nbsp;济州济州市旧左邑迎日海岸路<br> 
-					&nbsp;小行星2361
+					&nbsp;제주 제주시 구좌읍 해맞이해안로<br> 
+					&nbsp;2361 스테이지하우스
 				</p>
 				<br>
 				<!-- 전화번호 -->
-				<span class="title">&nbsp;电话号码</span>
+				<span class="title">&nbsp;전화번호</span>
 				<p>&nbsp;064-782-5114</p>
 				<br>
 
 				<!-- 운영시간 -->
-				<span class="title">&nbsp;营业时间</span>
+				<span class="title">&nbsp;운영시간</span>
 				<p>
+				   &nbsp;매일 10 :  00 – 19 : 30<br>
+					&nbsp;마지막 주문 19 : 00 <br>
 				   
 				</p>
 
 				<br>
 				<!--  관광지 가격정보 -->
-				<span class="title">&nbsp;价格 ，价钱 。</span>
+				<span class="title">&nbsp;가격</span>
 
 				<p>
-					&nbsp;请在主页上确认。<br>
-					<a href="https://map.naver.com/v5/search/%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80%ED%95%98%EC%9A%B0%EC%8A%A4/place/1117849994?c=14126703.5353164,3960582.6085365,15,0,0,0,dh&placePath=%3Fentry%253Dbmp">&nbsp;日球舞台之家</a><br>
+					&nbsp;홈페이지에서 확인하세요<br>
+					<a href="https://map.naver.com/v5/search/%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80%ED%95%98%EC%9A%B0%EC%8A%A4/place/1117849994?c=14126703.5353164,3960582.6085365,15,0,0,0,dh&placePath=%3Fentry%253Dbmp">&nbsp;일구공 스테이지 하우스</a><br>
 				</p>
 
 			</div><!-- container4끝 태그 -->
@@ -285,34 +293,34 @@ a:hover { 
 					<img alt="tourphoto" src="assets/img/aloneTour/함덕별장.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
-				<span class="title">&nbsp;咸德别墅</span>
+				<span class="title">&nbsp;함덕별장</span>
 				<br>
 				<br>
 				<br>
 				<!-- 주소 -->
-				<span class="title">&nbsp;地址 ，住所 。</span>
+				<span class="title">&nbsp;주소</span>
 				<p>
-					&nbsp;济州济州市朝天邑朝咸海岸路519-10<br>
+					&nbsp;제주 제주시 조천읍 조함해안로 519-10<br>
 				</p>
 				<br>
 				<!-- 전화번호 -->
-				<span class="title">&nbsp;电话号码</span>
+				<span class="title">&nbsp;전화번호</span>
 				<p>&nbsp;0507-1416-1299</p>
 				<br>
 
 				<!-- 운영시간 -->
-				<span class="title">&nbsp;营业时间</span>
+				<span class="title">&nbsp;운영시간</span>
 				<p>
-				   &nbsp;营业中 19:00 结束营业<br>
-					&nbsp;每日 10 : 00 - 1900
+					&nbsp;매일 10 : 00 ~ 19 : 00<br>
+				   &nbsp;19 : 00에 영업 종료<br>
 				</p>
 
 				<br>
 				<!--  관광지 가격정보 -->
-				<span class="title">&nbsp;价格 ，价钱 。</span>
+				<span class="title">&nbsp;가격</span>
 
 				<p>
-					&nbsp;价格到那里才能知道<br>
+					&nbsp;가격은 그곳에 가서 알 수 있습니다<br>
 				</p>
 
 			</div><!-- container5끝 태그 -->	
@@ -368,19 +376,19 @@ a:hover { 
 		//---------------------------------------------
 		// 마커 표시를 위한 변수
 		var positions = [ {
-			content : '<div>济州串子曰道立公园</div>',
+			content : '<div>제주곶자 왈도립공원</div>',
 			latlng : new kakao.maps.LatLng(33.28308264134021 , 126.2740136133469)
 		}, {
-			content : '<div>黄金上涨</div>',
+			content : '<div>금오름</div>',
 			latlng : new kakao.maps.LatLng(33.354526200895535, 126.30565121970231)
 		}, {
-			content : '<div>济州Arte博物馆</div>',
+			content : '<div>아르떼뮤지엄 제주</div>',
 			latlng : new kakao.maps.LatLng(33.3967296, 126.345229)
 		}, {
-			content : '<div>日球舞台之家</div>',
+			content : '<div>일구공 스테이지 하우스</div>',
 			latlng : new kakao.maps.LatLng(33.49045155708686, 126.91072039536215 )
 		},{
-			content : '<div>咸德别墅</div>',
+			content : '<div>함덕별장</div>',
 			latlng : new kakao.maps.LatLng(33.54372188885303 , 126.66869806868866 )
 		}];
 	  	

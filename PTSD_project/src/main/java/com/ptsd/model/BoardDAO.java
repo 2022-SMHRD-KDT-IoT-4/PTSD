@@ -33,6 +33,9 @@ public class BoardDAO {
 	
 	// 게시글 목록 조회
 	public ArrayList<BoardVO> showBoard() {
+		//int startNum = (page-1)*10+1;
+		//int endNum = page*10;
+		// DB에 있는 레코드의 모든 정보를 가져오는 기능에 그 레코드에 가상의 번호를 붙여서 총 몇 개의 레코드가 존재하는지를 계산하는 기능을 추가해야합니다.
 		ArrayList<BoardVO> list = new ArrayList<BoardVO>();
 		try {
 			sqlSession = sqlSessionFactory.openSession(true);
@@ -77,19 +80,10 @@ public class BoardDAO {
 		
 		return row;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+	public int getCount(String kwd) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 }

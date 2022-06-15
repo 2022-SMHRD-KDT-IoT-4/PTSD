@@ -5,11 +5,29 @@
 
 <mapper namespace="com.ptsd.model.BoardDAO">
 	<insert id="boardinsert" parameterType="BoardVO">
-		insert into PTSD_BOARD values(#{TAXI_NUM}, ptsd_seq.nextval, #{TAXI_COMMENT_TITLE}, #{TAXI_COMMENT_WRITER}, #{TAXI_COMMENT_COMMENT}, sysdate, #{BOARDLIST_NUM})
+		insert into PTSD_BOARD values(#{TAXI_NUM}, ptsd_seq.nextval, #{TAXI_COMMENT_TITLE}, #{TAXI_COMMENT_WRITER}, #{TAXI_COMMENT_COMMENT}, sysdate, #{BOARDLIST_NUM}, #{RATING})
 	</insert>
 	
-	<select id="boardselect" resultType="BoardVO">
-		select * from PTSD_BOARD order by TAXI_COMMENT_DATE desc
+	<select id="boardselect"  resultType="BoardVO">
+	
+	<!--select * from 
+    (select  rank() over(order by taxi_comment_date desc) rank, ptsd_board.taxi_comment_title, ptsd_board.taxi_comment_writer,ptsd_board.taxi_comment_date
+    from ptsd_board)
+<![CDATA[where rank <=10]]>  -->
+	
+<!-- select * from 
+    (select  rank() over(order by taxi_comment_date desc) rank, ptsd_board.taxi_comment_title, ptsd_board.taxi_comment_writer,ptsd_board.taxi_comment_date
+    from ptsd_board)
+<![CDATA[where rank >= 11 and rank <= 20]]> -->
+	
+		
+		<!--  select * from (select ROWNUM as rn from PTSD_BOARD where ROWNUM <= 20) where rn >10  -->
+	
+		<!-- select * from PTSD_BOARD order by TAXI_COMMENT_DATE desc limit 0,5  -->
+		
+		<!-- select * from PTSD_BOARD order by TAXI_COMMENT_DATE desc limit #{pageStart}, #{perPageNum}  -->
+		
+		 select * from PTSD_BOARD order by TAXI_COMMENT_DATE desc  
 	</select>
 	
 	<select id="boarddetail" parameterType="int" resultType="BoardVO">
@@ -19,5 +37,6 @@
 	<delete id="boarddelete">
 		delete from PTSD_BOARD where TAXI_COMMENT_SEQ=#{TAXI_COMMENT_SEQ}
 	</delete>
+	
 	
 </mapper>

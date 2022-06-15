@@ -140,7 +140,7 @@
 							class="nav-link fw-medium" aria-current="page" href="#booking">신청방법</a></li>
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page"
-							href="#testimonial">사용후기</a></li>
+							href="board.jsp">사용후기</a></li>
 
 
 

@@ -34,7 +34,7 @@
 						border-top: 0 !important;
 					}
 					
-<<<<<<< HEAD
+
 #loginclick {
 	
 }
@@ -51,5 +51,14 @@ table {
 	margin-left : auto;
 	margin-right : auto;
 }
-=======
->>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-IoT-4/PTSD.git
+
+#updateTable{
+	height : 270px;
+}
+
+#updateTable>tr{
+	
+	color : blue;
+	
+}
+

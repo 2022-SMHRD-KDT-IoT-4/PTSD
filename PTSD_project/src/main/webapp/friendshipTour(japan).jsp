@@ -371,19 +371,19 @@ a:hover { 
 		//---------------------------------------------
 		// 마커 표시를 위한 변수
 		var positions = [ {
-			content : '<div>제주곶자 왈도립공원</div>',
+			content : '<div>済州コッチャワルドリップ公園</div>',
 			latlng : new kakao.maps.LatLng(33.28308264134021 , 126.2740136133469)
 		}, {
-			content : '<div>금오름</div>',
+			content : '<div>黄金上涨</div>',
 			latlng : new kakao.maps.LatLng(33.354526200895535, 126.30565121970231)
 		}, {
-			content : '<div>아르떼뮤지엄 제주</div>',
+			content : '<div>住所, 居所.</div>',
 			latlng : new kakao.maps.LatLng(33.3967296, 126.345229)
 		}, {
-			content : '<div>일구공 스테이지 하우스</div>',
+			content : '<div>一球空ステージハウス</div>',
 			latlng : new kakao.maps.LatLng(33.49045155708686, 126.91072039536215 )
 		},{
-			content : '<div>함덕별장</div>',
+			content : '<div>咸徳別荘</div>',
 			latlng : new kakao.maps.LatLng(33.54372188885303 , 126.66869806868866 )
 		}];
 	  	

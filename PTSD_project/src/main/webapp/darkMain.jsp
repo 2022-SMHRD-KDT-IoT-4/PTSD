@@ -41,7 +41,7 @@
 
                 if (choiceState == 0) {
 
-                    $("#mapMove").attr("href", "kMap.html")
+                    $("#mapMove").attr("href", "kmap.html")
                     $("#talkMove").attr("href", "kTalk.html")
                     $("#tourMove").attr("href", "koreaTourDark.jsp")
 

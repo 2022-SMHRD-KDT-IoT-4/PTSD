@@ -1,0 +1,253 @@
+body {
+    background: #262626;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 800px;
+    height: 480px;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+a:hover{
+    transition:1s;
+    background-color: #fff;
+    opacity: 0.5;
+}
+.swiper-container#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+    
+}
+
+#popup1, #popup2,#popup3,#popup4{
+    position: fixed;
+    z-index: 10;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:600px;
+    height: 400px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+#popup1.active,
+#popup2.active,
+#popup3.active,
+#popup4.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5;
+    display: block;
+    
+}
+#popClose{
+    position: fixed;
+    z-index: 11;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    right:25px;
+    top:15px
+}
+#popClose:hover{
+    transition:1s;
+    background-color: rgb(9, 154, 238);
+}
+.details h3{
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: 700;
+}
+.details span{
+    font-weight: 400;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+/* 사진 한장한장 칸 */
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 270px;
+    background: #fff;
+
+}
+.swiper-slide .imgBx{
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+
+}
+.swiper-slide .imgBx img{
+    width: 100%;
+}
+.swiper-slide .details{
+   box-sizing: border-box;
+   padding: 20px;
+}
+.swiper-slide .details h3{
+    margin: 0;
+    padding:0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+/* 사진안에 있는 아랫글 */
+.swiper-slide .details h3 span{
+    font-size: 16px;
+    color: #f44336;
+}
+
+/*국기아이콘*/
+.mainCountry{
+    width:800px;
+    height:100px;
+    position: absolute;
+    z-index: 3;
+    top: 50px;
+    left: 50px;
+}
+
+#homeTour{
+    background: url(../slideImg/homeIconDark.png) no-repeat 0;
+    background-size: 55px 55px;
+    padding: 45px;
+    margin-right: 120px;
+}
+#koreaTour{
+    background: url(../slideImg/korea.png) no-repeat 0;
+    background-size: 50px 50px;
+    padding: 45px;
+    margin-right: 0px;
+}
+
+#englishTour{
+    background: url(../slideImg/usa.png) no-repeat 0;
+    background-size: 50px 50px;
+    padding: 45px;
+    margin-right: 0px;
+}
+
+#chinaTour{
+    background: url(../slideImg/china.png) no-repeat 0;
+    background-size: 50px 50px;
+    padding: 45px;
+    margin-right: 0px;
+}
+
+#japanTour{
+    background: url(../slideImg/japan.png) no-repeat 0;
+    background-size: 50px 50px;
+    padding: 45px;
+}
+.circle .loader
+{
+    position: absolute;
+    z-index: -5;
+    left: 260px;
+    top: 38px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /*background: #0d2323;*/
+    background: #232427;
+    animation: animate 0s linear infinite;
+
+}
+@keyframes animate{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.circle .loader::before
+{
+    content:'';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to top,transparent,rgba(0,255,249,0.3
+    ));
+    background-size: 100px,180px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+    
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.circle .loader::after
+{
+   content: ''; 
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 20px;
+   height: 20px;
+   background: #00fff9;
+   border-radius: 50%;
+   z-index:10;
+   /*
+   box-shadow: 0 0 10px #00fff9,
+                0 0 20px #00fff9,
+                0 0 30px #00fff9,
+                0 0 40px #00fff9,
+                0 0 50px #00fff9,
+                0 0 60px #00fff9,
+                0 0 70px #00fff9,
+                0 0 80px #00fff9,
+                0 0 90px #00fff9,
+                0 0 100px #00fff9;
+                */
+                box-shadow: 0 0 10px #00fff9,
+                0 0 20px #00fff9,
+                0 0 30px #00fff9,
+                0 0 40px #00fff9,
+                0 0 50px #00fff9,
+                0 0 60px #00fff9,
+                0 0 70px #00fff9,
+                0 0 80px #00fff9,
+                0 0 90px #00fff9,
+                0 0 100px #00fff9;
+}
+.circle .loader span{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #102626;
+    border-radius: 50%;
+}

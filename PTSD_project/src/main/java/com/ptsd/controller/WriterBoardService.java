@@ -27,11 +27,12 @@ public class WriterBoardService extends HttpServlet {
 	    String TAXI_COMMENT_TITLE = request.getParameter("TAXI_COMMENT_TITLE");
 	    String TAXI_COMMENT_WRITER = request.getParameter("TAXI_COMMENT_WRITER");
 	     String TAXI_COMMENT_COMMENT = request.getParameter("TAXI_COMMENT_COMMENT");
+	     String TAXI_NUM = request.getParameter("TAXI_NUM");
 	     
 	     System.out.println(TAXI_COMMENT_TITLE);
 	     System.out.println(TAXI_COMMENT_WRITER);
 		
-	     BoardVO vo = new BoardVO(TAXI_COMMENT_TITLE, TAXI_COMMENT_WRITER, TAXI_COMMENT_WRITER); 
+	     BoardVO vo = new BoardVO(TAXI_NUM, TAXI_COMMENT_TITLE, TAXI_COMMENT_WRITER, TAXI_COMMENT_COMMENT); 
 		
 	    BoardDAO dao = new BoardDAO();
 	    int row = dao.upload(vo);

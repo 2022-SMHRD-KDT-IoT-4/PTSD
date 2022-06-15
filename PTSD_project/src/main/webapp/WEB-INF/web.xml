@@ -29,4 +29,14 @@
     <servlet-name>DeleteBoardService</servlet-name>
     <url-pattern>/DeleteBoardService</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MapService</display-name>
+    <servlet-name>MapService</servlet-name>
+    <servlet-class>com.ptsd.controller.MapService</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MapService</servlet-name>
+    <url-pattern>/MapService</url-pattern>
+  </servlet-mapping>
 </web-app>

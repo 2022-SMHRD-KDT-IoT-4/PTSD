@@ -17,8 +17,11 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="./assets/css/helpLanguage.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--  한국어 언어 링크 -->
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <!--  일본어 언어 링크 -->
+    <link h4erf="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet"/>	
+    <script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script type="text/javascript"> 
 	$(document).ready(function() {
 		goTot();
@@ -32,66 +35,86 @@
 		  url : "NameTotService", 	
 		  data : { "nameIoT" : nameIoT },
 		  success : function() {
-			//alert("성공");
 		 },
 		error : function(){
 			alert("error");
 		}
 	 }); 
+	
 }
+//	function attr1_kor1(seqData){
+//		$.ajax({
+//			  url : "languageFrequencyService", 	
+//			  type : "get",
+//			  data : { "Lan_seq" : seqData },
+//			  success : function() {
+//				  alert("통신성공!");
+//			 },
+//			error : function(){
+//				alert("error");
+//			}
+//		 }); 
+//	}
 	</script> 
-
+	
 
 </head>
 <body id="body">
         <div class="mainCountry">
         	<span id = "home-main"></span>
         <!--  <a href="mainController"><img src="img/Home-icon.png" alt="home" id="home"></a>-->
-            <span id="korea-main"></span>
-            <span id="english-main"></span>
-            <span id="china-main"></span>
-            <span id="japan-main"></span>
+            <a href = "helpKorean.jsp"><span id="korea-main"></span></a>
+            <a href = "helpUnitedStateAmerica.jsp"><span id="english-main"></span></a>
+            <a href = "helpChina.jsp"><span id="china-main"></span></a>
+            <a href = "helpJapan.jsp"><span id="japan-main"></span></a>
         </div>
-   
-<%--     
-     <div id="helpContainer">
-<% for(int i=0; i<list.size(); i++){
-   <div class="koreanlang">
-   <input type="button" id="button<%=i%>" value="<%= list.get(i).getLan_kor() %>" onclick="goTot(<%=i%>)">
-   <br>
-   </div>
-<%} %>
---%>
-    </div>
-         <div class="swiper-container">
+         <div class="swiper-container"  style="overflow:hidden;">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background: linear-gradient(to right, #757f9a, #d7dde8);">
-                <input class ="swiper-attr1" style="background : rgb(6,14,131)" height="50px" type="button" value="<%=list.get(0).getLan_kor() %>" autocomplete="off" readonly="">
+            <!-- 배경화면 색상 바꾸는 곳 -->
+                <div class="swiper-slide" style="background: #232427;">
+				<!-- 부모 태그로 담아서 묶어 버리는 것으로 해야하는것 같은데 -->
+                <h3 class = "korea_language1">3성급 호텔로 가주세요</h3>
+				<h3 class = "korea_language2">4성급 호텔로 가주세요</h3>
+				<h3 class = "korea_language3">5성급 호텔로 가주세요</h3>
+				<h3 class = "korea_language4">가까운 마트로 가주세요</h3>
+                <input class ="swiper-attr1" type="button" value="<%=list.get(0).getLan_kor() %>" autocomplete="off" readonly="">
                 <input class ="swiper-attr2" type="button" value="<%=list.get(1).getLan_kor() %>" autocomplete="off" readonly="">
                 <input class ="swiper-attr3" type="button" value="<%=list.get(2).getLan_kor() %>" autocomplete="off" readonly="">
                 <input class ="swiper-attr4" type="button" value="<%=list.get(3).getLan_kor() %>" autocomplete="off" readonly="">
-                <input class ="swiper-attr5" type="button" value="<%=list.get(4).getLan_kor() %>" autocomplete="off" readonly="">
                 </div>
-            <div class="swiper-slide" style="background: linear-gradient(to right, #134e5e, #71b280);">
-				<input class ="swiper-attr1" type="button" value="<%=list.get(5).getLan_kor() %>" autocomplete="off" readonly="">
-                <input class ="swiper-attr2" type="button" value="<%=list.get(6).getLan_kor() %>" autocomplete="off" readonly="">
-                <input class ="swiper-attr3" type="button" value="<%=list.get(7).getLan_kor() %>" autocomplete="off" readonly="">
-                <input class ="swiper-attr4" type="button" value="<%=list.get(8).getLan_kor() %>" autocomplete="off" readonly="">
-                <input class ="swiper-attr5" type="button" value="<%=list.get(9).getLan_kor() %>" autocomplete="off" readonly="">
+            <div class="swiper-slide" style="background: #232427;">
+				<h3 class = "korea_language1">가까운 식당으로 가주세요</h3>
+            	<h3 class = "korea_language2">공항으로 가주세요</h3>
+				<h3 class = "korea_language3">미터기 켜주세요</h3>
+				<h3 class = "korea_language4">에어컨 켜주세요</h3>
+                <input class ="swiper-attr1" type="button" value="<%=list.get(4).getLan_kor() %>" autocomplete="off" readonly="">
+				<input class ="swiper-attr2" type="button" value="<%=list.get(5).getLan_kor() %>" autocomplete="off" readonly="">
+                <input class ="swiper-attr3" type="button" value="<%=list.get(6).getLan_kor() %>" autocomplete="off" readonly="">
+                <input class ="swiper-attr4" type="button" value="<%=list.get(7).getLan_kor() %>" autocomplete="off" readonly="">
 			</div>
-            <div class="swiper-slide" style="background: linear-gradient(to right, #5c258d, #4389a2);">
-                <input class ="swiper-attr1" type="button" value="<%=list.get(10).getLan_kor() %>" autocomplete="off" readonly="">
-                <input class ="swiper-attr2" type="button" value="<%=list.get(11).getLan_kor() %>" autocomplete="off" readonly="">
-                <input class ="swiper-attr3" type="button" value="<%=list.get(12).getLan_kor() %>" autocomplete="off" readonly="">
-                <input class ="swiper-attr4" type="button" value="<%=list.get(13).getLan_kor() %>" autocomplete="off" readonly="">
-                <input class ="swiper-attr5" type="button" value="<%=list.get(14).getLan_kor() %>" autocomplete="off" readonly="">
+            <div class="swiper-slide" style="background: #232427;">
+				<h3 class = "korea_language1">온도좀 올려주세요</h3>
+				<h3 class = "korea_language2">온도좀 내려주세요</h3>
+            	<h3 class = "korea_language3">현금결제 할게요</h3>
+				<h3 class = "korea_language4">카드결제 할게요</h3>
+                <input class ="swiper-attr1" type="button" value="<%=list.get(8).getLan_kor() %>" autocomplete="off" readonly="">
+                <input class ="swiper-attr2" type="button" value="<%=list.get(9).getLan_kor() %>" autocomplete="off" readonly="">
+                <input class ="swiper-attr3" type="button" value="<%=list.get(10).getLan_kor() %>" autocomplete="off" readonly="">
+                <input class ="swiper-attr4" type="button" value="<%=list.get(11).getLan_kor() %>" autocomplete="off" readonly="">
             </div>
-                <div class="swiper-slide" style="background: linear-gradient(to right, #2bc0e4, #eaecc6);">Slide 4</div>
-                <div class="swiper-slide" style="background: linear-gradient(to right, #085078, #85d8ce);">Slide 5</div>
-            </div>
+                <div class="swiper-slide" style="background: #232427;">
+				<h3 class = "korea_language1">여기에서 내려주세요</h3>
+				<h3 class = "korea_language2">라디오 꺼주세요</h3>
+				<h3 class = "korea_language3">트렁크 열어주세요</h3>
+                <input class ="swiper-attr1" type="button" value="<%=list.get(12).getLan_kor() %>" autocomplete="off" readonly="">
+                <input class ="swiper-attr2" type="button" value="<%=list.get(13).getLan_kor() %>" autocomplete="off" readonly="">
+                <input class ="swiper-attr3" type="button" value="<%=list.get(14).getLan_kor() %>" autocomplete="off" readonly="">
+				</div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
+            </div>
         </div>
+        
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -113,13 +136,15 @@
                 if (voices[i].lang.indexOf(lang) >= 0 || voices[i].lang.indexOf(lang.replace('-', '_')) >= 0) { utterThis.voice = voices[i]; voiceFound = true; }
             }
             if (!voiceFound) {
-                alert('voice not found');
                 return;
             }
             utterThis.lang = lang; utterThis.pitch = 1; utterThis.rate = 1;
             //속도  
             window.speechSynthesis.speak(utterThis);
         } document.addEventListener("click", function (e) { var t = e.target; var input = t; speech(t.value); });</script>
+        
+        <!-- addEventListener() 버튼 클릭시. -->
+        </script>
 </body>
 
 </html>

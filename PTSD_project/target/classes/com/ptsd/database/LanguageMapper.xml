@@ -4,10 +4,14 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.ptsd.model.LanguageDAO">
-	
 	<!-- 요청한 사항의 시퀀스에 해당하는 언어들 조회 -->
 	<select id="languageselect" parameterType="int" resultType="LanguageVO">
 		select * from language 
 	</select>
 	
+	<update id="languageFrequency" parameterType="int">
+		update language 
+		set frequency = (frequency+1)
+		where lan_seq = #{lan_seq}
+	</update>
 </mapper>

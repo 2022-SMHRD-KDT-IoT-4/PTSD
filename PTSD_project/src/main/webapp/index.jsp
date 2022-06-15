@@ -14,6 +14,7 @@
 
 
 <!-- ===============================================-->
+
 <!--    Favicons-->
 <!-- ===============================================-->
 <link rel="apple-touch-icon" sizes="180x180"
@@ -84,7 +85,8 @@
 
 	<div class="bottom_fixed">
 		<div class="bottom_box">
-			<a id="service_click" class="link" target="_blank" align="center">
+			<a href = "login_resist_form.html" id="service_click" class="link" target="_blank" align="center">
+			
 				서비스 신청하러 가기
 			</a>
 		</div>

@@ -1,7 +1,6 @@
 package com.ptsd.model;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -29,6 +28,7 @@ public class LanguageDAO {
 		}
 		
 	// 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public ArrayList<LanguageVO> langall() {
 		ArrayList<LanguageVO> list=new ArrayList<LanguageVO>();
 		try {
@@ -41,8 +41,20 @@ public class LanguageDAO {
 		}
 		return list;
 	}
-		
-		
+	
+	public void LanguageFrequency(int lan_seq) {
+		System.out.println("languageDAO lan_seq : "+lan_seq);
+		try {
+			sqlSession = sqlSessionFactory.openSession(true);
+			System.out.println("languageDAO try : update 문 앞");
+			sqlSession.update("com.ptsd.model.LanguageDAO.languageFrequency", lan_seq);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			System.out.println("finally");
+			sqlSession.close();
+		}
+	}
 		
 	}
 

@@ -47,7 +47,7 @@ public class TaxiUpdateSerivce extends HttpServlet {
 		}
 
 		// 메인.jsp변경
-		RequestDispatcher rd = request.getRequestDispatcher("main1.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
 		rd.forward(request, response);
 	}
 

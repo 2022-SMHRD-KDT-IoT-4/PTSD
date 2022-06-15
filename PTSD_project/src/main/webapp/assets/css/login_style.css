@@ -101,24 +101,6 @@
    cursor: pointer;
 }
 
-.input-group {
-    top: 180px;
-    position: absolute;
-    width: 280px;
-    height : 500px;
-    transition: .5s;
-   top: 180px;
-   position: absolute;
-   width: 280px;
-   transition: .5s;
-=======
-   
-   background-size: cover;
-   position: absolute;
-   background: linear-gradient(90deg, rgba(160, 58, 180, 0.6418942577030813)
-      0%, rgba(253, 29, 29, 0.7175245098039216) 46%,
-      rgba(252, 176, 69, 0.9304096638655462) 100%);
-}
 .wrap {
    height: 100%;
    width: 100%;
@@ -200,20 +182,6 @@
     width: 280px;
     height : 500px;
     transition: .5s;
-	top: 180px;
-	position: absolute;
-	width: 280px;
-	transition: .5s;
->>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-IoT-4/PTSD.git
-    top: 180px;
-    position: absolute;
-    width: 280px;
-    height : 500px;
-    transition: .5s;
-   top: 180px;
-   position: absolute;
-   width: 280px;
-   transition: .5s;
 }
 
 .input-field {

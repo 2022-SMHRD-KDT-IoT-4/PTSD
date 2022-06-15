@@ -110,89 +110,94 @@ a:hover { 
 
 		<div id="map">
 		
-		<!-- 제주곶자왈도립공원 -->
+		<!-- 아르떼뮤지엄 제주 -->
 			<div class="container" id="c0" style="display: none"><!-- 작은 화면 -->
 				<div class="img">
-					<img alt="tourphoto" src="assets/img/friendshipTour/제주곶자왈도립공원.jpg" class="tourimg">
+					<img alt="tourphoto" src="assets/img/coupleTour/아르떼 뮤지엄 제주.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
-				<span class="title">&nbsp;제주곶자왈도립공원</span>
+				<span class="title">&nbsp;アルテミュージアム済州</span>
 				<br>
 				<br>
 				<br>
 				<!-- 주소 -->
-				<span class="title">&nbsp;주소</span>
+				<span class="title">&nbsp;住所, 居所.</span>
 				<p>
-					&nbsp;도로명 : 제주 서귀포시 대정읍<br>
-					&nbsp;에듀시티로 178<br>
-					&nbsp;지번 : 보성리 산1<br>
+					&nbsp;道路名　:　済州道済州市涯月邑のオリムビロ478<br>
 				</p>
 				<br>
 				<!-- 전화번호 -->
-				<span class="title">&nbsp;전화번호</span>
-				<p>&nbsp;064-772-7777</p>
+				<span class="title">&nbsp;電話番号.</span>
+				<p>&nbsp;1899-5008</p>
 				<br>
 
 				<!-- 운영시간 -->
-				<span class="title">&nbsp;운영시간</span>
+				<span class="title">&nbsp;営業時間</span>
 				<p>
-					&nbsp;매일 09 : 00 – 16 : 00 <br>
-					&nbsp;입장시간(3월~10월)<br>
-					&nbsp;매일 09 : 00 – 18 : 00 <br>
-					&nbsp;탐방시간(3월~10월)<br>
-					&nbsp;매일 09 : 00 – 15 : 00 <br>
-					&nbsp;입장시간(11월~2월)<br>
-					&nbsp;매일 09 : 00 – 17 : 00 <br>
-					&nbsp;탐방시간(11월~2월)
+					&nbsp;営業中20:00に <br>
+					&nbsp;営業終了20時0分に営業終了<br>
+					&nbsp;毎日10:00-20:00<br>
+					&nbsp;- 入場締切19:000
 				</p>
 
 				<br>
 				<!--  관광지 가격정보 -->
-				<span class="title">&nbsp;가격</span>
+				<span class="title">&nbsp;価格.</span>
 
 				<p>
-					&nbsp;일반 - 1,000원<br>
-					&nbsp;청소년 - 800원<br>
-					&nbsp;군인 - 800원<br>
-					&nbsp;어린이 – 500원
+					&nbsp;展示入場券大人(20歳以上)-17,000ウォン<br>
+					&nbsp;展示入場券青少年(14歳~19歳)-13,000ウォン<br>
+					&nbsp;展示入場券子供(8歳~13歳)-10,000ウォン<br>
+					&nbsp;展示入場券児童(4~7歳)及び経路(65歳以上)、 <br>
+					&nbsp;障害者、有功者、軍人-8,000ウォン<br>
+					&nbsp;パッケージチケット大人(20歳以上)-20,000ウォン<br>
+					&nbsp;パッケージチケット青少年(14歳~19歳)-16,000ウォン<br>
+					&nbsp;パッケージチケット子供(8歳~13歳)-13,000ウォン<br>
+					&nbsp;パッケージチケット子供(4~7歳)<br>
+					&nbsp;経路(65歳以上)、 <br>
+					&nbsp;障害者、有功者、軍人-11,000ウォン<br>
+					&nbsp;幼児(36ヶ月以下)-無料
 				</p>
 
 			</div><!-- container끝 태그 -->
 		
-	<!-- 금오름 -->
+	<!-- 서귀포 다이브센터 스쿠버다이빙 -->
 			<div class="container" id="c1" style="display: none"><!-- 작은 화면 -->
 				<div class="img">
-					<img alt="tourphoto" src="assets/img/friendshipTour/금오름.jpg" class="tourimg">
+					<img alt="tourphoto" src="assets/img/coupleTour/서귀포 다이브 센터.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
-				<span class="title">&nbsp;금오름</span>
+				<span class="title">&nbsp;西帰浦ダイブセンタースキューバダイビング</span>
 				<br>
 				<br>
 				<br>
 				<!-- 주소 -->
-				<span class="title">&nbsp;주소</span>
+				<span class="title">&nbsp;住所, 居所.</span>
 				<p>
-					&nbsp;제주 제주시 한림읍 금악리 산1-1
-
+					&nbsp;道路名 : 済州特別自治道西帰浦市南原邑 
+					&nbsp;下礼望場浦路65-13、2階
 				</p>
 				<br>
 				<!-- 전화번호 -->
-				<span class="title">&nbsp;전화번호</span>
-				<p>&nbsp;전화번호가 없습니다.</p>
+				<span class="title">&nbsp;電話番号.</span>
+				<p>&nbsp;0507-1436-8262</p>
 				<br>
 
 				<!-- 운영시간 -->
-				<span class="title">&nbsp;운영시간</span>
+				<span class="title">&nbsp;Operating hours</span>
 				<p>
-				   &nbsp;운영 시간이 안 정해져 있습니다<br>
+				   &nbsp;Daily - 08:00 – 20:00<br>
 				</p>
 
 				<br>
 				<!--  관광지 가격정보 -->
-				<span class="title">&nbsp;가격</span>
+				<span class="title">&nbsp;営業時間</span>
 
 				<p>
-					&nbsp;가격이 책정이 안되어 있습니다<br>
+					&nbsp;ビーチダイビング2回100,000ウォン<br>
+					&nbsp;島ダイビング2回120,000ウォン<br>
+					&nbsp;ボートダイビング2回150,000ウォン<br>
+					&nbsp;装備レンタル40,000ウォン<br>
 				</p>
 
 			</div><!-- container2끝 태그 -->		
@@ -202,134 +207,96 @@ a:hover { 
 			
 			
 			
-	<!-- 아르떼뮤지엄 제주 -->
+	<!-- 윈드1947 테마파크 -->
 			<div class="container" id="c2" style="display: none"><!-- 작은 화면 -->
 				<div class="img">
-					<img alt="tourphoto" src="assets/img/friendshipTour/아르떼 뮤지엄 제주.jpg" class="tourimg">
+					<img alt="tourphoto" src="assets/img/coupleTour/윈드1947 테마파크.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
-				<span class="title">&nbsp;아르떼뮤지엄 제주</span>
+				<span class="title">&nbsp;ウインド1947テーマパーク</span>
 				<br>
 				<br>
 				<br>
 				<!-- 주소 -->
-				<span class="title">&nbsp;주소</span>
+				<span class="title">&nbsp;住所, 居所.</span>
 				<p>
-					&nbsp;제주 제주시 애월읍 어림비로 478<br>
+					&nbsp;78-27 Topyeong Industrial <br>
+					&nbsp;Complex Road, Seogwipo, Jeju<br>
 				</p>
 				<br>
 				<!-- 전화번호 -->
-				<span class="title">&nbsp;전화번호</span>
-				<p>&nbsp;1899-5008</p>
+				<span class="title">&nbsp;Phone number</span>
+				<p>&nbsp;064-733-3500</p>
 				<br>
 
 				<!-- 운영시간 -->
-				<span class="title">&nbsp;운영시간</span>
+				<span class="title">&nbsp;Operating hours</span>
 				<p>
-					&nbsp;매일 10:00 - 20:00<br>
-					&nbsp;운영 종료20시<br>
-					&nbsp;입장마감 19:00
+					&nbsp;every day<br>
+					&nbsp;Cart 10:00-18:30<br>
+					&nbsp;18:00 Last Order<br>
+					&nbsp;Survival 10:30 – 19:00<br>
+					&nbsp;18:30 Last Order Folding<br>
 				</p>
 
 				<br>
 				<!--  관광지 가격정보 -->
-				<span class="title">&nbsp;가격</span>
+				<span class="title">&nbsp;Price</span>
 
 				<p>
-					&nbsp;홈페이지 들어가서 예매하시면 됩니다.<br>
-					&nbsp;(예상 가격 10000원)<br>
-					<a href="https://artemuseum.com/" style="inline-style:none;">아르떼뮤지엄 제주</a>
+					&nbsp;Basic type for one person (three turns) - KRW 25,000<br>
+					&nbsp;For 2 people-Basic type (3 turns) - KRW 35,000<br>
+					&nbsp;One person-economical type (4 turns) - KRW 30,000<br>
+					&nbsp;Slim type for one person (two turns) - KRW 20,000<br>
+					&nbsp;For 2 people-economical type (4 turns) - KRW 40,000<br>
+					&nbsp;Slim type for 2 people (2 turns) - KRW 30,000<br>
+					&nbsp;Survival-Battle Zone (VIVITAN) - 20,000 won<br>
+					&nbsp;Survival - Laser Zone - 10,000 won<br>
+					&nbsp;Sniper-Target Shooting - 5,000 won<br>
+					&nbsp;Survival - Comprehensive Ticket - 25,000 won
 				</p>
 
 			</div><!-- container3끝 태그 -->	
 			
 			
 				
-	<!-- 일구공 스테이지 하우스 -->
+	<!-- 제주도 사려니숲길 -->
 			<div class="container" id="c3" style="display: none"><!-- 작은 화면 -->
 				<div class="img">
-					<img alt="tourphoto" src="assets/img/friendshipTour/일구공 스테이지하우스.jpg" class="tourimg">
+					<img alt="tourphoto" src="assets/img/coupleTour/제주 사려니숲길.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
-				<span class="title">&nbsp;일구공 스테이지 하우스</span>
+				<span class="title">&nbsp;Sari Nani Forest Road in Jeju Island</span>
 				<br>
 				<br>
 				<br>
 				<!-- 주소 -->
-				<span class="title">&nbsp;주소</span>
+				<span class="title">&nbsp;Address</span>
 				<p>
-					&nbsp;제주 제주시 구좌읍 해맞이해안로<br> 
-					&nbsp;2361 스테이지하우스
+					&nbsp;Mountain 137-1 Gyorae-ri, <br>
+					&nbsp;Jocheon-eup, Jeju-si<br>
 				</p>
 				<br>
 				<!-- 전화번호 -->
-				<span class="title">&nbsp;전화번호</span>
-				<p>&nbsp;064-782-5114</p>
+				<span class="title">&nbsp;Phone number</span>
+				<p>&nbsp;064-900-8800</p>
 				<br>
 
 				<!-- 운영시간 -->
-				<span class="title">&nbsp;운영시간</span>
+				<span class="title">&nbsp;Operating hours</span>
 				<p>
-				   &nbsp;매일 10 :  00 – 19 : 30<br>
-					&nbsp;마지막 주문 19 : 00 <br>
-				   
+				   &nbsp;Daily 09:00 – 17:00<br>
 				</p>
 
 				<br>
 				<!--  관광지 가격정보 -->
-				<span class="title">&nbsp;가격</span>
+				<span class="title">&nbsp;Price</span>
 
 				<p>
-					&nbsp;홈페이지에서 확인하세요<br>
-					<a href="https://map.naver.com/v5/search/%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80%ED%95%98%EC%9A%B0%EC%8A%A4/place/1117849994?c=14126703.5353164,3960582.6085365,15,0,0,0,dh&placePath=%3Fentry%253Dbmp">&nbsp;일구공 스테이지 하우스</a><br>
+					&nbsp;Admission is free<br>
 				</p>
 
 			</div><!-- container4끝 태그 -->
-			
-					
-	<!-- 함덕별장 -->
-			<div class="container" id="c4" style="display: none"><!-- 작은 화면 -->
-				<div class="img">
-					<img alt="tourphoto" src="assets/img/friendshipTour/함덕별장.jpg" class="tourimg">
-					<img alt="close" src="assets/img/closeicon.png" class="close">
-				</div>
-				<span class="title">&nbsp;함덕별장</span>
-				<br>
-				<br>
-				<br>
-				<!-- 주소 -->
-				<span class="title">&nbsp;주소</span>
-				<p>
-					&nbsp;제주 제주시 조천읍 조함해안로 519-10<br>
-				</p>
-				<br>
-				<!-- 전화번호 -->
-				<span class="title">&nbsp;전화번호</span>
-				<p>&nbsp;0507-1416-1299</p>
-				<br>
-
-				<!-- 운영시간 -->
-				<span class="title">&nbsp;운영시간</span>
-				<p>
-					&nbsp;매일 10 : 00 ~ 19 : 00<br>
-				   &nbsp;19 : 00에 영업 종료<br>
-				</p>
-
-				<br>
-				<!--  관광지 가격정보 -->
-				<span class="title">&nbsp;가격</span>
-
-				<p>
-					&nbsp;가격은 그곳에 가서 알 수 있습니다<br>
-				</p>
-
-			</div><!-- container5끝 태그 -->	
-			
-				
-	
-				
-				
-		
 		
 		
 		</div>
@@ -376,20 +343,17 @@ a:hover { 
 		//---------------------------------------------
 		// 마커 표시를 위한 변수
 		var positions = [ {
-			content : '<div>제주곶자 왈도립공원</div>',
-			latlng : new kakao.maps.LatLng(33.28308264134021 , 126.2740136133469)
-		}, {
-			content : '<div>금오름</div>',
-			latlng : new kakao.maps.LatLng(33.354526200895535, 126.30565121970231)
-		}, {
 			content : '<div>아르떼뮤지엄 제주</div>',
-			latlng : new kakao.maps.LatLng(33.3967296, 126.345229)
+			latlng : new kakao.maps.LatLng(33.3967296 , 126.345229)
 		}, {
-			content : '<div>일구공 스테이지 하우스</div>',
-			latlng : new kakao.maps.LatLng(33.49045155708686, 126.91072039536215 )
-		},{
-			content : '<div>함덕별장</div>',
-			latlng : new kakao.maps.LatLng(33.54372188885303 , 126.66869806868866 )
+			content : '<div>서귀포 다이브센터 스쿠버 다이빙</div>',
+			latlng : new kakao.maps.LatLng(33.2593135, 126.639515)
+		}, {
+			content : '<div>윈드 1947 테마파크</div>',
+			latlng : new kakao.maps.LatLng(33.2895307, 126.588665)
+		}, {
+			content : '<div>제주도 사려니숲길</div>',
+			latlng : new kakao.maps.LatLng(33.4077104, 126.642567)
 		}];
 	  	
 		for (var i = 0; i < positions.length; i++) {

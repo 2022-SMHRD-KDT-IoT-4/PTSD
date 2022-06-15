@@ -28,6 +28,8 @@ public class BoardVO {
 	private String TAXI_COMMENT_DATE;
 	private int TAXI_COMMENT_SEQ;
 	private int BOARDLIST_NUM;
+	@NonNull
+	private float RATING;
 	
 	
 	

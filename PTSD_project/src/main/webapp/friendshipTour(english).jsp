@@ -113,7 +113,7 @@ a:hover { 
 		<!-- 제주곶자왈도립공원 -->
 			<div class="container" id="c0" style="display: none"><!-- 작은 화면 -->
 				<div class="img">
-					<img alt="tourphoto" src="assets/img/aloneTour/제주곶자왈도립공원.jpg" class="tourimg">
+					<img alt="tourphoto" src="assets/img/friendshipTour/제주곶자왈도립공원.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
 				<span class="title">&nbsp;Gotjawal Provincial Park</span>
@@ -162,7 +162,7 @@ a:hover { 
 	<!-- 금오름 -->
 			<div class="container" id="c1" style="display: none"><!-- 작은 화면 -->
 				<div class="img">
-					<img alt="tourphoto" src="assets/img/aloneTour/금오름.jpg" class="tourimg">
+					<img alt="tourphoto" src="assets/img/friendshipTour/금오름.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
 				<span class="title">&nbsp;Gold oreum</span>
@@ -204,7 +204,7 @@ a:hover { 
 	<!-- 아르떼뮤지엄 제주 -->
 			<div class="container" id="c2" style="display: none"><!-- 작은 화면 -->
 				<div class="img">
-					<img alt="tourphoto" src="assets/img/aloneTour/아르떼 뮤지엄 제주.jpg" class="tourimg">
+					<img alt="tourphoto" src="assets/img/friendshipTour/아르떼 뮤지엄 제주.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
 				<span class="title">&nbsp;Arte Museum, Jeju Island</span>
@@ -247,7 +247,7 @@ a:hover { 
 	<!-- 일구공 스테이지 하우스 -->
 			<div class="container" id="c3" style="display: none"><!-- 작은 화면 -->
 				<div class="img">
-					<img alt="tourphoto" src="assets/img/aloneTour/일구공 스테이지하우스.jpg" class="tourimg">
+					<img alt="tourphoto" src="assets/img/friendshipTour/일구공 스테이지하우스.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
 				<span class="title">&nbsp;Ilgugong Stage House</span>
@@ -289,7 +289,7 @@ a:hover { 
 	<!-- 함덕별장 -->
 			<div class="container" id="c4" style="display: none"><!-- 작은 화면 -->
 				<div class="img">
-					<img alt="tourphoto" src="assets/img/aloneTour/함덕별장.jpg" class="tourimg">
+					<img alt="tourphoto" src="assets/img/friendshipTour/함덕별장.jpg" class="tourimg">
 					<img alt="close" src="assets/img/closeicon.png" class="close">
 				</div>
 				<span class="title">&nbsp;Hamdeok Villa</span>
@@ -347,8 +347,8 @@ a:hover { 
 	
 		var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
 		mapOption = {
-			center : new kakao.maps.LatLng(33.28308264134021, 126.2740136133469), // 지도의 중심좌표
-			level : 2
+			center : new kakao.maps.LatLng(33.36168, 126.556351), // 지도의 중심좌표
+			level : 10
 		// 지도의 확대 레벨
 		};
 		

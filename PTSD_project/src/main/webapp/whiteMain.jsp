@@ -39,8 +39,8 @@
                 
                     if(choiceState==0){
                     
-                    $("#mapMove").attr("href", "kMap.html")
-                    $("#talkMove").attr("href", "kTalk.html")
+                    $("#mapMove").attr("href", "http://172.30.1.45:8081/PTSD_project/familyTour(korean).jsp")
+                    $("#talkMove").attr("href", "helpKorean.jsp")
                     $("#tourMove").attr("href", "kTour.html")
                        
                     }
@@ -66,8 +66,8 @@
                 
                     if(choiceState==1){
                     
-                    $("#mapMove").attr("href", "eMap.html")
-                    $("#talkMove").attr("href", "eTalk.html")
+                    $("#mapMove").attr("href", "http://172.30.1.45:8081/PTSD_project/familyTour(english).jsp")
+                    $("#talkMove").attr("href", "helpUnitedStateAmerica.jsp")
                     $("#tourMove").attr("href", "eTour.html")
                        
                     }
@@ -94,8 +94,8 @@
                 
                     if(choiceState==2){
                     
-                    $("#mapMove").attr("href", "cMap.html")
-                    $("#talkMove").attr("href", "cTalk.html")
+                    $("#mapMove").attr("href", "http://172.30.1.45:8081/PTSD_project/familyTour(china).jsp")
+                    $("#talkMove").attr("href", "helpChina.jsp")
                     $("#tourMove").attr("href", "cTour.html")
                        
                     }
@@ -121,8 +121,8 @@
                 
                     if(choiceState==3){
                     
-                    $("#mapMove").attr("href", "jMap.html")
-                    $("#talkMove").attr("href", "jTalk.html")
+                    $("#mapMove").attr("href", "http://172.30.1.45:8081/PTSD_project/familyTour(japan).jsp")
+                    $("#talkMove").attr("href", "helpJapan.jsp")
                     $("#tourMove").attr("href", "jTour.html")
                        
                     }
@@ -142,7 +142,7 @@
             <p id="mapTextp">지도를 통해 제주도를 확인해보세요!
                 하단의 버튼을 누르면 지도 페이지로 이동합니다.
             </p>
-            <a href="kMap.html" id="mapMove">이동하기</a>
+            <a href="http://172.30.1.45:8081/PTSD_project/familyTour(korean).jsp" id="mapMove">이동하기</a>
         </div>
         </div>
     </div>
@@ -157,7 +157,7 @@
             <p id="talkTextp">요청사항을 눌러 기사님께 전달하세요 !
                 하단의 버튼을 누르면 요청사항 페이지로 이동합니다.
             </p>
-            <a href="kTalk.html" id="talkMove">이동하기</a>
+            <a href="helpKorean.jsp" id="talkMove">이동하기</a>
         </div>
         </div>
     </div>

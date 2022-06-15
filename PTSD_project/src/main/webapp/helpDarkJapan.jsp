@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="./assets/css/helpLanguage.css">
+    <link rel="stylesheet" href="./assets/css/helpDarkLanguage.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!--  한국어 언어 링크 -->
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
@@ -62,10 +62,10 @@
         <div class="mainCountry">
         	<span id = "home-main"></span>
         <!--  <a href="mainController"><img src="img/Home-icon.png" alt="home" id="home"></a>-->
-            <a href = "helpKorean.jsp"><span id="korea-main"></span></a>
-            <a href = "helpUnitedStateAmerica.jsp"><span id="english-main"></span></a>
-            <a href = "helpChina.jsp"><span id="china-main"></span></a>
-            <a href = "#"><span id="japan-main"></span></a>
+            <a href = "helpDarkKorean.jsp"><span id="korea-main"></span></a>
+            <a href = "helpDarkUSA.jsp"><span id="english-main"></span></a>
+            <a href = "helpDarkChina.jsp"><span id="china-main"></span></a>
+            <a href = "helpDarkJapan.jsp"><span id="japan-main"></span></a>
         </div>
          <div class="swiper-container"  style="overflow:hidden;">
             <div class="swiper-wrapper">

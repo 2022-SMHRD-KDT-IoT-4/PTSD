@@ -46,11 +46,11 @@ public class TaxiJoinService extends HttpServlet {
          System.out.println("가입완");
          
          //jsp 변경
-         RequestDispatcher rd = request.getRequestDispatcher("index.html");
+         RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
          rd.forward( request, response);
       }else {
          //메인 변경
-         response.sendRedirect("Test1.jsp");
+         response.sendRedirect("index.jsp");
       }
    }
 }

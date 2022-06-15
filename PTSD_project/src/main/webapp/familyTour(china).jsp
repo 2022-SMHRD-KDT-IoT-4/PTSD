@@ -11,7 +11,7 @@
 <!-- 여기서만 url이 작동함 -->
 <!-- http://172.30.1.7:8081/MessageSystem_frontcontroller_command/map.html -->
 <script type="text/javascript"
-	src="//dapi.kakao.com/v2/maps/sdk.js?appkey=030f60b0195c26d884376b7d726bf7a3">
+	src="//dapi.kakao.com/v2/maps/sdk.js?appkey=091143d21933d5f540a9255827785526">
 	
 </script>
 

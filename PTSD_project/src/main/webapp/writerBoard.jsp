@@ -161,39 +161,14 @@
 	<label for="1-star" class="star">★</label>
 </div>
 	
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+
 			</table>
 			
 			</div>
 		</form> </center>
 		</div>
 	</div>
-	
-	
-	
-	
-	
 
-	
-	
-	
-	
-	
-	
-	
-	
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>

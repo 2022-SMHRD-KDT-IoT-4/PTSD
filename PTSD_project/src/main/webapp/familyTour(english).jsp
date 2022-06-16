@@ -85,6 +85,16 @@ body {
 .box::-webkit-scrollbar {
 	display: none;
 }
+
+#homeIcon{
+	position : absolute;
+	z-index : 9999999999999;
+	width : 50px;
+	hegiht : 50px;
+	left : 44%;
+	display : block;
+	top : 3%;
+}
 </style>
 
 
@@ -98,6 +108,8 @@ body {
 			<!-- 사진 -->
 
 		<div id="map">
+		
+		<a href="test"><img alt="homeIcon" src="assets/slideImg/homeIconDay.png" id="homeIcon"></a>
 		
 		<!-- 1번 제주 유리의 성 -->
 			<div class="container" id="c0" style="display: none"><!-- 작은 화면 -->

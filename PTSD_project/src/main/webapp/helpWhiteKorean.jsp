@@ -25,6 +25,7 @@
     <script type="text/javascript"> 
 	$(document).ready(function() {
 		goTot();
+		 $(".loader").css("left","257px");
 	});
 	
 	function goTot(i){
@@ -67,6 +68,11 @@
             <a href = "helpWhiteChina.jsp"><span id="china-main"></span></a>
             <a href = "helpWhiteJapan.jsp"><span id="japan-main"></span></a>
         </div>
+        <div class="circle">
+			<div class="loader">
+				<span></span>
+			</div>
+		</div>
          <div class="swiper-container"  style="overflow:hidden;">
             <div class="swiper-wrapper">
             <!-- 배경화면 색상 바꾸는 곳 -->

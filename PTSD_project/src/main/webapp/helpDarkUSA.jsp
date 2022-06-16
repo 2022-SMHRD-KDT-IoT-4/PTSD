@@ -25,6 +25,9 @@
     <script type="text/javascript"> 
 	$(document).ready(function() {
 		goTot();
+		$(".loader").css("left","384px");
+
+    });
 	});
 	
 	function goTot(i){
@@ -67,6 +70,11 @@
             <a href = "helpDarkChina.jsp"><span id="china-main"></span></a>
             <a href = "helpDarkJapan.jsp"><span id="japan-main"></span></a>
         </div>
+        <div class="circle">
+			<div class="loader">
+				<span></span>
+			</div>
+		</div>
     </div>
          <div class="swiper-container"  style="overflow:hidden;">
             <div class="swiper-wrapper">

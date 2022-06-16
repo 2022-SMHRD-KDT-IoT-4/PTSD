@@ -13,8 +13,8 @@ public class gpsService extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		String latitude = request.getParameter("latitude");
-		System.out.println(latitude);
+		String latitude = request.getParameter("data");
+		System.out.println("여기서실행 "+latitude);
 		
 	}
 

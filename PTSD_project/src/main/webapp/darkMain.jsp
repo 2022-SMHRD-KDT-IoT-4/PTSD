@@ -41,9 +41,9 @@
 
                 if (choiceState == 0) {
 
-                    $("#mapMove").attr("href", "kMap.html")
+                    $("#mapMove").attr("href", "kmap.html")
                     $("#talkMove").attr("href", "kTalk.html")
-                    $("#tourMove").attr("href", "kTour.html")
+                    $("#tourMove").attr("href", "koreaTourDark.jsp")
 
                 }
             });
@@ -70,7 +70,7 @@
 
                     $("#mapMove").attr("href", "eMap.html")
                     $("#talkMove").attr("href", "eTalk.html")
-                    $("#tourMove").attr("href", "eTour.html")
+                    $("#tourMove").attr("href", "englishTourDark.jsp")
 
                 }
             });
@@ -98,7 +98,7 @@
 
                     $("#mapMove").attr("href", "cMap.html")
                     $("#talkMove").attr("href", "cTalk.html")
-                    $("#tourMove").attr("href", "cTour.html")
+                    $("#tourMove").attr("href", "chinaTourDark.jsp")
 
                 }
             });
@@ -125,7 +125,7 @@
 
                     $("#mapMove").attr("href", "jMap.html")
                     $("#talkMove").attr("href", "jTalk.html")
-                    $("#tourMove").attr("href", "jTour.html")
+                    $("#tourMove").attr("href", "japanTourDark.jsp")
 
                 }
             });
@@ -172,7 +172,7 @@
                     <h2 id="tourTexth2">관광</h2>
                     <p id="tourTextp">관광코스를 눌러서 제주도를 느껴보세요!
                         하단의 버튼을 누르면 요청사항 페이지로 이동합니다.</p>
-                    <a href="kTour.html" id="tourMove">이동하기</a>
+                    <a href="koreaTourDark.jsp" id="tourMove">이동하기</a>
                 </div>
             </div>
         </div>

@@ -41,8 +41,13 @@
 
                 if (choiceState == 0) {
 
+<<<<<<< HEAD
                     $("#mapMove").attr("href", "http://172.30.1.45:8081/PTSD_project/familyTour(korean).jsp")
                     $("#talkMove").attr("href", "helpDarkKorean.jsp")
+=======
+                    $("#mapMove").attr("href", "kmap.html")
+                    $("#talkMove").attr("href", "kTalk.html")
+>>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-IoT-4/PTSD.git
                     $("#tourMove").attr("href", "koreaTourDark.jsp")
 
                 }

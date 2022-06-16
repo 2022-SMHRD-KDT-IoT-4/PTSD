@@ -342,7 +342,7 @@
          <%for(int i =0 ; i <list.size(); i++){ %>
 					<tr>
             <td><%= i+1 %></td>
-            <td><a href="viewboardtest.jsp?TAXI_COMMENT_SEQ=<%=list.get(i).getTAXI_COMMENT_SEQ() %>"> <%= list.get(i).getTAXI_COMMENT_TITLE() %> </a></td>
+            <td><a href="viewboard.jsp?TAXI_COMMENT_SEQ=<%=list.get(i).getTAXI_COMMENT_SEQ() %>"> <%= list.get(i).getTAXI_COMMENT_TITLE() %> </a></td>
             
             <td><center><%= list.get(i).getTAXI_COMMENT_WRITER() %></center></td>
             <td><center><%= list.get(i).getTAXI_COMMENT_DATE().substring(0,10) %></center></td>
@@ -402,7 +402,7 @@
                 <td colspan="5" class="text-center">
                   <input type="button" value="홈으로 가기"  onclick="location.href='index.jsp'"  class="btn btn-warning">
                   &nbsp;&nbsp;&nbsp;
-                  <input type="button" value="글쓰기"  onclick="location.href='writerBoardtest.jsp'"  class="btn btn-warning">
+                  <input type="button" value="글쓰기"  onclick="location.href='writerBoard.jsp'"  class="btn btn-warning">
                 </td>
                             
             </tr> 
@@ -435,7 +435,7 @@
          <%for(int i =0 ; i <list.size(); i++){ %>
 					<tr>
             <td><%= i+1 %></td>
-            <td><a href="viewboardtest.jsp?TAXI_COMMENT_SEQ=<%=list.get(i).getTAXI_COMMENT_SEQ() %>"> <%= list.get(i).getTAXI_COMMENT_TITLE() %> </a></td>
+            <td><a href="viewboard.jsp?TAXI_COMMENT_SEQ=<%=list.get(i).getTAXI_COMMENT_SEQ() %>"> <%= list.get(i).getTAXI_COMMENT_TITLE() %> </a></td>
             
             <td><center><%= list.get(i).getTAXI_COMMENT_WRITER() %></center></td>
             <td><center><%= list.get(i).getTAXI_COMMENT_DATE().substring(0,10) %></center></td>

@@ -93,7 +93,11 @@
                         blur.classList.toggle('active');
                         var popup = document.getElementById('popup3');
                         popup.classList.toggle('active');
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-IoT-4/PTSD.git
                     }
                 </script>
             </div>
@@ -431,7 +435,7 @@
         <img src="assets/slideImg/glassCastle2.jpg" width="163px" height="100px">
         <img src="assets/slideImg/glassCastle3.jpg" width="163px" height="100px">
         </p><br>
-        <a href="#"
+        <a href="http://172.30.1.7:8081/PTSD_project/famliyTour(china).jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
             触摸查看位置</a>
         <br><br><br><br><br>
@@ -485,7 +489,7 @@
         <img src="assets/slideImg/museumAlive3.jpg" width="163px" height="100px">
 
         <br><br>
-        <a href="#"
+        <a href="http://172.30.1.7:8081/PTSD_project/famliyTour(china).jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
             触摸查看位置</a>
         <br><br><br><br>
@@ -512,7 +516,7 @@
         <img src="assets/slideImg/skyWatershow3.jpg" width="163px" height="100px">
 
         <br><br>
-        <a href="#"
+        <a href="http://172.30.1.7:8081/PTSD_project/famliyTour(china).jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
             触摸查看位置</a>
         <br><br><br><br>

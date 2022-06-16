@@ -60,8 +60,7 @@
 </head>
 <body id="body">
         <div class="mainCountry">
-        	<span id = "home-main"></span>
-        <!--  <a href="mainController"><img src="img/Home-icon.png" alt="home" id="home"></a>-->
+        <a href="test"><span id="homeTour"></span></a>
             <a href = "helpDarkKorean.jsp"><span id="korea-main"></span></a>
             <a href = "helpDarkUSA.jsp"><span id="english-main"></span></a>
             <a href = "helpDarkChina.jsp"><span id="china-main"></span></a>

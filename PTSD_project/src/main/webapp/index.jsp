@@ -351,7 +351,7 @@
 								<img class="mb-4 mt-2 rounded-2 w-100"
 									src="assets/img/steps/booking-img.jpg" alt="booking" />
 								<div>
-									<h5 class="fw-medium">Trip To Greece</h5>
+									<h5 class="fw-medium">Trip To Jeju</h5>
 									<p class="fs--1 mb-3 fw-medium">14-29 June | by Robbin
 										joseph</p>
 									<div class="icon-group mb-4">

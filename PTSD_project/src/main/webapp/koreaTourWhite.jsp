@@ -146,9 +146,9 @@
             제주의 특산품, 기념품, 의류, 먹거리 등 온갖 다양한 상품을 판매하고 있어 제주의 만물상이라고 할 수 있다.<br>
             제주공항과도 가까워 떠나기 전 잠시 들러 쇼핑하기에도 좋다.
         </p><br>
-        <img src="assets/slideImg/jejuDomoonmarket1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuDomoonmarket2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuDomoonmarket3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/jejuDomoonmarket1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuDomoonmarket2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuDomoonmarket3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">터치하여
@@ -180,9 +180,9 @@
             정상에서는 너른 분화구와 그 뒤로 펼쳐지는 바다의 풍경은, 제주의 다른 오름과는 전혀 다른 웅장한 느낌을 준다.<br>
             예부터 이곳 정상에서 바라보는 일출광경은 영주10경(제주의 경승지)중에서 으뜸이라 하였고, 이에 매년 12월 31일에는 성산일출축제가 열린다.
         </p><br>
-        <img src="assets/slideImg/sungSanmountain1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/sungSanmountain2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/sungSanmountain3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/sungSanmountain1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/sungSanmountain2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/sungSanmountain3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">터치하여
@@ -212,9 +212,9 @@
             여유있게 우도를 즐기고 싶다면 오전 아침배를 타고 들어가 오후 배를 타고 나와 하루종일 우도에 머물러 보는것도 좋다. 단, 기상에 따라 배 운항여부가 달라질수 있으니 우도 여행일정을 짜는데는
             기상조건을 필히 확인해야한다.
         </p><br>
-        <img src="assets/slideImg/jejuWoodo1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuWoodo2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuWoodo3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/jejuWoodo1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuWoodo2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuWoodo3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -242,9 +242,9 @@
             용암이 굳어지면서 만들어진 다양한 신기한 형태의 바위들이 시선을 끌고, 검은 바위로 이루어진 해안을 따라 구불구불하게 이어지는 길은 산책 길에 재미를 더해준다.<br>
             제주도의 서쪽에 위치하고 있어 아름다운 일몰을 잘 감상할 수 있다는 점도 이곳의 매력 포인트다.
         </p><br>
-        <img src="assets/slideImg/jejuAewolhandam1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuAewolhandam2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuAewolhandam3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/jejuAewolhandam1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuAewolhandam2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuAewolhandam3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -292,9 +292,9 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             스피커 제조 공장으로 사용되던 바닥 면적 1,400평, 최대 10M에 육박하는 웅장한 공간에서는 빛과 소리가 만들어 낸 10개의 다채로운 미디어아트 전시가 펼쳐집니다!
         </p><br>
-        <img src="assets/slideImg/aretesium1.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/aretesium2.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/aretesium3.PNG" width="163px" height="100px">
+        <img src="assets/slideImg/aretesium1.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/aretesium2.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/aretesium3.PNG" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">터치하여
@@ -317,9 +317,9 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             아름다운 제주바다속 수중여행을 서귀포 다이브센터에서 함께 하세요
         </p><br>
-        <img src="assets/slideImg/seogwipoDive1.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/seogwipoDive2.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/seogwipoDive3.PNG" width="163px" height="100px">
+        <img src="assets/slideImg/seogwipoDive1.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/seogwipoDive2.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/seogwipoDive3.PNG" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">터치하여
@@ -340,9 +340,9 @@
             또한 서바이벌 체험장이 마련되어 있습니다.<br>
             1층 제주 유일의 비비탄 실내서바이벌, 2층 레이저 서바이벌 체험장 운영하고 있습니다.
         </p><br>
-        <img src="assets/slideImg/Kart1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/Kart2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/Kart3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/Kart1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/Kart2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/Kart3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -367,9 +367,9 @@
         </p><br>
 
 
-        <img src="assets/slideImg/saruniForest1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/saruniForest2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/saruniForest3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/saruniForest1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/saruniForest2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/saruniForest3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -403,11 +403,11 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             
         </p><br>
-        <img src="assets/slideImg/glassCastle1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/glassCastle2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/glassCastle3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/glassCastle1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/glassCastle2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/glassCastle3.jpg" width="155px" height="100px">
         </p><br>
-        <a href="http://172.30.1.7:8081/PTSD_project/familyTour(korean).jsp"
+        <a href="http://172.30.1.45:8081/PTSD_project/familyTour(korean).jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">터치하여
             위치 확인하기</a>
         <br><br><br><br><br>
@@ -427,11 +427,11 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             제주여행 중에 승마체험을 해볼수 있으며 재밌는 볼거리도 제공합니다.
         </p><br>
-        <img src="assets/slideImg/dermaPark1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/dermaPark2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/dermaPark3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/dermaPark1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/dermaPark2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/dermaPark3.jpg" width="155px" height="100px">
         </p><br>
-        <a href="http://172.30.1.7:8081/PTSD_project/familyTour(korean).jsp"
+        <a href="http://172.30.1.45:8081/PTSD_project/familyTour(korean).jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">터치하여
             위치 확인하기</a>
         <br><br><br><br>
@@ -450,12 +450,12 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             아이들과 함께 가도 연인끼리 가도 재미있게 즐길수있는 여행지입니다.
         </p><br>
-        <img src="assets/slideImg/museumAlive1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/museumAlive2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/museumAlive3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/museumAlive1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/museumAlive2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/museumAlive3.jpg" width="155px" height="100px">
 
         <br><br>
-        <a href="http://172.30.1.7:8081/PTSD_project/familyTour(korean).jsp"
+        <a href="http://172.30.1.45:8081/PTSD_project/familyTour(korean).jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">터치하여
             위치 확인하기</a>
         <br><br><br><br>
@@ -474,12 +474,12 @@
             아이들과 함께 가도 연인끼리 가도 재미있게 즐길수있는 볼거리 입니다
         </p><br>
 
-        <img src="assets/slideImg/skyWatershow1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/skyWatershow2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/skyWatershow3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/skyWatershow1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/skyWatershow2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/skyWatershow3.jpg" width="155px" height="100px">
 
         <br><br>
-        <a href="http://172.30.1.7:8081/PTSD_project/familyTour(korean).jsp"
+        <a href="http://172.30.1.45:8081/PTSD_project/familyTour(korean).jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">터치하여
             위치 확인하기</a>
         <br><br><br><br>
@@ -516,9 +516,9 @@
             세계적인 디자인 건축 전문사이트인 디자인붐이 선정한 세계 10대 미술관에 오를 만큼 안팎으로 아름다운 풍광을 뽐내는 티뮤지엄은 연간 150만 명의 관람객이 방문하는 제주 최고 명소이자 문화
             공간입니다.
         </p><br>
-        <img src="assets/slideImg/oseolrok1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/oseolrok2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/oseolrok3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/oseolrok1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/oseolrok2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/oseolrok3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">터치하여
@@ -547,9 +547,9 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             이호테우에는 전망휴게소, 주차장, 탈의실 등 다양한 활동을 즐기기에 편리한 시설이 잘 갖춰져 있다.
         </p><br>
-        <img src="assets/slideImg/Leehotaewoo1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/Leehotaewoo2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/Leehotaewoo3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/Leehotaewoo1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/Leehotaewoo2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/Leehotaewoo3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">터치하여
@@ -573,9 +573,9 @@
             피너츠 친구들은 눈, 비, 바람, 낙엽과 같은 자연환경과 계절의 변화를 경험하면서 인생의 의미를 찾고 성장합니다.<br>
             제주 자연이 주는 순수한 가치와 각 테마가든에서 피너츠의 다양한 에피소드를 경험해 보세요.
         </p><br>
-        <img src="assets/slideImg/snoopyGarden1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/snoopyGarden2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/snoopyGarden3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/snoopyGarden1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/snoopyGarden2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/snoopyGarden3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -601,9 +601,9 @@
         </p><br>
 
 
-        <img src="assets/slideImg/LightBunker1.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/LightBunker2.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/LightBunker3.PNG" width="163px" height="100px">
+        <img src="assets/slideImg/LightBunker1.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/LightBunker2.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/LightBunker3.PNG" width="155px" height="100px">
 
         <br><br>
         <a href="#"

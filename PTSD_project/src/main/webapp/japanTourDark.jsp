@@ -154,9 +154,9 @@
             済州の特産品、記念品、衣類、食べ物など様々な商品を販売しており、済州の万物商といえる。<br>
             済州空港とも近いため、出発する前にしばらく立ち寄ってショッピングするのにも良い。
         </p><br>
-        <img src="assets/slideImg/jejuDomoonmarket1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuDomoonmarket2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuDomoonmarket3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/jejuDomoonmarket1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuDomoonmarket2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuDomoonmarket3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -188,9 +188,9 @@
             頂上からは広い噴火口とその後ろに広がる海の風景は、済州の他のオルムとは全く異なる雄大な感じを与える。<br>
             昔からこの頂上から眺める日の出の光景は栄州10景(済州の景勝地)の中で一番と言われ、これに毎年12月31日には城山日出祭りが開かれる。
         </p><br>
-        <img src="assets/slideImg/sungSanmountain1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/sungSanmountain2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/sungSanmountain3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/sungSanmountain1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/sungSanmountain2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/sungSanmountain3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -220,9 +220,9 @@
             余裕を持って牛島を楽しみたいなら、午前の朝、船に乗って午後の船を出て一日中牛島に泊まってみるのもいい。 ただし、気象によって船の運航可否が異なる場合がありますので、牛島旅行日程を組むには
             気象条件を必ず確認しなければならない。
         </p><br>
-        <img src="assets/slideImg/jejuWoodo1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuWoodo2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuWoodo3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/jejuWoodo1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuWoodo2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuWoodo3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -250,9 +250,9 @@
             溶岩が固まって作られた多様な不思議な形の岩が視線を集め、黒い岩で構成された海岸沿いに曲がりくねって続く道は散歩道に面白さを増してくれる。<br>
             済州島の西側に位置しており、美しい日没をよく鑑賞できるという点もここの魅力ポイントだ。
         </p><br>
-        <img src="assets/slideImg/jejuAewolhandam1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuAewolhandam2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuAewolhandam3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/jejuAewolhandam1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuAewolhandam2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuAewolhandam3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -300,9 +300,9 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             スピーカー製造工場として使われていた床面積1,400坪、最大10Mに迫る壮大な空間では、光と音が作り出した10個の多彩なメディアアート展示が繰り広げられます！
         </p><br>
-        <img src="assets/slideImg/aretesium1.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/aretesium2.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/aretesium3.PNG" width="163px" height="100px">
+        <img src="assets/slideImg/aretesium1.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/aretesium2.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/aretesium3.PNG" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -328,9 +328,9 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             美しい済州の海の中の水中旅行を西帰浦ダイブセンターでお楽しみください。
         </p><br>
-        <img src="assets/slideImg/seogwipoDive1.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/seogwipoDive2.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/seogwipoDive3.PNG" width="163px" height="100px">
+        <img src="assets/slideImg/seogwipoDive1.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/seogwipoDive2.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/seogwipoDive3.PNG" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -354,9 +354,9 @@
             また、サバイバル体験場も設けられています。<br>
             1階済州唯一のビビタン室内サバイバル、2階レーザーサバイバル体験場を運営しています。
         </p><br>
-        <img src="assets/slideImg/Kart1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/Kart2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/Kart3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/Kart1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/Kart2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/Kart3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -385,9 +385,9 @@
         </p><br>
 
 
-        <img src="assets/slideImg/saruniForest1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/saruniForest2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/saruniForest3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/saruniForest1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/saruniForest2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/saruniForest3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -424,11 +424,11 @@
         <p style="text-align:left ; font-size: 0.8rem;">
 
         </p><br>
-        <img src="assets/slideImg/glassCastle1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/glassCastle2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/glassCastle3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/glassCastle1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/glassCastle2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/glassCastle3.jpg" width="155px" height="100px">
         </p><br>
-        <a href="http://172.30.1.7:8081/PTSD_project/familyTour(japan).jsp"
+        <a href="http://172.30.1.45:8081/PTSD_project/familyTour(japan)castleofglass.jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
             位置確認</a>
         <br><br><br><br><br>
@@ -451,11 +451,11 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             済州旅行中に乗馬体験ができ、楽しい見どころもご提供しております。
         </p><br>
-        <img src="assets/slideImg/dermaPark1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/dermaPark2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/dermaPark3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/dermaPark1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/dermaPark2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/dermaPark3.jpg" width="155px" height="100px">
         </p><br>
-        <a href="http://172.30.1.7:8081/PTSD_project/familyTour(japan).jsp"
+        <a href="http://172.30.1.45:8081/PTSD_project/familyTour(japan).jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
             位置確認</a>
         <br><br><br><br>
@@ -478,12 +478,12 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             子供たちと一緒に行っても恋人同士で行っても楽しめる旅行地です。
         </p><br>
-        <img src="assets/slideImg/museumAlive1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/museumAlive2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/museumAlive3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/museumAlive1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/museumAlive2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/museumAlive3.jpg" width="155px" height="100px">
 
         <br><br>
-        <a href="http://172.30.1.7:8081/PTSD_project/familyTour(japan).jsp"
+        <a href="http://172.30.1.45:8081/PTSD_project/familyTour(japan).jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
             位置確認</a>
         <br><br><br><br>
@@ -505,12 +505,12 @@
             子供たちと一緒に行っても恋人同士で行っても楽しめる見どころです。
         </p><br>
 
-        <img src="assets/slideImg/skyWatershow1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/skyWatershow2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/skyWatershow3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/skyWatershow1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/skyWatershow2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/skyWatershow3.jpg" width="155px" height="100px">
 
         <br><br>
-        <a href="http://172.30.1.7:8081/PTSD_project/familyTour(japan).jsp"
+        <a href="http://172.30.1.45:8081/PTSD_project/familyTour(japan)skywatershow.jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
             位置確認</a>
         <br><br><br><br>
@@ -547,9 +547,9 @@
             世界的なデザイン建築専門サイトであるデザインブームが選定した世界10大美術館に上がるほど、内外の美しい風景を誇るティーミュージアムは、年間150万人の観覧客が訪れる済州最高の名所であり、文化
             空間です。
         </p><br>
-        <img src="assets/slideImg/oseolrok1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/oseolrok2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/oseolrok3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/oseolrok1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/oseolrok2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/oseolrok3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -578,9 +578,9 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             이호테우에는 전망휴게소, 주차장, 탈의실 등 다양한 활동을 즐기기에 편리한 시설이 잘 갖춰져 있다.
         </p><br>
-        <img src="assets/slideImg/Leehotaewoo1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/Leehotaewoo2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/Leehotaewoo3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/Leehotaewoo1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/Leehotaewoo2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/Leehotaewoo3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -604,9 +604,9 @@
             ピーナッツは雪、雨、風、落ち葉のような自然環境と季節の変化を経験しながら人生の意味を探して成長します。<br>
             済州の自然が与える純粋な価値と各テーマガーデンでピーナッツの様々なエピソードをご体験ください。
         </p><br>
-        <img src="assets/slideImg/snoopyGarden1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/snoopyGarden2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/snoopyGarden3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/snoopyGarden1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/snoopyGarden2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/snoopyGarden3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -632,12 +632,12 @@
         </p><br>
 
 
-        <img src="assets/slideImg/LightBunker1.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/LightBunker2.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/LightBunker3.PNG" width="163px" height="100px">
+        <img src="assets/slideImg/LightBunker1.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/LightBunker2.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/LightBunker3.PNG" width="155px" height="100px">
 
         <br><br>
-        <a href="#"
+        <a href="http://172.30.1.45:8081/PTSD_project/familyTour(japan)skywatershow.jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
             位置確認</a>
         <br><br><br><br>

@@ -20,7 +20,7 @@ public class timeboardview extends HttpServlet {
 		int time1 = time.getHour();
 		System.out.println(time1);
 		
-		if(time1>19) {
+		if(time1<19) {
 			RequestDispatcher rd = request.getRequestDispatcher("darkMain.jsp");
 		 	rd.forward(request, response);	
 		}

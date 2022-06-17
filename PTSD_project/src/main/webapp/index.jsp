@@ -86,7 +86,6 @@
 	<div class="bottom_fixed">
 		<div class="bottom_box">
 			<a href = "login_resist_form.html" id="service_click" class="link" target="_blank" align="center">
-			
 				서비스 신청하러 가기
 			</a>
 		</div>
@@ -155,9 +154,7 @@
 							href="login_resist_form.html">회원가입</a></li>
 
 						<%}else{ %>
-						<%if(member.getTaxi_num().equals("admin")){%>
-						<a href="select.jsp">회원정보관리</a>
-						<% }%>
+						
 						<!-- <a href = "update.jsp">개인정보수정</a>  -->
 
 						<li class="nav-item px-3 px-xl-4"><a

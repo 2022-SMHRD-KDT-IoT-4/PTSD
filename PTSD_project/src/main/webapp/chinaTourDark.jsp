@@ -162,9 +162,9 @@
             这里销售济州的特产、纪念品、服装、美食等各种商品，可以说是济州的万物商。<br>
             离济州机场也很近，在出发前可以顺便逛逛。
         </p><br>
-        <img src="assets/slideImg/jejuDomoonmarket1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuDomoonmarket2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuDomoonmarket3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/jejuDomoonmarket1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuDomoonmarket2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuDomoonmarket3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -196,9 +196,9 @@
             在山顶上，宽阔的火山口和后面展开的大海风景，给人一种与济州其他山峰完全不同的雄伟感觉。<br>
             自古以来,从这里山顶看到的日出景象在荣州10景(济州的景胜地)中居首位,因此每年12月31日都会举行城山日出庆典。
         </p><br>
-        <img src="assets/slideImg/sungSanmountain1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/sungSanmountain2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/sungSanmountain3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/sungSanmountain1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/sungSanmountain2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/sungSanmountain3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -228,9 +228,9 @@
             如果想悠闲地享受牛岛，最好上午坐早船进去，下午坐船出来，一整天停留在牛岛。 但是，根据天气的不同，船运航与否也会有所不同，所以制定牛岛旅行日程时
             必须确认气象条件。
         </p><br>
-        <img src="assets/slideImg/jejuWoodo1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuWoodo2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuWoodo3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/jejuWoodo1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuWoodo2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuWoodo3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -258,9 +258,9 @@
             随着熔岩的凝固而形成的各种神奇形态的岩石吸引了人们的视线,沿着由黑色岩石组成的海岸蜿蜒延伸的道路为散步增添了乐趣。<br>
             位于济州岛西侧，可以欣赏到美丽的日落，这也是这里的魅力所在。
         </p><br>
-        <img src="assets/slideImg/jejuAewolhandam1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuAewolhandam2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/jejuAewolhandam3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/jejuAewolhandam1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuAewolhandam2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/jejuAewolhandam3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -308,9 +308,9 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             原本用作音响制造工厂的地面面积为1400坪，最大面积接近10M的雄伟空间内，将展示由光和声音创造的10个多彩的媒体艺术！
         </p><br>
-        <img src="assets/slideImg/aretesium1.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/aretesium2.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/aretesium3.PNG" width="163px" height="100px">
+        <img src="assets/slideImg/aretesium1.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/aretesium2.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/aretesium3.PNG" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -336,9 +336,9 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             在西归浦Dive中心一起进行美丽的济州大海中的水中旅行吧
         </p><br>
-        <img src="assets/slideImg/seogwipoDive1.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/seogwipoDive2.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/seogwipoDive3.PNG" width="163px" height="100px">
+        <img src="assets/slideImg/seogwipoDive1.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/seogwipoDive2.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/seogwipoDive3.PNG" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -362,9 +362,9 @@
             另外还设有生存体验场。<br>
             1楼运营着济州唯一的bibitan室内生存体验场,2楼激光生存体验场。
         </p><br>
-        <img src="assets/slideImg/Kart1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/Kart2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/Kart3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/Kart1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/Kart2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/Kart3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -392,9 +392,9 @@
         </p><br>
 
 
-        <img src="assets/slideImg/saruniForest1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/saruniForest2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/saruniForest3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/saruniForest1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/saruniForest2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/saruniForest3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -431,9 +431,9 @@
         <p style="text-align:left ; font-size: 0.8rem;">
 
         </p><br>
-        <img src="assets/slideImg/glassCastle1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/glassCastle2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/glassCastle3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/glassCastle1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/glassCastle2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/glassCastle3.jpg" width="155px" height="100px">
         </p><br>
         <a href="http://172.30.1.7:8081/PTSD_project/famliyTour(china).jsp"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -458,9 +458,9 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             在济州旅行中可以体验骑马,还提供有趣的看点。
         </p><br>
-        <img src="assets/slideImg/dermaPark1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/dermaPark2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/dermaPark3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/dermaPark1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/dermaPark2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/dermaPark3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -484,9 +484,9 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             是和孩子们一起去，也是恋人一起去也能愉快享受的旅行地。
         </p><br>
-        <img src="assets/slideImg/museumAlive1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/museumAlive2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/museumAlive3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/museumAlive1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/museumAlive2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/museumAlive3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="http://172.30.1.7:8081/PTSD_project/famliyTour(china).jsp"
@@ -511,9 +511,9 @@
             无论和孩子们一起去，还是和恋人一起去，都是可以愉快享受的看点睛之笔。
         </p><br>
 
-        <img src="assets/slideImg/skyWatershow1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/skyWatershow2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/skyWatershow3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/skyWatershow1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/skyWatershow2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/skyWatershow3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="http://172.30.1.7:8081/PTSD_project/famliyTour(china).jsp"
@@ -553,9 +553,9 @@
             世界级设计建筑专门网站"设计boom"评选的"世界10大美术馆"中，内外风景优美的茶博物馆每年吸引150万名游客，是济州最好的景点和文化。
             是空间。
         </p><br>
-        <img src="assets/slideImg/oseolrok1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/oseolrok2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/oseolrok3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/oseolrok1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/oseolrok2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/oseolrok3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -584,9 +584,9 @@
         <p style="text-align:left ; font-size: 0.8rem;">
             该酒店内设有瞭望休息所、停车场、更衣室等便于享受各种活动的设施。
         </p><br>
-        <img src="assets/slideImg/Leehotaewoo1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/Leehotaewoo2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/Leehotaewoo3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/Leehotaewoo1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/Leehotaewoo2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/Leehotaewoo3.jpg" width="155px" height="100px">
         </p><br>
         <a href="#"
             style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -610,9 +610,9 @@
             Pinutz朋友们在经历雪、雨、风、落叶等自然环境和季节变化的同时,寻找人生的意义并成长。<br>
             体验济州岛自然赋予的纯粹价值和各主题花园中尖峰的各种小插曲吧。
         </p><br>
-        <img src="assets/slideImg/snoopyGarden1.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/snoopyGarden2.jpg" width="163px" height="100px">
-        <img src="assets/slideImg/snoopyGarden3.jpg" width="163px" height="100px">
+        <img src="assets/slideImg/snoopyGarden1.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/snoopyGarden2.jpg" width="155px" height="100px">
+        <img src="assets/slideImg/snoopyGarden3.jpg" width="155px" height="100px">
 
         <br><br>
         <a href="#"
@@ -638,9 +638,9 @@
         </p><br>
 
 
-        <img src="assets/slideImg/LightBunker1.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/LightBunker2.PNG" width="163px" height="100px">
-        <img src="assets/slideImg/LightBunker3.PNG" width="163px" height="100px">
+        <img src="assets/slideImg/LightBunker1.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/LightBunker2.PNG" width="155px" height="100px">
+        <img src="assets/slideImg/LightBunker3.PNG" width="155px" height="100px">
 
         <br><br>
         <a href="#"

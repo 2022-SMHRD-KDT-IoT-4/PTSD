@@ -173,10 +173,10 @@
 			to Jeju Airport, so it is good to stop by and shop before leaving.
 		</p>
 		<br> <img src="assets/slideImg/jejuDomoonmarket1.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/jejuDomoonmarket2.jpg" width="163px"
+			width="155px" height="100px"> <img
+			src="assets/slideImg/jejuDomoonmarket2.jpg" width="155px"
 			height="100px"> <img
-			src="assets/slideImg/jejuDomoonmarket3.jpg" width="163px"
+			src="assets/slideImg/jejuDomoonmarket3.jpg" width="155px"
 			height="100px">
 		</p>
 		<br> <a href="#"
@@ -226,10 +226,10 @@
 			31 every year.
 		</p>
 		<br> <img src="assets/slideImg/sungSanmountain1.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/sungSanmountain2.jpg" width="163px"
+			width="155px" height="100px"> <img
+			src="assets/slideImg/sungSanmountain2.jpg" width="155px"
 			height="100px"> <img src="assets/slideImg/sungSanmountain3.jpg"
-			width="163px" height="100px">
+			width="155px" height="100px">
 		</p>
 		<br> <a href="#"
 			style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -273,10 +273,10 @@
 			operation of the ship may vary depending on the weather, so for
 			planning the Udo travel schedule, Weather conditions must be checked.
 		</p>
-		<br> <img src="assets/slideImg/jejuWoodo1.jpg" width="163px"
+		<br> <img src="assets/slideImg/jejuWoodo1.jpg" width="155px"
 			height="100px"> <img src="assets/slideImg/jejuWoodo2.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/jejuWoodo3.jpg" width="163px" height="100px">
+			width="155px" height="100px"> <img
+			src="assets/slideImg/jejuWoodo3.jpg" width="155px" height="100px">
 
 		<br>
 		<br> <a href="#"
@@ -317,10 +317,10 @@
 			can enjoy the beautiful sunset well.
 		</p>
 		<br> <img src="assets/slideImg/jejuAewolhandam1.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/jejuAewolhandam2.jpg" width="163px"
+			width="155px" height="100px"> <img
+			src="assets/slideImg/jejuAewolhandam2.jpg" width="155px"
 			height="100px"> <img src="assets/slideImg/jejuAewolhandam3.jpg"
-			width="163px" height="100px"> <br>
+			width="155px" height="100px"> <br>
 		<br> <a href="#"
 			style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
 			Touch to view location</a> <br>
@@ -376,10 +376,10 @@
 			of 1,400 pyeong used as a speaker manufacturing plant and a
 			magnificent space of up to 10M, 10 colorful media art exhibitions
 			created by light and sound are held!</p>
-		<br> <img src="assets/slideImg/aretesium1.PNG" width="163px"
+		<br> <img src="assets/slideImg/aretesium1.PNG" width="155px"
 			height="100px"> <img src="assets/slideImg/aretesium2.PNG"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/aretesium3.PNG" width="163px" height="100px">
+			width="155px" height="100px"> <img
+			src="assets/slideImg/aretesium3.PNG" width="155px" height="100px">
 		</p>
 		<br> <a href="#"
 			style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -413,10 +413,10 @@
 
 		<p style="text-align: left; font-size: 0.8rem;">Enjoy a beautiful
 			underwater trip in Jeju at Seogwipo Dive Center</p>
-		<br> <img src="assets/slideImg/seogwipoDive1.PNG" width="163px"
+		<br> <img src="assets/slideImg/seogwipoDive1.PNG" width="155px"
 			height="100px"> <img src="assets/slideImg/seogwipoDive2.PNG"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/seogwipoDive3.PNG" width="163px" height="100px">
+			width="155px" height="100px"> <img
+			src="assets/slideImg/seogwipoDive3.PNG" width="155px" height="100px">
 		</p>
 		<br> <a href="#"
 			style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -446,10 +446,10 @@
 			survival center in Jeju on the first floor and the laser survival
 			experience center on the second floor.
 		</p>
-		<br> <img src="assets/slideImg/Kart1.jpg" width="163px"
+		<br> <img src="assets/slideImg/Kart1.jpg" width="155px"
 			height="100px"> <img src="assets/slideImg/Kart2.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/Kart3.jpg" width="163px" height="100px"> <br>
+			width="155px" height="100px"> <img
+			src="assets/slideImg/Kart3.jpg" width="155px" height="100px"> <br>
 		<br> <a href="#"
 			style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
 			Touch to view location</a> <br>
@@ -483,10 +483,10 @@
 			2009, Jeju-si selected and announced 31 representative places in
 			Jeju-si in addition to existing tourist attractions.
 		</p>
-		<br> <img src="assets/slideImg/saruniForest1.jpg" width="163px"
+		<br> <img src="assets/slideImg/saruniForest1.jpg" width="155px"
 			height="100px"> <img src="assets/slideImg/saruniForest2.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/saruniForest3.jpg" width="163px" height="100px">
+			width="155px" height="100px"> <img
+			src="assets/slideImg/saruniForest3.jpg" width="155px" height="100px">
 
 		<br>
 		<br> <a href="#"
@@ -529,10 +529,10 @@
 			become one.</p>
 		<br>
 		<p style="text-align: left; font-size: 0.8rem;"></p>
-		<br> <img src="assets/slideImg/glassCastle1.jpg" width="163px"
+		<br> <img src="assets/slideImg/glassCastle1.jpg" width="155px"
 			height="100px"> <img src="assets/slideImg/glassCastle2.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/glassCastle3.jpg" width="163px" height="100px">
+			width="155px" height="100px"> <img
+			src="assets/slideImg/glassCastle3.jpg" width="155px" height="100px">
 		</p>
 		<br> <a href="http://172.30.1.7:8081/PTSD_project/familyTour(english).jsp"
 			style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -563,10 +563,10 @@
 		<p style="text-align: left; font-size: 0.8rem;">You can experience
 			horseback riding during your trip to Jeju Island, and it provides
 			interesting attractions.</p>
-		<br> <img src="assets/slideImg/dermaPark1.jpg" width="163px"
+		<br> <img src="assets/slideImg/dermaPark1.jpg" width="155px"
 			height="100px"> <img src="assets/slideImg/dermaPark2.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/dermaPark3.jpg" width="163px" height="100px">
+			width="155px" height="100px"> <img
+			src="assets/slideImg/dermaPark3.jpg" width="155px" height="100px">
 		</p>
 		<br> <a href="http://172.30.1.7:8081/PTSD_project/familyTour(english).jsp"
 			style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -596,10 +596,10 @@
 		<p style="text-align: left; font-size: 0.8rem;">It is a travel
 			destination where you can enjoy it even if you go with children or
 			with lovers.</p>
-		<br> <img src="assets/slideImg/museumAlive1.jpg" width="163px"
+		<br> <img src="assets/slideImg/museumAlive1.jpg" width="155px"
 			height="100px"> <img src="assets/slideImg/museumAlive2.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/museumAlive3.jpg" width="163px" height="100px">
+			width="155px" height="100px"> <img
+			src="assets/slideImg/museumAlive3.jpg" width="155px" height="100px">
 
 		<br>
 		<br> <a href="http://172.30.1.7:8081/PTSD_project/familyTour(english).jsp"
@@ -627,10 +627,10 @@
 		<br>
 		<p style="font-size: 0.2rem; font-size: 0.8rem;">It's something to
 			enjoy even if you go with kids or with lovers</p>
-		<br> <img src="assets/slideImg/skyWatershow1.jpg" width="163px"
+		<br> <img src="assets/slideImg/skyWatershow1.jpg" width="155px"
 			height="100px"> <img src="assets/slideImg/skyWatershow2.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/skyWatershow3.jpg" width="163px" height="100px">
+			width="155px" height="100px"> <img
+			src="assets/slideImg/skyWatershow3.jpg" width="155px" height="100px">
 
 		<br>
 		<br> <a href="http://172.30.1.7:8081/PTSD_project/familyTour(english).jsp"
@@ -681,10 +681,10 @@
 			art museums selected by Design Boom, a global design and
 			architectural site, is Jeju's best attraction and culture with 1.5
 			million visitors a year It's a space.</p>
-		<br> <img src="assets/slideImg/oseolrok1.jpg" width="163px"
+		<br> <img src="assets/slideImg/oseolrok1.jpg" width="155px"
 			height="100px"> <img src="assets/slideImg/oseolrok2.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/oseolrok3.jpg" width="163px" height="100px">
+			width="155px" height="100px"> <img
+			src="assets/slideImg/oseolrok3.jpg" width="155px" height="100px">
 		</p>
 		<br> <a href="#"
 			style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -722,10 +722,10 @@
 		<p style="text-align: left; font-size: 0.8rem;">The hotel is well
 			equipped with convenient facilities to enjoy various activities such
 			as an observation rest area, parking lot, and changing room.</p>
-		<br> <img src="assets/slideImg/Leehotaewoo1.jpg" width="163px"
+		<br> <img src="assets/slideImg/Leehotaewoo1.jpg" width="155px"
 			height="100px"> <img src="assets/slideImg/Leehotaewoo2.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/Leehotaewoo3.jpg" width="163px" height="100px">
+			width="155px" height="100px"> <img
+			src="assets/slideImg/Leehotaewoo3.jpg" width="155px" height="100px">
 		</p>
 		<br> <a href="#"
 			style="text-align: center; padding-left: 25%; padding-right: 30%; font-size: 1.25rem; background-color: orange; width: 450px; border-radius: 15%; color: #fff;">
@@ -755,10 +755,10 @@
 			wind, and fallen leaves.<br> Experience the pure value of Jeju
 			nature and various episodes of Peanuts in each theme garden.
 		</p>
-		<br> <img src="assets/slideImg/snoopyGarden1.jpg" width="163px"
+		<br> <img src="assets/slideImg/snoopyGarden1.jpg" width="155px"
 			height="100px"> <img src="assets/slideImg/snoopyGarden2.jpg"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/snoopyGarden3.jpg" width="163px" height="100px">
+			width="155px" height="100px"> <img
+			src="assets/slideImg/snoopyGarden3.jpg" width="155px" height="100px">
 
 		<br>
 		<br> <a href="#"
@@ -792,10 +792,10 @@
 			and art and the effect of urban regeneration that revitalizes the
 			place.<br>
 		</p>
-		<br> <img src="assets/slideImg/LightBunker1.PNG" width="163px"
+		<br> <img src="assets/slideImg/LightBunker1.PNG" width="155px"
 			height="100px"> <img src="assets/slideImg/LightBunker2.PNG"
-			width="163px" height="100px"> <img
-			src="assets/slideImg/LightBunker3.PNG" width="163px" height="100px">
+			width="155px" height="100px"> <img
+			src="assets/slideImg/LightBunker3.PNG" width="155px" height="100px">
 
 		<br>
 		<br> <a href="#"

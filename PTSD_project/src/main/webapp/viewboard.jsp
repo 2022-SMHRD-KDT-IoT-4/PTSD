@@ -38,7 +38,7 @@
 			class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block"
 			data-navbar-on-scroll="data-navbar-on-scroll">
 			<div class="container">
-				<a class="navbar-brand" href="index.html"><img
+				<a class="navbar-brand" href="index.jsp"><img
 					src="assets/img/login/logo.png" height="70" alt="logo" /></a>
 				<button class="navbar-toggler" type="button"
 					data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -70,7 +70,7 @@
 
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page"
-							href="LogoutService">Logout</a></li>
+							href="LogoutService">로그아웃</a></li>
 
 						<li class="nav-item px-3 px-xl-4"><a
 							class="nav-link fw-medium" aria-current="page" href="update.jsp">회원정보수정</a></li>
@@ -87,15 +87,6 @@
 
 
 
-						<li class="nav-item dropdown px-3 px-lg-0"><a
-							class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-medium"
-							href="#" id="navbarDropdown" role="button"
-							data-bs-toggle="dropdown" aria-expanded="false">EN</a>
-							<ul class="dropdown-menu dropdown-menu-end border-0 shadow-lg"
-								style="border-radius: 0.3rem;" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#!">EN</a></li>
-								<li><a class="dropdown-item" href="#!">BN</a></li>
-							</ul></li>
 					</ul>
 				</div>
 			</div>
